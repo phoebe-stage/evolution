@@ -2,7 +2,6 @@ package com.evolution.game;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import jdk.tools.jmod.Main;
 
 // Please note that on macOS your application needs to be started with the -XstartOnFirstThread JVM argument
 public class DesktopLauncher {
@@ -12,6 +11,7 @@ public class DesktopLauncher {
 		config.setForegroundFPS(60);
 		config.useVsync(true);
 		config.setTitle("Evolution");
-		new Lwjgl3Application(new MainMenuScreen(new Drop()), config);
+		WorldGame game = new WorldGame();
+		new Lwjgl3Application(new game, config);
 	}
 }
