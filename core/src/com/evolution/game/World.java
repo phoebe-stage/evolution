@@ -1,18 +1,21 @@
 package com.evolution.game;
 
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.ScreenUtils;
+import space.earlygrey.shapedrawer.ShapeDrawer;
 
 public class World implements Screen,constants  {
     OrthographicCamera camera;
 
     WorldGame game;
 
+
     public World(WorldGame game) {
         this.game = game;
         camera = new OrthographicCamera();
-        camera.setToOrtho(false, SCREENWIDTH, SCREENHEIGHT);
+        camera.setToOrtho(true, SCREENWIDTH, SCREENHEIGHT);
     }
     @Override
     public void show() {
@@ -25,6 +28,11 @@ public class World implements Screen,constants  {
         camera.update();
         game.batch.setProjectionMatrix(camera.combined);
         game.batch.begin();
+        for (Guy guy : game.guys) {
+            game.shapeDrawer.setColor(guy.getColor());
+            game.shapeDrawer.filledCircle(guy.getX(),guy.getY(),guy.getRadius());
+        }
+
         game.batch.end();
 
     }

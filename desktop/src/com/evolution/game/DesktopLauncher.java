@@ -12,6 +12,6 @@ public class DesktopLauncher {
 		config.useVsync(true);
 		config.setTitle("Evolution");
 		WorldGame game = new WorldGame();
-		new Lwjgl3Application(new game, config);
+		new Lwjgl3Application(game, config);
 	}
 }
