@@ -8,6 +8,11 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
+import com.evolution.game.chunks.Chunk;
+import com.evolution.game.chunks.ChunkBoss;
+import com.evolution.game.objectPlacers.ObjectPlacer;
+import com.evolution.game.objectPlacers.RandomAlmostSquareObjectPlacer;
+import com.evolution.game.obstacles.RectObstacle;
 import space.earlygrey.shapedrawer.ShapeDrawer;
 
 import java.util.ArrayList;
@@ -15,7 +20,10 @@ import java.util.Random;
 
 public class WorldGame extends Game {
     public SpriteBatch batch;
-    public ArrayList<Guy> guys = new ArrayList<>();
+//    public ArrayList<Guy> guys = new ArrayList<>();
+    public ArrayList<Entity> entities = new ArrayList<>();
+    public ArrayList<Entity> thinkers = new ArrayList<>();
+    public ArrayList<RectObstacle> rects = new ArrayList<>();
     public BitmapFont font;
 
     public Texture texture;
@@ -26,6 +34,8 @@ public class WorldGame extends Game {
     Random random;
 
     public int numGuys;
+
+
     @Override
     public void create() {
         this.random = new Random();
@@ -41,18 +51,24 @@ public class WorldGame extends Game {
         this.chunkboss = new ChunkBoss(constants.SCREENWIDTH,constants.SCREENHEIGHT);
         TextureRegion region = new TextureRegion(texture, 0, 0, 1, 1);
         shapeDrawer=new ShapeDrawer(batch,region);
-        objectPlacer = new RandomAlmostSquareObjectPlacer(constants.SCREENWIDTH,constants.SCREENHEIGHT,numGuys,constants.GUY_RADIUS);
+        rects.add(new RectObstacle(200,200,new Vector2(30,30)));
+        for (RectObstacle rect : rects) {
+            this.entities.addAll(rect.getBorderEntities());
+        }
+        objectPlacer = new RandomAlmostSquareObjectPlacer(constants.SCREENWIDTH,constants.SCREENHEIGHT,numGuys,constants.GUY_RADIUS,rects);
         for (int i = 0; i<numGuys;i++) {
             Guy guy = new Guy(objectPlacer.getNextCoords(),constants.GUY_RADIUS);
-            guys.add(guy);
+            this.addThinker(guy);
         }
 
         this.setScreen(new World(this));
 
     }
 
+
+
     public void render() {
-        for (Entity entity : guys) {
+        for (Entity entity : entities) {
             chunkboss.registerFellow(entity);
             Vector2 currPosition = new Vector2(0,0);
             if (entity instanceof Mover) {
@@ -99,6 +115,15 @@ public class WorldGame extends Game {
     public void dispose() {
         batch.dispose();
         font.dispose();
+    }
+
+    public void addThinker(Entity entity) {
+        this.thinkers.add(entity);
+        this.entities.add(entity);
+    }
+
+    public void addNonThinker(Entity entity) {
+        this.entities.add(entity);
     }
 
 }

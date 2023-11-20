@@ -1,8 +1,8 @@
 package com.evolution.game;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
+import com.evolution.game.chunks.Chunk;
 
 import java.util.Random;
 
@@ -13,24 +13,15 @@ public class Guy extends Mover{
 
 
 
+
+
     private Random random = new Random();
 
-    public Guy(int x, int y, int radius) {
-        this.x = x;
-        this.y = y;
-        this.radius = radius;
-        this.speed = 40;
-        this.angle = random.nextInt(360);
-    }
-
     public Guy(Vector2 position, int radius) {
-        this.x = position.x;
-        this.y = position.y;
-        this.radius = radius;
-        this.speed = 40;
+        super(position, radius, constants.DEFAULT_GUY_SPEED);
+        this.setColor();
         this.angle = random.nextInt(360);
     }
-
 
     public Color getColor() {
         this.setColor();
@@ -56,7 +47,7 @@ public class Guy extends Mover{
         float green = (float) ((0.1*(chunkNum*4 % 7))+0.1);
         this.color = new Color(red,green,blue,1);
         if (chunks.size()>1) {
-            this.color = new Color(1,1,1,1);
+            this.color.set(1,1,1,1);
         }
 //        this.color = new Color((float) (1-(0.1*(chunkNum+1))), (float) (0.02*(chunkNum+1)), (float) (0.01*(chunkNum+1)),1);
     }
@@ -77,33 +68,31 @@ public class Guy extends Mover{
 //            this.moveUp();
 //        }
 
-        int direction = random.nextInt(8);
-        if (direction == 1) {
-            this.moveDown();
-        } else if (direction == 2) {
-            this.moveUp();
-        }
-        else if (direction == 3) {
-            this.moveLeft();
-        } else {
-            this.moveRight();
-        }
-
 //        int direction = random.nextInt(8);
 //        if (direction == 1) {
-//            angle+=10;
+//            this.moveDown();
 //        } else if (direction == 2) {
-//            angle-=10;
+//            this.moveUp();
 //        }
-//        moveAtAngle(angle);
+//        else if (direction == 3) {
+//            this.moveLeft();
+//        } else {
+//            this.moveRight();
+//        }
+
+        int direction = random.nextInt(8);
+        if (direction == 1) {
+            angle+=10;
+        } else if (direction == 2) {
+            angle-=10;
+        }
+        moveAtAngle(angle);
     }
 
     @Override
     public boolean cantCollide() {
         return true;
     }
-
-
 
 
 }

@@ -3,8 +3,11 @@ package com.evolution.game;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.ScreenUtils;
 import space.earlygrey.shapedrawer.ShapeDrawer;
+
+import java.awt.*;
 
 public class World implements Screen,constants  {
     OrthographicCamera camera;
@@ -28,10 +31,15 @@ public class World implements Screen,constants  {
         camera.update();
         game.batch.setProjectionMatrix(camera.combined);
         game.batch.begin();
-        for (Guy guy : game.guys) {
+        for (Entity guy : game.entities) {
             game.shapeDrawer.setColor(guy.getColor());
             game.shapeDrawer.filledCircle(guy.getX(),guy.getY(),guy.getRadius());
         }
+
+        Rectangle rect = new Rectangle(1,1,10,10);
+        game.shapeDrawer.filledRectangle(rect);
+
+
 
         game.batch.end();
 

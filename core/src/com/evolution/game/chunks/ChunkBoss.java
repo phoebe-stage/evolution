@@ -1,6 +1,8 @@
-package com.evolution.game;
+package com.evolution.game.chunks;
 
 import com.badlogic.gdx.math.Vector2;
+import com.evolution.game.Entity;
+import com.evolution.game.constants;
 
 import java.util.ArrayList;
 import java.util.HashMap;

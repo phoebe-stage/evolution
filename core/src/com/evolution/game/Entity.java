@@ -1,36 +1,49 @@
 package com.evolution.game;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
+import com.evolution.game.chunks.Chunk;
 
 import java.util.ArrayList;
 
 public abstract  class Entity {
-
-    protected float x;
-    protected float y;
+    protected Color color;
+    protected Vector2 position;
     protected int radius;
 
 
+    public Entity (Vector2 position, int radius) {
+        this.position = position;
+        this.radius = radius;
+        this.color = new Color(Color.BLACK);
+    }
     protected ArrayList<Chunk> chunks = new ArrayList<>();
 
     public float getX() {
-        return x;
+        return this.position.x;
     }
 
     public float getY() {
-        return y;
+        return this.position.y;
+    }
+    public int getRadius() {
+        return radius;
     }
 
     public void setX(float x) {
-        this.x = x;
+        this.position.x = x;
     }
 
     public void setY(float y) {
-        this.y = y;
+        this.position.y = y;
     }
 
     public Vector2 getPosition() {
-        return new Vector2(x,y);
+        return this.position;
+    }
+
+    public Color getColor() {
+        return color;
     }
 
     public void addChunk(Chunk chunk) {
@@ -48,9 +61,6 @@ public abstract  class Entity {
         return;
     }
 
-    public int getRadius() {
-        return radius;
-    }
     public boolean inChunk(Chunk chunk) {
         if (chunks.contains(chunk)) {
             return true;

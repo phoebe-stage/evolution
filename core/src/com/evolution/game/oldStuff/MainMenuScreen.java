@@ -1,9 +1,11 @@
-package com.evolution.game;
+package com.evolution.game.oldStuff;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.ScreenUtils;
+import com.evolution.game.oldStuff.Drop;
+import com.evolution.game.oldStuff.GameScreen;
 
 public class MainMenuScreen implements Screen {
 

@@ -1,6 +1,7 @@
-package com.evolution.game;
+package com.evolution.game.objectPlacers;
 
 import com.badlogic.gdx.math.Vector2;
+import com.evolution.game.obstacles.RectObstacle;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -13,8 +14,8 @@ public class RandomGridObjectPlacer extends ObjectPlacer {
     private float horizontalGridSize;
     private float verticalGridSize;
 
-    public RandomGridObjectPlacer(int maxX, int maxY, int numObjects, float objectRadius) {
-        super(maxX,maxY,numObjects,objectRadius);
+    public RandomGridObjectPlacer(int maxX, int maxY, int numObjects, int objectRadius, ArrayList<RectObstacle> obstacles) {
+        super(maxX,maxY,numObjects,objectRadius,obstacles);
         this.random = new Random();
         numGrids = 3 * (int) (Math.ceil(Math.sqrt(numObjects)));
         horizontalGridSize = (float) maxX /numGrids;
