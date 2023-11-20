@@ -10,9 +10,7 @@ public class Guy extends Mover{
     private int angle;
     private Color color;
 
-
-
-
+    private int sensingRadius;
 
 
     private Random random = new Random();
@@ -21,6 +19,7 @@ public class Guy extends Mover{
         super(position, radius, constants.DEFAULT_GUY_SPEED);
         this.setColor();
         this.angle = random.nextInt(360);
+        sensingRadius = 20;
     }
 
     public Color getColor() {
@@ -85,6 +84,12 @@ public class Guy extends Mover{
             angle+=10;
         } else if (direction == 2) {
             angle-=10;
+        }
+
+        for (Chunk chunk : chunks) {
+            for (Entity entity : chunk.getEntities()) {
+                System.out.println("trst");
+            }
         }
         moveAtAngle(angle);
     }
