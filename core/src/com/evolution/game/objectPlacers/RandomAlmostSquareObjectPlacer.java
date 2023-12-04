@@ -61,10 +61,6 @@ public class RandomAlmostSquareObjectPlacer extends ObjectPlacer{
             returnCoord.y += objectRadius;
             returnCoord.x+=random.nextFloat((float) (horizontalGridSize-objectRadius*2));
             returnCoord.y+=random.nextFloat((float) (verticalGridSize-objectRadius*2));
-//            if (rects.isEmpty()) {
-//                System.out.println("hello");
-//                return returnCoord;
-//            }
             for (RectObstacle obstacle : rects) {
                 if (obstacle.contains(returnCoord,objectRadius)) {
                     contained = true;

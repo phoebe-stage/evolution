@@ -55,9 +55,9 @@ public class WorldGame extends Game {
         shapeDrawer=new ShapeDrawer(batch,region);
 //        rects.add(new RectObstacle(200,200,new Vector2(30,30)));
 //        rects.add(new RectObstacle(100,20,new Vector2(400,300)));
-        rects.add(new RectObstacle(20,400,new Vector2(60,60)));
-        rects.add(new RectObstacle(20,400,new Vector2(60,200)));
-        rects.add(new RectObstacle(20,400,new Vector2(400,160)));
+//        rects.add(new RectObstacle(20,400,new Vector2(60,60)));
+//        rects.add(new RectObstacle(20,400,new Vector2(60,200)));
+//        rects.add(new RectObstacle(20,400,new Vector2(400,160)));
 //        rects.add(new RectObstacle(constants.SCREENHEIGHT,10, new Vector2(-11,0)));
 //        rects.add(new RectObstacle(constants.SCREENHEIGHT,10, new Vector2(constants.SCREENWIDTH+10,0)));
 //        rects.add(new RectObstacle(constants.SCREENHEIGHT,10, new Vector2(-11,0)));

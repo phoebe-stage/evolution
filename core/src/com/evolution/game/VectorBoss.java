@@ -38,8 +38,4 @@ public class VectorBoss {
     }
 
 
-
-//    public static float angleFromYAxis(Vector2 vector) {
-//
-//    }
 }

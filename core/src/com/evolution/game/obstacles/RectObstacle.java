@@ -22,31 +22,10 @@ public class RectObstacle extends Obstacle{
     }
     @Override
     public void setBorderEntities() {
-//        topLeft.x += radius;
-//        topLeft.y += radius;
-        System.out.println(this.width);
-//        for (int i = 0; i < width; i+=radius*2) {
-//            for (int j = 0; j < height; j+=radius*2) {
-//                if (i<radius*6 || i>width - radius*6) {
-//                    if (j<radius*6 || j>height - radius*6){
-//                        borderEntities.add(new ObstacleParticle(new Vector2(topLeft.x+radius+i,topLeft.y+radius+j),radius));
-//                    }
-//                }
-//            }
-//        }
         drawHorizontalLine(3,width,topLeft);
         drawVerticalLine(3,height,topLeft);
         drawHorizontalLine(3,width,new Vector2(topLeft.x,bottomRight.y-radius));
         drawVerticalLine(3,height,new Vector2(bottomRight.x-radius,topLeft.y));
-//        for (int i = 0; i < width; i += 1) {
-//            borderEntities.add(new ObstacleParticle(new Vector2(topLeft.x+radius*i, topLeft.y),radius));
-//            borderEntities.add(new ObstacleParticle(new Vector2(topLeft.x+radius*i, topLeft.y+height-radius),radius));
-//        }
-//
-//        for (int j = 0; j < height; j += 1) {
-//            borderEntities.add(new ObstacleParticle(new Vector2(topLeft.x, topLeft.y+radius*j),radius));
-//            borderEntities.add(new ObstacleParticle(new Vector2(topLeft.x+width-radius, topLeft.y+radius*j),radius));
-//        }
     }
 
     @Override

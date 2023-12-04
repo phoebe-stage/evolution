@@ -33,7 +33,6 @@ public class ChunkBoss implements constants {
         for (int i= 0; i < numHorizontal; i++) {
             for (int j= 0; j < numVertical; j++) {
                 chunks.add(new Chunk(chunkCount, new Vector2(chunkWidth*i-overlap, chunkHeight*j-overlap), new Vector2(chunkWidth*(i+1)+overlap, chunkHeight*(j+1)+overlap)));
-//                chunks.put(chunkCount, new Chunk(chunkCount, new Vector2(chunkWidth*i-overlap, chunkHeight*j-overlap), new Vector2(chunkWidth*(i+1)+overlap, chunkHeight*(j+1)+overlap)));
                 chunkCount ++;
             }
         }
@@ -55,22 +54,6 @@ public class ChunkBoss implements constants {
             }
         }
     }
-
-    public ArrayList<Chunk> getChunks() {
-        return chunks;
-    }
-
-    //    public int getChunkNum(Vector2 position) {
-//        if ()
-//        for (int i = 0; i < numHorizontal*numVertical; i++) {
-//            if (chunks.get(i).getUpperLeft().x<=position.x & chunks.get(i).getLowerRight().x>position.x) {
-//                if (chunks.get(i).getUpperLeft().y<=position.y & chunks.get(i).getLowerRight().y>position.y) {
-//                    return i;
-//                }
-//            }
-//        }
-//        return 21;
-//    }
 
     public boolean checkInChunk(Chunk chunk, Vector2 position) {
         if (chunk.getUpperLeft().x <= position.x & chunk.getLowerRight().x > position.x) {
