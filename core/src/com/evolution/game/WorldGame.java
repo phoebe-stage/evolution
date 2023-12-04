@@ -12,10 +12,12 @@ import com.evolution.game.chunks.Chunk;
 import com.evolution.game.chunks.ChunkBoss;
 import com.evolution.game.objectPlacers.ObjectPlacer;
 import com.evolution.game.objectPlacers.RandomAlmostSquareObjectPlacer;
+import com.evolution.game.obstacles.ObstacleParticle;
 import com.evolution.game.obstacles.RectObstacle;
 import space.earlygrey.shapedrawer.ShapeDrawer;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class WorldGame extends Game {
@@ -51,7 +53,15 @@ public class WorldGame extends Game {
         this.chunkboss = new ChunkBoss(constants.SCREENWIDTH,constants.SCREENHEIGHT);
         TextureRegion region = new TextureRegion(texture, 0, 0, 1, 1);
         shapeDrawer=new ShapeDrawer(batch,region);
-        rects.add(new RectObstacle(200,200,new Vector2(30,30)));
+//        rects.add(new RectObstacle(200,200,new Vector2(30,30)));
+//        rects.add(new RectObstacle(100,20,new Vector2(400,300)));
+        rects.add(new RectObstacle(20,400,new Vector2(60,60)));
+        rects.add(new RectObstacle(20,400,new Vector2(60,200)));
+        rects.add(new RectObstacle(20,400,new Vector2(400,160)));
+//        rects.add(new RectObstacle(constants.SCREENHEIGHT,10, new Vector2(-11,0)));
+//        rects.add(new RectObstacle(constants.SCREENHEIGHT,10, new Vector2(constants.SCREENWIDTH+10,0)));
+//        rects.add(new RectObstacle(constants.SCREENHEIGHT,10, new Vector2(-11,0)));
+//        rects.add(new RectObstacle(10,constants.SCREENWIDTH, new Vector2(0,-10)));
         for (RectObstacle rect : rects) {
             this.entities.addAll(rect.getBorderEntities());
         }
@@ -60,6 +70,14 @@ public class WorldGame extends Game {
             Guy guy = new Guy(objectPlacer.getNextCoords(),constants.GUY_RADIUS);
             this.addThinker(guy);
         }
+        Guy guy = new Guy(new Vector2(20,400),constants.GUY_RADIUS);
+//        ObstacleParticle op = new ObstacleParticle(new Vector2(360,160), 1);
+////        ObstacleParticle op2 = new ObstacleParticle(new Vector2(440,400), 1);
+////        addNonThinker(op2);
+//        addNonThinker(op);
+//        addThinker(guy);
+
+
 
         this.setScreen(new World(this));
 
@@ -77,6 +95,9 @@ public class WorldGame extends Game {
                 if (collisionCheck((Mover) entity)) {
                     entity.setX(currPosition.x);
                     entity.setY(currPosition.y);
+                    entity.setSuccessfulThink(false);
+                } else {
+                    entity.setSuccessfulThink(true);
                 }
 
             } else {

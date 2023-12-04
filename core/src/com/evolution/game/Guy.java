@@ -3,23 +3,41 @@ package com.evolution.game;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.evolution.game.chunks.Chunk;
+import com.evolution.game.obstacles.ObstacleParticle;
+import com.evolution.game.sensors.*;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Guy extends Mover{
+
+    private int type;
     private int angle;
+
+    private Vector2 standardDirection = new Vector2(1,0);
+
     private Color color;
 
     private int sensingRadius;
 
+    private AngularSensor obstacleSensor = new ObstacleSensor(this.getPosition(),this);
+    private AngularSensor guySensor = new GuySensor(this.getPosition(),this);
+    private AngularSensor stuckSensor = new StuckSensor(this.getPosition(),this);
 
+    private AngularSensor closeSensor = new CloseGuySensor(this.getPosition(),this);
+
+    private ArrayList<Entity> sensedEntities = new ArrayList<>();
+
+    private Vector2 vectorSum = new Vector2(0,0);
     private Random random = new Random();
 
     public Guy(Vector2 position, int radius) {
         super(position, radius, constants.DEFAULT_GUY_SPEED);
         this.setColor();
         this.angle = random.nextInt(360);
-        sensingRadius = 20;
+        sensingRadius = constants.SENSING_RADIUS;
+        this.direction.set(standardDirection);
+        this.type = random.nextInt(3);
     }
 
     public Color getColor() {
@@ -54,44 +72,42 @@ public class Guy extends Mover{
 
     @Override
     public void think() {
-//        System.out.println(this.chunks);
-//        int direction = random.nextInt(4);
-//        if (direction == 1) {
-//            this.moveDown();
-//        } else if (direction == 2) {
-//            this.moveRight();
-//        }
-//        else if (direction == 3) {
-//            this.moveLeft();
-//        } else if (direction == 0) {
-//            this.moveUp();
-//        }
-
-//        int direction = random.nextInt(8);
-//        if (direction == 1) {
-//            this.moveDown();
-//        } else if (direction == 2) {
-//            this.moveUp();
-//        }
-//        else if (direction == 3) {
-//            this.moveLeft();
-//        } else {
-//            this.moveRight();
-//        }
-
-        int direction = random.nextInt(8);
-        if (direction == 1) {
-            angle+=10;
-        } else if (direction == 2) {
-            angle-=10;
-        }
-
+        this.direction.add(VectorBoss.randomVector().setLength(20));
+//        this.direction.add(standardDirection.setLength(15));
+        sensedEntities.clear();
         for (Chunk chunk : chunks) {
             for (Entity entity : chunk.getEntities()) {
-                System.out.println("trst");
+                if (this.position.dst(entity.getPosition())<this.sensingRadius && !sensedEntities.contains(entity)) {
+                    sensedEntities.add(entity);
+                }
             }
         }
-        moveAtAngle(angle);
+        obstacleSensor.takeInEntities(sensedEntities);
+        obstacleSensor.calculate();
+        this.direction.add(obstacleSensor.getVectorSum().setLength(10).rotateDeg(180));
+        stuckSensor.takeInEntities(sensedEntities);
+        stuckSensor.calculate();
+        closeSensor.takeInEntities(sensedEntities);
+        closeSensor.calculate();
+        this.direction.add(closeSensor.getVectorSum().setLength(40).rotateDeg(180));
+//        this.direction.add(standardDirection).setLength(70);
+////        this.direction.add(new Vector2(1,0).setLength(10));
+        if (random.nextInt(4)==2) {
+            this.direction.add(VectorBoss.randomVector().setLength(20));
+        }
+//        this.direction.add(stuckSensor.getVectorSum().rotateDeg(90).setLength(10));
+
+
+
+        guySensor.takeInEntities(sensedEntities);
+        guySensor.calculate();
+        this.direction.add(guySensor.getVectorSum().setLength(25).rotateDeg(0));
+        sensedEntities.clear();
+//        vectorSum.set(0,0);
+
+        this.move();
+
+
     }
 
     @Override
@@ -99,5 +115,7 @@ public class Guy extends Mover{
         return true;
     }
 
-
+    public int getSensingRadius() {
+        return sensingRadius;
+    }
 }

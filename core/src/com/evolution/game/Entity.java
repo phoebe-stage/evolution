@@ -12,6 +12,9 @@ public abstract  class Entity {
     protected int radius;
 
 
+    protected boolean successfulThink = true;
+
+
     public Entity (Vector2 position, int radius) {
         this.position = position;
         this.radius = radius;
@@ -79,4 +82,11 @@ public abstract  class Entity {
         return;
     }
 
+    public void setSuccessfulThink(boolean successfulThink) {
+        this.successfulThink = successfulThink;
+    }
+
+    public boolean isSuccessfulThink() {
+        return successfulThink;
+    }
 }

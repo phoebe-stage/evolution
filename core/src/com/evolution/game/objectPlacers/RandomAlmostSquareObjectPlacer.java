@@ -53,17 +53,27 @@ public class RandomAlmostSquareObjectPlacer extends ObjectPlacer{
     @Override
     public Vector2 getNextCoords() {
         Vector2 returnCoord;
+        boolean contained = false;
         while (true) {
+            contained = false;
             returnCoord = grids.remove(random.nextInt(grids.size()));
             returnCoord.x += objectRadius;
             returnCoord.y += objectRadius;
             returnCoord.x+=random.nextFloat((float) (horizontalGridSize-objectRadius*2));
             returnCoord.y+=random.nextFloat((float) (verticalGridSize-objectRadius*2));
+//            if (rects.isEmpty()) {
+//                System.out.println("hello");
+//                return returnCoord;
+//            }
             for (RectObstacle obstacle : rects) {
-                if (!obstacle.contains(returnCoord,objectRadius)) {
-                    return returnCoord;
+                if (obstacle.contains(returnCoord,objectRadius)) {
+                    contained = true;
                 }
             }
+            if (!contained) {
+                return returnCoord;
+            }
+
         }
     }
 }

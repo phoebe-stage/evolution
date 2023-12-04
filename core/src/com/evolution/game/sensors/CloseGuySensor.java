@@ -3,14 +3,11 @@ package com.evolution.game.sensors;
 import com.badlogic.gdx.math.Vector2;
 import com.evolution.game.Entity;
 import com.evolution.game.Guy;
-import com.evolution.game.obstacles.ObstacleParticle;
 
 import java.util.ArrayList;
 
-public class ObstacleSensor extends AngularSensor {
-
-
-    public ObstacleSensor(Vector2 position, Guy guy) {
+public class CloseGuySensor extends AngularSensor{
+    public CloseGuySensor(Vector2 position, Guy guy) {
         super(position, guy);
     }
 
@@ -18,10 +15,14 @@ public class ObstacleSensor extends AngularSensor {
     public void filterAndClean() {
         ArrayList<Entity> toRemove = new ArrayList<>();
         for (Entity entity : sensedEntities) {
-            if (!(entity instanceof ObstacleParticle)) {
+            if ((!(entity instanceof Guy)) || entity==guy) {
+                toRemove.add(entity);
+            } else if (guy.getPosition().dst(entity.getPosition())>=10){
                 toRemove.add(entity);
             }
         }
         sensedEntities.removeAll(toRemove);
     }
+
+
 }

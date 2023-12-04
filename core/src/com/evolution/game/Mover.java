@@ -9,6 +9,11 @@ public abstract class Mover extends Entity{
 
     protected double angle;
 
+    protected Vector2 previousPosition;
+    protected float lastMoveDistance = 0;
+
+    protected Vector2 direction = new Vector2(0,0);
+
     public Mover(Vector2 position, int radius, float speed) {
         super(position, radius);
         this.speed = speed;
@@ -42,9 +47,23 @@ public abstract class Mover extends Entity{
         this.position.y = (float) (getY() - this.speed * Math.cos(angle) * Gdx.graphics.getDeltaTime());
     }
 
+    public void move() {
+        this.previousPosition = this.position;
+        this.direction.setLength(speed);
+        this.position.x += direction.x * Gdx.graphics.getDeltaTime();
+        this.position.y += direction.y * Gdx.graphics.getDeltaTime();
+    }
+
+
+
+
+
     @Override
     public void hit() {
         this.angle+=180;
     }
 
+    public Vector2 getDirection() {
+        return direction;
+    }
 }

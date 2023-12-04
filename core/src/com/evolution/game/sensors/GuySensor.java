@@ -7,10 +7,8 @@ import com.evolution.game.obstacles.ObstacleParticle;
 
 import java.util.ArrayList;
 
-public class ObstacleSensor extends AngularSensor {
-
-
-    public ObstacleSensor(Vector2 position, Guy guy) {
+public class GuySensor extends AngularSensor{
+    public GuySensor(Vector2 position, Guy guy) {
         super(position, guy);
     }
 
@@ -18,7 +16,7 @@ public class ObstacleSensor extends AngularSensor {
     public void filterAndClean() {
         ArrayList<Entity> toRemove = new ArrayList<>();
         for (Entity entity : sensedEntities) {
-            if (!(entity instanceof ObstacleParticle)) {
+            if ((!(entity instanceof Guy)) || entity==guy) {
                 toRemove.add(entity);
             }
         }
