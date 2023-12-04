@@ -20,6 +20,8 @@ public class Guy extends Mover{
 
     private int sensingRadius;
 
+    private Thread threadOne = new Thread(constants.threadRegistry,this);
+
     private AngularSensor obstacleSensor = new ObstacleSensor(this);
     private AngularSensor guySensor = new GuySensor(this);
     private AngularSensor stuckSensor = new StuckSensor(this);
@@ -82,41 +84,43 @@ public class Guy extends Mover{
                 }
             }
         }
-        obstacleSensor.takeInEntities(sensedEntities);
-        obstacleSensor.calculate();
-        this.direction.add(obstacleSensor.getVectorSum().setLength(10).rotateDeg(180));
-        stuckSensor.takeInEntities(sensedEntities);
-        stuckSensor.calculate();
-        closeSensor.takeInEntities(sensedEntities);
-        closeSensor.calculate();
-        if (closeSensor.getVectorSum()!=Vector2.Zero) {
-            this.reAdjusting();
-        } else {
-            this.unAdjust();
-        }
-        this.direction.add(closeSensor.getVectorSum().setLength(40).rotateDeg(180));
-//        this.direction.add(standardDirection).setLength(70);
-////        this.direction.add(new Vector2(1,0).setLength(10));
-        if (random.nextInt(4)==2) {
-            this.direction.add(VectorBoss.randomVector().setLength(20));
-        }
-//        this.direction.add(stuckSensor.getVectorSum().rotateDeg(90).setLength(10));
-
-
-
-        guySensor.takeInEntities(sensedEntities);
-        guySensor.calculate();
-//        this.direction.add(guySensor.getVectorSum().setLength(25).rotateDeg(0));
-        sensedEntities.clear();
-        directionSensor.takeInEntities(sensedEntities);
-        directionSensor.calculate();
-        this.direction.add(guySensor.getVectorSum().setLength(10).rotateDeg(0));
-        if (type != 1) {
-            this.direction.add(standardDirection.setLength(30));
-        }
-        if (type == 1) {
-            this.direction.add(directionSensor.getVectorSum().setLength(40));
-        }
+        threadOne.load(sensedEntities);
+        this.direction.add(threadOne.sense());
+//        obstacleSensor.takeInEntities(sensedEntities);
+//        obstacleSensor.calculate();
+//        this.direction.add(obstacleSensor.getVectorSum().setLength(10).rotateDeg(180));
+//        stuckSensor.takeInEntities(sensedEntities);
+//        stuckSensor.calculate();
+//        closeSensor.takeInEntities(sensedEntities);
+//        closeSensor.calculate();
+//        if (closeSensor.getVectorSum()!=Vector2.Zero) {
+//            this.reAdjusting();
+//        } else {
+//            this.unAdjust();
+//        }
+//        this.direction.add(closeSensor.getVectorSum().setLength(40).rotateDeg(180));
+////        this.direction.add(standardDirection).setLength(70);
+//////        this.direction.add(new Vector2(1,0).setLength(10));
+//        if (random.nextInt(4)==2) {
+//            this.direction.add(VectorBoss.randomVector().setLength(20));
+//        }
+////        this.direction.add(stuckSensor.getVectorSum().rotateDeg(90).setLength(10));
+//
+//
+//
+//        guySensor.takeInEntities(sensedEntities);
+//        guySensor.calculate();
+////        this.direction.add(guySensor.getVectorSum().setLength(25).rotateDeg(0));
+//        sensedEntities.clear();
+//        directionSensor.takeInEntities(sensedEntities);
+//        directionSensor.calculate();
+//        this.direction.add(guySensor.getVectorSum().setLength(10).rotateDeg(0));
+//        if (type != 1) {
+//            this.direction.add(standardDirection.setLength(30));
+//        }
+//        if (type == 1) {
+//            this.direction.add(directionSensor.getVectorSum().setLength(40));
+//        }
 
 //        vectorSum.set(0,0);
 

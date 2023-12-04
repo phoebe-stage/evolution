@@ -13,18 +13,27 @@ public class ThreadRegistry {
 
     private HashMap<Integer, SensorFactory> sensorRegistry = new HashMap<>();
 
-    private ThreadRegistry() {
-        sensorRegistry.put(1, new GuySensorFactory());
-        sensorRegistry.put(2, new ObstacleSensorFactory());
-        sensorRegistry.put(3, new CloseGuySensorFactory());
-        sensorRegistry.put(4, new DirectionSensorFactory());
-        sensorRegistry.put(5, new StuckSensorFactory());
+    public ThreadRegistry() {
+        sensorRegistry.put(0, new GuySensorFactory());
+        sensorRegistry.put(1, new ObstacleSensorFactory());
+        sensorRegistry.put(2, new CloseGuySensorFactory());
+        sensorRegistry.put(3, new DirectionSensorFactory());
+        sensorRegistry.put(4, new StuckSensorFactory());
     }
 
-    public void getInstance() {
-        this.instance = new ThreadRegistry();
+    public ThreadRegistry getInstance() {
+        if (instance == null) {
+            this.instance = new ThreadRegistry();
+        }
+        return instance;
     }
 
+    public int sensorRegistrySize() {
+        return sensorRegistry.size();
+    }
 
+    public AngularSensor getSensor(int sensorNum, Guy guy) {
+        return sensorRegistry.get(sensorNum).createNewInstance(guy);
+    }
 
 }
