@@ -21,13 +21,13 @@ public class Thread {
         sensor = threadRegistry.getSensor(sensorNum,guy);
     }
     public Thread(ThreadRegistry threadRegistry, Guy guy) {
-        threadRegistry = threadRegistry;
-        guy = guy;
+        this.threadRegistry = threadRegistry;
+        this.guy = guy;
     }
     public void init(int sensorNum, int direction, int weighting) {
-        sensorNum = sensorNum;
-        direction = direction;
-        weighting = weighting;
+        this.sensorNum = sensorNum;
+        this.direction = direction;
+        this.weighting = weighting;
         normalise();
     }
     public void initRand() {
@@ -40,6 +40,13 @@ public class Thread {
     }
 
     public Vector2 sense() {
-        return sensor.getVectorSum().setLength(weighting).setAngleDeg(direction);
+        return sensor.getVectorSum().setLength(weighting).rotateDeg(direction);
+    }
+
+    public void printThreadDesc() {
+        System.out.println(sensor + " angle:" + direction + " weighting:" + weighting +"\n");
+    }
+    public AngularSensor getSensor() {
+        return this.sensor;
     }
 }

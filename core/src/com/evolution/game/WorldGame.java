@@ -53,8 +53,8 @@ public class WorldGame extends Game {
         this.chunkboss = new ChunkBoss(constants.SCREENWIDTH,constants.SCREENHEIGHT);
         TextureRegion region = new TextureRegion(texture, 0, 0, 1, 1);
         shapeDrawer=new ShapeDrawer(batch,region);
-//        rects.add(new RectObstacle(200,200,new Vector2(30,30)));
-//        rects.add(new RectObstacle(100,20,new Vector2(400,300)));
+        rects.add(new RectObstacle(200,200,new Vector2(30,30)));
+        rects.add(new RectObstacle(100,20,new Vector2(400,300)));
 //        rects.add(new RectObstacle(20,400,new Vector2(60,60)));
 //        rects.add(new RectObstacle(20,400,new Vector2(60,200)));
 //        rects.add(new RectObstacle(20,400,new Vector2(400,160)));

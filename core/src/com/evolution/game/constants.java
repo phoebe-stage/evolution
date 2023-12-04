@@ -14,6 +14,6 @@ public interface constants {
 
     int SENSORCONFIGNUM = 1;
     int READJUSTINGCOOLDOWN = 500;
-
     ThreadRegistry threadRegistry = new ThreadRegistry();
+    int numThreads = 3;
 }

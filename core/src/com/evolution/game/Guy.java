@@ -21,6 +21,8 @@ public class Guy extends Mover{
     private int sensingRadius;
 
     private Thread threadOne = new Thread(constants.threadRegistry,this);
+    private Thread threadTwo = new Thread(constants.threadRegistry,this);
+    private ArrayList<Thread> threads = new ArrayList<>();
 
     private AngularSensor obstacleSensor = new ObstacleSensor(this);
     private AngularSensor guySensor = new GuySensor(this);
@@ -35,11 +37,19 @@ public class Guy extends Mover{
 
     public Guy(Vector2 position, int radius) {
         super(position, radius, constants.DEFAULT_GUY_SPEED);
+        threadOne.init(0,0,50);
+        threadTwo.init(2,180,70);
         this.setColor();
         this.angle = random.nextInt(360);
         sensingRadius = constants.SENSING_RADIUS;
         this.direction.set(standardDirection);
         this.type = random.nextInt(3);
+        for(int i = 0; i<constants.numThreads; i++) {
+            threads.add(new Thread(constants.threadRegistry,this));
+        }
+        for (Thread thread:threads) {
+            thread.initRand();
+        }
     }
 
     public Color getColor() {
@@ -74,8 +84,8 @@ public class Guy extends Mover{
 
     @Override
     public void think() {
-//        this.direction.add(VectorBoss.randomVector().setLength(20));
-//        this.direction.add(standardDirection.setLength(15));
+        this.direction.add(VectorBoss.randomVector().setLength(20));
+        this.direction.add(standardDirection.setLength(15));
         sensedEntities.clear();
         for (Chunk chunk : chunks) {
             for (Entity entity : chunk.getEntities()) {
@@ -84,8 +94,22 @@ public class Guy extends Mover{
                 }
             }
         }
-        threadOne.load(sensedEntities);
-        this.direction.add(threadOne.sense());
+        for (Thread thread : threads) {
+            thread.load(sensedEntities);
+            this.direction.add(thread.sense());
+            if (thread.getSensor() instanceof CloseGuySensor) {
+                if (thread.sense()!=Vector2.Zero) {
+                    this.reAdjusting();
+                } else {
+                    this.unAdjust();
+                }
+            }
+        }
+//        threadOne.load(sensedEntities);
+//        this.direction.add(threadOne.sense());
+//        threadOne.printThreadDesc();
+//        threadTwo.load(sensedEntities);
+//        this.direction.add(threadTwo.sense());
 //        obstacleSensor.takeInEntities(sensedEntities);
 //        obstacleSensor.calculate();
 //        this.direction.add(obstacleSensor.getVectorSum().setLength(10).rotateDeg(180));
