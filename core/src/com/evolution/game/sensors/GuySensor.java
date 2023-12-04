@@ -8,8 +8,8 @@ import com.evolution.game.obstacles.ObstacleParticle;
 import java.util.ArrayList;
 
 public class GuySensor extends AngularSensor{
-    public GuySensor(Vector2 position, Guy guy) {
-        super(position, guy);
+    public GuySensor(Guy guy) {
+        super(guy);
     }
 
     @Override
@@ -22,4 +22,5 @@ public class GuySensor extends AngularSensor{
         }
         sensedEntities.removeAll(toRemove);
     }
+
 }

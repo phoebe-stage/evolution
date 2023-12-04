@@ -89,4 +89,6 @@ public abstract  class Entity {
     public boolean isSuccessfulThink() {
         return successfulThink;
     }
+
+
 }

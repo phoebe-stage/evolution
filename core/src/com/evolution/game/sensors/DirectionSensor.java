@@ -6,8 +6,8 @@ import com.evolution.game.*;
 import java.util.ArrayList;
 
 public class DirectionSensor extends AngularSensor{
-    public DirectionSensor(Vector2 position, Guy guy) {
-        super(position, guy);
+    public DirectionSensor(Guy guy) {
+        super(guy);
     }
 
     @Override
@@ -27,7 +27,9 @@ public class DirectionSensor extends AngularSensor{
         for (Entity entity : sensedEntities) {
             Vector2 entityPosition = new Vector2(entity.getPosition());
             if (entity instanceof Mover) {
-                vectorSum.add(((Mover) entity).getDirection());
+                if (!((Mover) entity).isReadjusting()) {
+                    vectorSum.add(((Mover) entity).getDirection());
+                }
             }
         }
     }

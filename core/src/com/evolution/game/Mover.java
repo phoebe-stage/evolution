@@ -12,6 +12,9 @@ public abstract class Mover extends Entity{
     protected Vector2 previousPosition;
     protected float lastMoveDistance = 0;
 
+    protected boolean readjusting = false;
+    protected int adjustCooldown = 0;
+
     protected Vector2 direction = new Vector2(0,0);
 
     public Mover(Vector2 position, int radius, float speed) {
@@ -65,5 +68,22 @@ public abstract class Mover extends Entity{
 
     public Vector2 getDirection() {
         return direction;
+    }
+
+    public boolean isReadjusting() {
+        return readjusting;
+    }
+
+    public void reAdjusting() {
+        adjustCooldown = constants.READJUSTINGCOOLDOWN;
+        this.readjusting = true;
+    }
+
+    public void unAdjust() {
+        if (adjustCooldown!=0) {
+            adjustCooldown --;
+        } else {
+            readjusting = false;
+        }
     }
 }

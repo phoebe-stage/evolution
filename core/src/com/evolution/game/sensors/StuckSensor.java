@@ -6,8 +6,8 @@ import com.evolution.game.Guy;
 public class StuckSensor extends AngularSensor{
 
 
-    public StuckSensor(Vector2 position, Guy guy) {
-        super(position, guy);
+    public StuckSensor(Guy guy) {
+        super(guy);
     }
 
     @Override

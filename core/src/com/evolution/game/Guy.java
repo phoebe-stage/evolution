@@ -20,11 +20,11 @@ public class Guy extends Mover{
 
     private int sensingRadius;
 
-    private AngularSensor obstacleSensor = new ObstacleSensor(this.getPosition(),this);
-    private AngularSensor guySensor = new GuySensor(this.getPosition(),this);
-    private AngularSensor stuckSensor = new StuckSensor(this.getPosition(),this);
-
-    private AngularSensor closeSensor = new CloseGuySensor(this.getPosition(),this);
+    private AngularSensor obstacleSensor = new ObstacleSensor(this);
+    private AngularSensor guySensor = new GuySensor(this);
+    private AngularSensor stuckSensor = new StuckSensor(this);
+    private AngularSensor closeSensor = new CloseGuySensor(this);
+    private AngularSensor directionSensor = new DirectionSensor(this);
 
     private ArrayList<Entity> sensedEntities = new ArrayList<>();
 
@@ -72,7 +72,7 @@ public class Guy extends Mover{
 
     @Override
     public void think() {
-        this.direction.add(VectorBoss.randomVector().setLength(20));
+//        this.direction.add(VectorBoss.randomVector().setLength(20));
 //        this.direction.add(standardDirection.setLength(15));
         sensedEntities.clear();
         for (Chunk chunk : chunks) {
@@ -89,6 +89,11 @@ public class Guy extends Mover{
         stuckSensor.calculate();
         closeSensor.takeInEntities(sensedEntities);
         closeSensor.calculate();
+        if (closeSensor.getVectorSum()!=Vector2.Zero) {
+            this.reAdjusting();
+        } else {
+            this.unAdjust();
+        }
         this.direction.add(closeSensor.getVectorSum().setLength(40).rotateDeg(180));
 //        this.direction.add(standardDirection).setLength(70);
 ////        this.direction.add(new Vector2(1,0).setLength(10));
@@ -101,8 +106,18 @@ public class Guy extends Mover{
 
         guySensor.takeInEntities(sensedEntities);
         guySensor.calculate();
-        this.direction.add(guySensor.getVectorSum().setLength(25).rotateDeg(0));
+//        this.direction.add(guySensor.getVectorSum().setLength(25).rotateDeg(0));
         sensedEntities.clear();
+        directionSensor.takeInEntities(sensedEntities);
+        directionSensor.calculate();
+        this.direction.add(guySensor.getVectorSum().setLength(10).rotateDeg(0));
+        if (type != 1) {
+            this.direction.add(standardDirection.setLength(30));
+        }
+        if (type == 1) {
+            this.direction.add(directionSensor.getVectorSum().setLength(40));
+        }
+
 //        vectorSum.set(0,0);
 
         this.move();

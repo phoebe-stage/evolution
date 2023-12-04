@@ -17,8 +17,8 @@ public abstract class AngularSensor {
     protected ArrayList<Entity> sensedEntities = new ArrayList<>();
     protected Vector2 vectorSum = new Vector2(0,0);
 
-    public AngularSensor(Vector2 position, Guy guy) {
-        this.position = position;
+    public AngularSensor(Guy guy) {
+        this.position= guy.getPosition();
         this.angle = 0;
         this.strength = 0;
         this.guy = guy;

@@ -7,8 +7,8 @@ import com.evolution.game.Guy;
 import java.util.ArrayList;
 
 public class CloseGuySensor extends AngularSensor{
-    public CloseGuySensor(Vector2 position, Guy guy) {
-        super(position, guy);
+    public CloseGuySensor(Guy guy) {
+        super(guy);
     }
 
     @Override
@@ -23,6 +23,8 @@ public class CloseGuySensor extends AngularSensor{
         }
         sensedEntities.removeAll(toRemove);
     }
+
+
 
 
 }

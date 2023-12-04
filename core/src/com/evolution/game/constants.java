@@ -12,5 +12,6 @@ public interface constants {
     int OBSTACLE_PARTICLE_RADIUS = 1;
     int SENSING_RADIUS = 40;
 
-    int SENSORCONFIGNUM = 40;
+    int SENSORCONFIGNUM = 1;
+    int READJUSTINGCOOLDOWN = 500;
 }

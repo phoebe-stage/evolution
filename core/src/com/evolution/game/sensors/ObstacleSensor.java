@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class ObstacleSensor extends AngularSensor {
 
 
-    public ObstacleSensor(Vector2 position, Guy guy) {
-        super(position, guy);
+    public ObstacleSensor(Guy guy) {
+        super(guy);
     }
 
     @Override
