@@ -42,7 +42,7 @@ public class Guy extends Mover{
         this.setColor();
         this.angle = random.nextInt(360);
         sensingRadius = constants.SENSING_RADIUS;
-        this.direction.set(standardDirection);
+        this.direction.set(VectorBoss.randomVector());
         this.type = random.nextInt(3);
         for(int i = 0; i<constants.numThreads; i++) {
             threads.add(new Thread(constants.threadRegistry,this));
@@ -71,9 +71,9 @@ public class Guy extends Mover{
         chunkNum ++;
 
 
-        float red = (float) ((0.1*(chunkNum*4 % 5))+0.1);
-        float blue = (float) ((0.1*(chunkNum*4 % 6))+0.1);
-        float green = (float) ((0.1*(chunkNum*4 % 7))+0.1);
+        float red = (float) (1-(0.2*(chunkNum*5 % 5))+0.4);
+        float blue = (float) (1-(0.3*(chunkNum*5 % 6))+0.5);
+        float green = (float) (1-(0.4*(chunkNum*5 % 7))+0.4);
         this.color = new Color(red,green,blue,1);
         if (chunks.size()>1) {
             this.color.set(1,1,1,1);
@@ -85,7 +85,7 @@ public class Guy extends Mover{
     @Override
     public void think() {
         this.direction.add(VectorBoss.randomVector().setLength(20));
-        this.direction.add(standardDirection.setLength(15));
+//        this.direction.add(standardDirection.setLength(15));
         sensedEntities.clear();
         for (Chunk chunk : chunks) {
             for (Entity entity : chunk.getEntities()) {

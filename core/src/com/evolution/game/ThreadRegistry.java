@@ -19,6 +19,8 @@ public class ThreadRegistry {
         sensorRegistry.put(2, new CloseGuySensorFactory());
         sensorRegistry.put(3, new DirectionSensorFactory());
         sensorRegistry.put(4, new StuckSensorFactory());
+        sensorRegistry.put(5,new AlwaysSensorFactory());
+        sensorRegistry.put(6,new WallSensorFactory());
     }
 
     public ThreadRegistry getInstance() {
