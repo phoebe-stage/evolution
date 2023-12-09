@@ -16,4 +16,5 @@ public interface constants {
     int READJUSTINGCOOLDOWN = 500;
     ThreadRegistry threadRegistry = new ThreadRegistry();
     int numThreads = 4;
+    int stepsPerGeneration = 100;
 }

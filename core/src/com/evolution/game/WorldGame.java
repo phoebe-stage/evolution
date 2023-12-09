@@ -86,36 +86,40 @@ public class WorldGame extends Game {
 
 
     public void render() {
-        for (Entity entity : entities) {
-            chunkboss.registerFellow(entity);
-            Vector2 currPosition = new Vector2(0,0);
-            if (entity instanceof Mover) {
-                currPosition.add(entity.getPosition());
-                entity.think();
-                if (collisionCheck((Mover) entity)) {
-                    entity.setX(currPosition.x);
-                    entity.setY(currPosition.y);
-                    entity.setSuccessfulThink(false);
+        for (int i = 0; i<constants.stepsPerGeneration; i++) {
+            for (Entity entity : entities) {
+                chunkboss.registerFellow(entity);
+                Vector2 currPosition = new Vector2(0,0);
+                if (entity instanceof Mover) {
+                    currPosition.add(entity.getPosition());
+                    entity.think();
+                    if (collisionCheck((Mover) entity)) {
+                        entity.setX(currPosition.x);
+                        entity.setY(currPosition.y);
+                        entity.setSuccessfulThink(false);
+                    } else {
+                        entity.setSuccessfulThink(true);
+                    }
+
                 } else {
-                    entity.setSuccessfulThink(true);
+                    entity.think();
                 }
 
-            } else {
-                entity.think();
+                if (entity.getX() < entity.getRadius()) {
+                    entity.setX(entity.getRadius());
+                } else if (entity.getX() > constants.SCREENWIDTH - entity.getRadius()) {
+                    entity.setX(constants.SCREENWIDTH - entity.getRadius());
+                }
+                if (entity.getY() < entity.getRadius()) {
+                    entity.setY(entity.getRadius());
+                } else if (entity.getY() > constants.SCREENHEIGHT - entity.getRadius()) {
+                    entity.setY(constants.SCREENHEIGHT - entity.getRadius());
+                }
             }
+            super.render();
 
-            if (entity.getX() < entity.getRadius()) {
-                entity.setX(entity.getRadius());
-            } else if (entity.getX() > constants.SCREENWIDTH - entity.getRadius()) {
-                entity.setX(constants.SCREENWIDTH - entity.getRadius());
-            }
-            if (entity.getY() < entity.getRadius()) {
-                entity.setY(entity.getRadius());
-            } else if (entity.getY() > constants.SCREENHEIGHT - entity.getRadius()) {
-                entity.setY(constants.SCREENHEIGHT - entity.getRadius());
-            }
         }
-        super.render();
+
     }
 
     public boolean collisionCheck(Mover entity) {

@@ -35,11 +35,6 @@ public class World implements Screen,constants  {
             game.shapeDrawer.setColor(guy.getColor());
             game.shapeDrawer.filledCircle(guy.getX(),guy.getY(),guy.getRadius());
         }
-
-
-
-
-
         game.batch.end();
 
     }
