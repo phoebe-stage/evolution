@@ -36,8 +36,7 @@ public class World implements Screen,constants  {
             game.shapeDrawer.filledCircle(guy.getX(),guy.getY(),guy.getRadius());
         }
 
-        Rectangle rect = new Rectangle(1,1,10,10);
-        game.shapeDrawer.filledRectangle(rect);
+
 
 
 

@@ -2,6 +2,7 @@ package com.evolution.game;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.math.Vector3;
 import com.evolution.game.chunks.Chunk;
 import com.evolution.game.obstacles.ObstacleParticle;
 import com.evolution.game.sensors.*;
@@ -23,6 +24,8 @@ public class Guy extends Mover{
     private Thread threadOne = new Thread(constants.threadRegistry,this);
     private Thread threadTwo = new Thread(constants.threadRegistry,this);
     private ArrayList<Thread> threads = new ArrayList<>();
+    private String threadString = "";
+    private int threadSum;
 
     private AngularSensor obstacleSensor = new ObstacleSensor(this);
     private AngularSensor guySensor = new GuySensor(this);
@@ -37,7 +40,7 @@ public class Guy extends Mover{
 
     public Guy(Vector2 position, int radius) {
         super(position, radius, constants.DEFAULT_GUY_SPEED);
-        threadOne.init(0,0,50);
+        threadOne.init(1,180,100);
         threadTwo.init(2,180,70);
         this.setColor();
         this.angle = random.nextInt(360);
@@ -49,7 +52,15 @@ public class Guy extends Mover{
         }
         for (Thread thread:threads) {
             thread.initRand();
+            threadString+=thread.getThreadNum();
+            threadString+="  ";
+            threadSum += Integer.parseInt(thread.getThreadNum());
+            constants.threadRegistry.registerThread(thread);
         }
+//        threads.add(threadOne);
+        threadString = threadString.substring(0,threadString.length()-2);
+        constants.threadRegistry.registerThreadSum(threadSum);
+
     }
 
     public Color getColor() {
@@ -69,15 +80,29 @@ public class Guy extends Mover{
         }
 
         chunkNum ++;
-
-
-        float red = (float) (1-(0.2*(chunkNum*5 % 5))+0.4);
-        float blue = (float) (1-(0.3*(chunkNum*5 % 6))+0.5);
-        float green = (float) (1-(0.4*(chunkNum*5 % 7))+0.4);
-        this.color = new Color(red,green,blue,1);
-        if (chunks.size()>1) {
-            this.color.set(1,1,1,1);
+        this.color = ColourMaster.getColour(4);
+        float divisionWidth = (float) constants.SCREENWIDTH /ColourMaster.getDivisions();
+        this.color.set(Color.BLACK);
+        Vector3 colorVector = new Vector3(0,0,0);
+        for(Thread thread : threads) {
+            colorVector.add(ColourMaster.getColourVector(thread.getSensorNum()).setLength2(thread.getWeighting()));
         }
+        colorVector.setLength(1);
+        this.color.set(colorVector.x,colorVector.y,colorVector.z,1);
+//        for (int i = 0; i<ColourMaster.getDivisions(); i++) {
+//            if (this.position.x<=divisionWidth*(i+1) & this.position.x>divisionWidth*i) {
+//                this.color = ColourMaster.getColour(i);
+//            }
+//        }
+//        this.color = ColourMaster.getColour(this.position.x,0,constants.SCREENWIDTH);
+//        this.color = ColourMaster.getColour(this.threadSum,constants.threadRegistry.getMinThreadSum(),constants.threadRegistry.getMaxThreadSum());
+//        float red = (float) (1-(0.2*(chunkNum*5 % 5))+0.4);
+//        float blue = (float) (1-(0.3*(chunkNum*5 % 6))+0.5);
+//        float green = (float) (1-(0.4*(chunkNum*5 % 7))+0.4);
+//        this.color = new Color(red,green,blue,1);
+//        if (chunks.size()>1) {
+//            this.color.set(1,1,1,1);
+//        }
 //        this.color = new Color((float) (1-(0.1*(chunkNum+1))), (float) (0.02*(chunkNum+1)), (float) (0.01*(chunkNum+1)),1);
     }
 
@@ -105,6 +130,8 @@ public class Guy extends Mover{
                 }
             }
         }
+
+
 //        threadOne.load(sensedEntities);
 //        this.direction.add(threadOne.sense());
 //        threadOne.printThreadDesc();

@@ -17,7 +17,11 @@ public class Thread {
 
     private void normalise() {
         sensorNum = sensorNum%threadRegistry.sensorRegistrySize();
+//        System.out.println(String.format("%02d", sensorNum));
         direction = direction % 360;
+        if (weighting >= 100) {
+            weighting = 100;
+        }
         sensor = threadRegistry.getSensor(sensorNum,guy);
     }
     public Thread(ThreadRegistry threadRegistry, Guy guy) {
@@ -48,5 +52,21 @@ public class Thread {
     }
     public AngularSensor getSensor() {
         return this.sensor;
+    }
+
+    public String getThreadNum() {
+        String string;
+        string = String.format("%02d", sensorNum);
+        string+=String.format("%03d", direction);
+        string+=String.format("%03d", weighting);
+        return string;
+    }
+
+    public int getSensorNum() {
+        return sensorNum;
+    }
+
+    public int getWeighting() {
+        return weighting;
     }
 }

@@ -4,7 +4,7 @@ public interface constants {
     int SCREENWIDTH = 800;
     int SCREENHEIGHT = 480;
     int GUY_RADIUS = 2;
-    int NUMBER_GUYS = 500;
+    int NUMBER_GUYS = 1000;
     int NUM_HORIZONTAL_CHUNKS = 3;
     int NUM_VERTICAL_CHUNKS = 2;
     int overlap = 45;
@@ -15,5 +15,5 @@ public interface constants {
     int SENSORCONFIGNUM = 1;
     int READJUSTINGCOOLDOWN = 500;
     ThreadRegistry threadRegistry = new ThreadRegistry();
-    int numThreads = 3;
+    int numThreads = 4;
 }
