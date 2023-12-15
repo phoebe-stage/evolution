@@ -1,7 +1,6 @@
 package com.evolution.game;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 
 public abstract class Mover extends Entity{
@@ -75,7 +74,7 @@ public abstract class Mover extends Entity{
     }
 
     public void reAdjusting() {
-        adjustCooldown = constants.READJUSTINGCOOLDOWN;
+        adjustCooldown = constants.READJUSTING_COOLDOWN;
         this.readjusting = true;
     }
 

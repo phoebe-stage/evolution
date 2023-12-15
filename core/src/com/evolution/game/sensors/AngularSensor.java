@@ -45,7 +45,7 @@ public abstract class AngularSensor {
         this.vectorSum.set(0,0);
         for (Entity entity : sensedEntities) {
             Vector2 entityPosition = new Vector2(entity.getPosition());
-            vectorSum.add(VectorBoss.vectorBetween(position,entityPosition).setLength(constants.SENSORCONFIGNUM/position.dst2(entityPosition)));
+            vectorSum.add(VectorBoss.vectorBetween(position,entityPosition).setLength(constants.SENSOR_CONFIG_NUM /position.dst2(entityPosition)));
         }
     }
 

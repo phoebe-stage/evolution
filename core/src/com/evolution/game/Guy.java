@@ -4,7 +4,6 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 import com.evolution.game.chunks.Chunk;
-import com.evolution.game.obstacles.ObstacleParticle;
 import com.evolution.game.sensors.*;
 
 import java.util.ArrayList;
@@ -21,8 +20,8 @@ public class Guy extends Mover{
 
     private int sensingRadius;
 
-    private Thread threadOne = new Thread(constants.threadRegistry,this);
-    private Thread threadTwo = new Thread(constants.threadRegistry,this);
+    private Thread threadOne = new Thread(constants.THREAD_REGISTRY,this);
+    private Thread threadTwo = new Thread(constants.THREAD_REGISTRY,this);
     private ArrayList<Thread> threads = new ArrayList<>();
     private String threadString = "";
     private int threadSum;
@@ -37,6 +36,7 @@ public class Guy extends Mover{
 
     private Vector2 vectorSum = new Vector2(0,0);
     private Random random = new Random();
+    private boolean successful = false;
 
     public Guy(Vector2 position, int radius) {
         super(position, radius, constants.DEFAULT_GUY_SPEED);
@@ -47,20 +47,39 @@ public class Guy extends Mover{
         sensingRadius = constants.SENSING_RADIUS;
         this.direction.set(VectorBoss.randomVector());
         this.type = random.nextInt(3);
-        for(int i = 0; i<constants.numThreads; i++) {
-            threads.add(new Thread(constants.threadRegistry,this));
+        for(int i = 0; i<constants.NUM_THREADS; i++) {
+            threads.add(new Thread(constants.THREAD_REGISTRY,this));
         }
         for (Thread thread:threads) {
             thread.initRand();
             threadString+=thread.getThreadNum();
             threadString+="  ";
             threadSum += Integer.parseInt(thread.getThreadNum());
-            constants.threadRegistry.registerThread(thread);
+            constants.THREAD_REGISTRY.registerThread(thread);
         }
 //        threads.add(threadOne);
         threadString = threadString.substring(0,threadString.length()-2);
-        constants.threadRegistry.registerThreadSum(threadSum);
+        constants.THREAD_REGISTRY.registerThreadSum(threadSum);
+    }
 
+    public Guy(Vector2 position, int radius, ArrayList<Thread> threads) {
+        super(position, radius, constants.DEFAULT_GUY_SPEED);
+        this.setColor();
+        this.angle = random.nextInt(360);
+        sensingRadius = constants.SENSING_RADIUS;
+        this.direction.set(VectorBoss.randomVector());
+        for (Thread thread:threads) {
+            this.threads.add(thread.duplicate(this));
+            if (random.nextDouble()<constants.Mutation_Chance) {
+                thread.mutate();
+            }
+            threadString+=thread.getThreadNum();
+            threadString+="  ";
+            threadSum += Integer.parseInt(thread.getThreadNum());
+            constants.THREAD_REGISTRY.registerThread(thread);
+        }
+        threadString = threadString.substring(0,threadString.length()-2);
+        constants.THREAD_REGISTRY.registerThreadSum(threadSum);
     }
 
     public Color getColor() {
@@ -187,5 +206,17 @@ public class Guy extends Mover{
 
     public int getSensingRadius() {
         return sensingRadius;
+    }
+
+    public boolean isSuccessful() {
+        return successful;
+    }
+
+    public void setSuccessful(boolean successful) {
+        this.successful = successful;
+    }
+
+    public ArrayList<Thread> getThreads() {
+        return threads;
     }
 }

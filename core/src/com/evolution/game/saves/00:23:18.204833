@@ -1,0 +1,2355 @@
+01115080 - com.evolution.game.sensors.ObstacleSensor@7f9fcf7f angle:115 weighting:80
+05303000 - com.evolution.game.sensors.AlwaysSensor@2357d90a angle:303 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@6328d34a angle:142 weighting:46
+01144069 - com.evolution.game.sensors.ObstacleSensor@145eaa29 angle:144 weighting:69
+
+01193036 - com.evolution.game.sensors.ObstacleSensor@15bb6bea angle:193 weighting:36
+03140024 - com.evolution.game.sensors.DirectionSensor@8b96fde angle:140 weighting:24
+04313030 - com.evolution.game.sensors.StuckSensor@2d2e5f00 angle:313 weighting:30
+00343046 - com.evolution.game.sensors.GuySensor@4c40b76e angle:343 weighting:46
+
+00305014 - com.evolution.game.sensors.GuySensor@2ea6137 angle:305 weighting:14
+04187000 - com.evolution.game.sensors.StuckSensor@41ee392b angle:187 weighting:0
+03024053 - com.evolution.game.sensors.DirectionSensor@1e67a849 angle:24 weighting:53
+01021028 - com.evolution.game.sensors.ObstacleSensor@57d5872c angle:21 weighting:28
+
+04197022 - com.evolution.game.sensors.StuckSensor@667a738 angle:197 weighting:22
+05293000 - com.evolution.game.sensors.AlwaysSensor@36f0f1be angle:293 weighting:0
+06238039 - com.evolution.game.sensors.WallSensor@157632c9 angle:238 weighting:39
+03116014 - com.evolution.game.sensors.DirectionSensor@6ee12bac angle:116 weighting:14
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@55040f2f angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@64c87930 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@400cff1a angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@275710fc angle:144 weighting:59
+
+01280049 - com.evolution.game.sensors.ObstacleSensor@525f1e4e angle:280 weighting:49
+01038022 - com.evolution.game.sensors.ObstacleSensor@75f9eccc angle:38 weighting:22
+06138034 - com.evolution.game.sensors.WallSensor@52aa2946 angle:138 weighting:34
+01268024 - com.evolution.game.sensors.ObstacleSensor@4de5031f angle:268 weighting:24
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@67e2d983 angle:77 weighting:41
+01014049 - com.evolution.game.sensors.ObstacleSensor@5d47c63f angle:14 weighting:49
+02080000 - com.evolution.game.sensors.CloseGuySensor@5ea434c8 angle:80 weighting:0
+00289005 - com.evolution.game.sensors.GuySensor@3bbc39f8 angle:289 weighting:5
+
+05200012 - com.evolution.game.sensors.AlwaysSensor@4ae3c1cd angle:200 weighting:12
+00056010 - com.evolution.game.sensors.GuySensor@29f69090 angle:56 weighting:10
+00303000 - com.evolution.game.sensors.GuySensor@568bf312 angle:303 weighting:0
+06137000 - com.evolution.game.sensors.WallSensor@ca263c2 angle:137 weighting:0
+
+01299000 - com.evolution.game.sensors.ObstacleSensor@589b3632 angle:299 weighting:0
+01189015 - com.evolution.game.sensors.ObstacleSensor@45f45fa1 angle:189 weighting:15
+06093011 - com.evolution.game.sensors.WallSensor@4c6e276e angle:93 weighting:11
+06244018 - com.evolution.game.sensors.WallSensor@534df152 angle:244 weighting:18
+
+01125040 - com.evolution.game.sensors.ObstacleSensor@52e677af angle:125 weighting:40
+05303000 - com.evolution.game.sensors.AlwaysSensor@35083305 angle:303 weighting:0
+06112046 - com.evolution.game.sensors.WallSensor@8e0379d angle:112 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@341b80b2 angle:144 weighting:59
+
+01106033 - com.evolution.game.sensors.ObstacleSensor@55a1c291 angle:106 weighting:33
+04336054 - com.evolution.game.sensors.StuckSensor@2145433b angle:336 weighting:54
+02068023 - com.evolution.game.sensors.CloseGuySensor@2890c451 angle:68 weighting:23
+03223051 - com.evolution.game.sensors.DirectionSensor@40e6dfe1 angle:223 weighting:51
+
+01338026 - com.evolution.game.sensors.ObstacleSensor@1b083826 angle:338 weighting:26
+04053051 - com.evolution.game.sensors.StuckSensor@105fece7 angle:53 weighting:51
+06220024 - com.evolution.game.sensors.WallSensor@3ec300f1 angle:220 weighting:24
+01156035 - com.evolution.game.sensors.ObstacleSensor@482cd91f angle:156 weighting:35
+
+01152000 - com.evolution.game.sensors.ObstacleSensor@123f1134 angle:152 weighting:0
+04092081 - com.evolution.game.sensors.StuckSensor@7d68ef40 angle:92 weighting:81
+04235039 - com.evolution.game.sensors.StuckSensor@5b0abc94 angle:235 weighting:39
+00013012 - com.evolution.game.sensors.GuySensor@75c072cb angle:13 weighting:12
+
+01306004 - com.evolution.game.sensors.ObstacleSensor@1f1c7bf6 angle:306 weighting:4
+01325052 - com.evolution.game.sensors.ObstacleSensor@25b485ba angle:325 weighting:52
+00282000 - com.evolution.game.sensors.GuySensor@2b546384 angle:282 weighting:0
+03225014 - com.evolution.game.sensors.DirectionSensor@5d740a0f angle:225 weighting:14
+
+06305024 - com.evolution.game.sensors.WallSensor@214b199c angle:305 weighting:24
+04227005 - com.evolution.game.sensors.StuckSensor@20d3d15a angle:227 weighting:5
+04044053 - com.evolution.game.sensors.StuckSensor@2893de87 angle:44 weighting:53
+00041028 - com.evolution.game.sensors.GuySensor@55ca8de8 angle:41 weighting:28
+
+02135020 - com.evolution.game.sensors.CloseGuySensor@2c34f934 angle:135 weighting:20
+05273000 - com.evolution.game.sensors.AlwaysSensor@12d3a4e9 angle:273 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@240237d2 angle:132 weighting:56
+01154039 - com.evolution.game.sensors.ObstacleSensor@25a65b77 angle:154 weighting:39
+
+03347038 - com.evolution.game.sensors.DirectionSensor@2ed0fbae angle:347 weighting:38
+00113020 - com.evolution.game.sensors.GuySensor@212bf671 angle:113 weighting:20
+00283007 - com.evolution.game.sensors.GuySensor@14a2f921 angle:283 weighting:7
+00319028 - com.evolution.game.sensors.GuySensor@3c87521 angle:319 weighting:28
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@2aece37d angle:280 weighting:39
+01038022 - com.evolution.game.sensors.ObstacleSensor@548a102f angle:38 weighting:22
+06138034 - com.evolution.game.sensors.WallSensor@5762806e angle:138 weighting:34
+01258024 - com.evolution.game.sensors.ObstacleSensor@17c386de angle:258 weighting:24
+
+00162000 - com.evolution.game.sensors.GuySensor@5af97850 angle:162 weighting:0
+03072061 - com.evolution.game.sensors.DirectionSensor@5ef60048 angle:72 weighting:61
+04225049 - com.evolution.game.sensors.StuckSensor@1d548a08 angle:225 weighting:49
+01033022 - com.evolution.game.sensors.ObstacleSensor@16aa0a0a angle:33 weighting:22
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@780cb77 angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@691a7f8f angle:48 weighting:22
+06138044 - com.evolution.game.sensors.WallSensor@50a7bc6e angle:138 weighting:44
+01258024 - com.evolution.game.sensors.ObstacleSensor@161b062a angle:258 weighting:24
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@17c1bced angle:135 weighting:30
+06283019 - com.evolution.game.sensors.WallSensor@2d9d4f9d angle:283 weighting:19
+06122046 - com.evolution.game.sensors.WallSensor@4034c28c angle:122 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@e50a6f6 angle:144 weighting:59
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@14ec4505 angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@53ca01a2 angle:48 weighting:22
+06138054 - com.evolution.game.sensors.WallSensor@358c99f5 angle:138 weighting:54
+01268024 - com.evolution.game.sensors.ObstacleSensor@3ee0fea4 angle:268 weighting:24
+
+00305024 - com.evolution.game.sensors.GuySensor@48524010 angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@4b168fa9 angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@1a84f40f angle:14 weighting:43
+01021028 - com.evolution.game.sensors.ObstacleSensor@23282c25 angle:21 weighting:28
+
+00162000 - com.evolution.game.sensors.GuySensor@7920ba90 angle:162 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@6b419da angle:102 weighting:61
+04235039 - com.evolution.game.sensors.StuckSensor@3b2da18f angle:235 weighting:39
+00053000 - com.evolution.game.sensors.GuySensor@5906ebcb angle:53 weighting:0
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@258e2e41 angle:135 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@3d299e3 angle:293 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@55a561cf angle:122 weighting:56
+01134059 - com.evolution.game.sensors.ObstacleSensor@3b938003 angle:134 weighting:59
+
+01290019 - com.evolution.game.sensors.ObstacleSensor@6f3b5d16 angle:290 weighting:19
+01018012 - com.evolution.game.sensors.ObstacleSensor@78b1cc93 angle:18 weighting:12
+06108034 - com.evolution.game.sensors.WallSensor@6646153 angle:108 weighting:34
+01248014 - com.evolution.game.sensors.ObstacleSensor@21507a04 angle:248 weighting:14
+
+06190012 - com.evolution.game.sensors.WallSensor@143640d5 angle:190 weighting:12
+00056000 - com.evolution.game.sensors.GuySensor@6295d394 angle:56 weighting:0
+00303000 - com.evolution.game.sensors.GuySensor@475e586c angle:303 weighting:0
+06127000 - com.evolution.game.sensors.WallSensor@657c8ad9 angle:127 weighting:0
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@436a4e4b angle:105 weighting:40
+04293000 - com.evolution.game.sensors.StuckSensor@f2f2cc1 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@3a079870 angle:132 weighting:46
+01154059 - com.evolution.game.sensors.ObstacleSensor@3b2cf7ab angle:154 weighting:59
+
+00172010 - com.evolution.game.sensors.GuySensor@2aa5fe93 angle:172 weighting:10
+04112071 - com.evolution.game.sensors.StuckSensor@5c1a8622 angle:112 weighting:71
+04245019 - com.evolution.game.sensors.StuckSensor@5ad851c9 angle:245 weighting:19
+00023022 - com.evolution.game.sensors.GuySensor@6156496 angle:23 weighting:22
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@3c153a1 angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@b62fe6d angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@13acb0d1 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@3e3047e6 angle:144 weighting:59
+
+02324052 - com.evolution.game.sensors.CloseGuySensor@37e547da angle:324 weighting:52
+00087020 - com.evolution.game.sensors.GuySensor@2b6856dd angle:87 weighting:20
+00316024 - com.evolution.game.sensors.GuySensor@5db45159 angle:316 weighting:24
+00240023 - com.evolution.game.sensors.GuySensor@6107227e angle:240 weighting:23
+
+01105020 - com.evolution.game.sensors.ObstacleSensor@7c417213 angle:105 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@15761df8 angle:303 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@6ab7a896 angle:132 weighting:56
+01134049 - com.evolution.game.sensors.ObstacleSensor@327b636c angle:134 weighting:49
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@45dd4eda angle:135 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@60611244 angle:293 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@3745e5c6 angle:122 weighting:56
+00134059 - com.evolution.game.sensors.GuySensor@5e4c8041 angle:134 weighting:59
+
+00162000 - com.evolution.game.sensors.GuySensor@71c8becc angle:162 weighting:0
+03072061 - com.evolution.game.sensors.DirectionSensor@19d37183 angle:72 weighting:61
+04225039 - com.evolution.game.sensors.StuckSensor@1a0dcaa angle:225 weighting:39
+00033022 - com.evolution.game.sensors.GuySensor@3bd40a57 angle:33 weighting:22
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@fdefd3f angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@d83da2e angle:48 weighting:22
+06138054 - com.evolution.game.sensors.WallSensor@a4102b8 angle:138 weighting:54
+01268024 - com.evolution.game.sensors.ObstacleSensor@11dc3715 angle:268 weighting:24
+
+01152000 - com.evolution.game.sensors.ObstacleSensor@69930714 angle:152 weighting:0
+04092081 - com.evolution.game.sensors.StuckSensor@7a52f2a2 angle:92 weighting:81
+04235039 - com.evolution.game.sensors.StuckSensor@78047b92 angle:235 weighting:39
+00013012 - com.evolution.game.sensors.GuySensor@8909f18 angle:13 weighting:12
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@79ca92b9 angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@1460a8c0 angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@4f638935 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@4387b79e angle:144 weighting:59
+
+01087041 - com.evolution.game.sensors.ObstacleSensor@6e75aa0d angle:87 weighting:41
+01004049 - com.evolution.game.sensors.ObstacleSensor@7fc229ab angle:4 weighting:49
+02060000 - com.evolution.game.sensors.CloseGuySensor@2cbb3d47 angle:60 weighting:0
+00289005 - com.evolution.game.sensors.GuySensor@527e5409 angle:289 weighting:5
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@1198b989 angle:105 weighting:40
+04293000 - com.evolution.game.sensors.StuckSensor@7ff95560 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@add0edd angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@2aa3cd93 angle:144 weighting:59
+
+01181011 - com.evolution.game.sensors.ObstacleSensor@7ea37dbf angle:181 weighting:11
+02156036 - com.evolution.game.sensors.CloseGuySensor@4b44655e angle:156 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@290d210d angle:262 weighting:14
+06170026 - com.evolution.game.sensors.WallSensor@1d76aeea angle:170 weighting:26
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@78dd667e angle:115 weighting:30
+05303000 - com.evolution.game.sensors.AlwaysSensor@10db82ae angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@501edcf1 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@78b729e6 angle:144 weighting:59
+
+03327028 - com.evolution.game.sensors.DirectionSensor@6b4a4e18 angle:327 weighting:28
+00113010 - com.evolution.game.sensors.GuySensor@27c86f2d angle:113 weighting:10
+00263000 - com.evolution.game.sensors.GuySensor@197d671 angle:263 weighting:0
+00309048 - com.evolution.game.sensors.GuySensor@402e37bc angle:309 weighting:48
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@79ad8b2f angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@1df82230 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@22635ba0 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@13c10b87 angle:144 weighting:59
+
+01173036 - com.evolution.game.sensors.ObstacleSensor@6a01e23 angle:173 weighting:36
+03130014 - com.evolution.game.sensors.DirectionSensor@5a955565 angle:130 weighting:14
+04323030 - com.evolution.game.sensors.StuckSensor@6293abcc angle:323 weighting:30
+01343036 - com.evolution.game.sensors.ObstacleSensor@7995092a angle:343 weighting:36
+
+06200012 - com.evolution.game.sensors.WallSensor@7fc2413d angle:200 weighting:12
+00056000 - com.evolution.game.sensors.GuySensor@f8c1ddd angle:56 weighting:0
+00303000 - com.evolution.game.sensors.GuySensor@70be0a2b angle:303 weighting:0
+06137000 - com.evolution.game.sensors.WallSensor@2133814f angle:137 weighting:0
+
+01077041 - com.evolution.game.sensors.ObstacleSensor@4c15e7fd angle:77 weighting:41
+01004049 - com.evolution.game.sensors.ObstacleSensor@23986957 angle:4 weighting:49
+02060000 - com.evolution.game.sensors.CloseGuySensor@23f7d05d angle:60 weighting:0
+00289005 - com.evolution.game.sensors.GuySensor@1e730495 angle:289 weighting:5
+
+01290019 - com.evolution.game.sensors.ObstacleSensor@7d3a22a9 angle:290 weighting:19
+01018012 - com.evolution.game.sensors.ObstacleSensor@1d082e88 angle:18 weighting:12
+06108024 - com.evolution.game.sensors.WallSensor@60704c angle:108 weighting:24
+01238014 - com.evolution.game.sensors.ObstacleSensor@6b19b79 angle:238 weighting:14
+
+00142000 - com.evolution.game.sensors.GuySensor@2a32de6c angle:142 weighting:0
+04102031 - com.evolution.game.sensors.StuckSensor@7692d9cc angle:102 weighting:31
+04215049 - com.evolution.game.sensors.StuckSensor@75f32542 angle:215 weighting:49
+01043012 - com.evolution.game.sensors.ObstacleSensor@7f1302d6 angle:43 weighting:12
+
+00298026 - com.evolution.game.sensors.GuySensor@43ee72e6 angle:298 weighting:26
+04053061 - com.evolution.game.sensors.StuckSensor@23529fee angle:53 weighting:61
+06210034 - com.evolution.game.sensors.WallSensor@4fe767f3 angle:210 weighting:34
+01166015 - com.evolution.game.sensors.ObstacleSensor@2805c96b angle:166 weighting:15
+
+02345033 - com.evolution.game.sensors.CloseGuySensor@184cf7cf angle:345 weighting:33
+01234048 - com.evolution.game.sensors.ObstacleSensor@2fd6b6c7 angle:234 weighting:48
+00304016 - com.evolution.game.sensors.GuySensor@5bfa9431 angle:304 weighting:16
+01024058 - com.evolution.game.sensors.ObstacleSensor@5db250b4 angle:24 weighting:58
+
+01115020 - com.evolution.game.sensors.ObstacleSensor@223f3642 angle:115 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@38c5cc4c angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@37918c79 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@78e94dcf angle:144 weighting:59
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@233fe9b6 angle:135 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@358ee631 angle:293 weighting:29
+06132056 - com.evolution.game.sensors.WallSensor@ec756bd angle:132 weighting:56
+01154039 - com.evolution.game.sensors.ObstacleSensor@3c72f59f angle:154 weighting:39
+
+00305024 - com.evolution.game.sensors.GuySensor@60dcc9fe angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@222114ba angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@16e7dcfd angle:14 weighting:43
+01031028 - com.evolution.game.sensors.ObstacleSensor@3d121db3 angle:31 weighting:28
+
+01106013 - com.evolution.game.sensors.ObstacleSensor@3b07a0d6 angle:106 weighting:13
+04346054 - com.evolution.game.sensors.StuckSensor@11a9e7c8 angle:346 weighting:54
+02078023 - com.evolution.game.sensors.CloseGuySensor@3901d134 angle:78 weighting:23
+03223051 - com.evolution.game.sensors.DirectionSensor@14d3bc22 angle:223 weighting:51
+
+02087041 - com.evolution.game.sensors.CloseGuySensor@12d4bf7e angle:87 weighting:41
+01004049 - com.evolution.game.sensors.ObstacleSensor@4c1d9d4b angle:4 weighting:49
+02080000 - com.evolution.game.sensors.CloseGuySensor@7b227d8d angle:80 weighting:0
+00289005 - com.evolution.game.sensors.GuySensor@7219ec67 angle:289 weighting:5
+
+01077041 - com.evolution.game.sensors.ObstacleSensor@45018215 angle:77 weighting:41
+01004049 - com.evolution.game.sensors.ObstacleSensor@65d6b83b angle:4 weighting:49
+02060000 - com.evolution.game.sensors.CloseGuySensor@d706f19 angle:60 weighting:0
+00289005 - com.evolution.game.sensors.GuySensor@30b7c004 angle:289 weighting:5
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@79efed2d angle:115 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@2928854b angle:283 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@27ae2fd0 angle:132 weighting:36
+01144079 - com.evolution.game.sensors.ObstacleSensor@29176cc1 angle:144 weighting:79
+
+01106033 - com.evolution.game.sensors.ObstacleSensor@2f177a4b angle:106 weighting:33
+04346054 - com.evolution.game.sensors.StuckSensor@4278a03f angle:346 weighting:54
+02078023 - com.evolution.game.sensors.CloseGuySensor@147ed70f angle:78 weighting:23
+03223051 - com.evolution.game.sensors.DirectionSensor@61dd025 angle:223 weighting:51
+
+01135010 - com.evolution.game.sensors.ObstacleSensor@124c278f angle:135 weighting:10
+05283000 - com.evolution.game.sensors.AlwaysSensor@15b204a1 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@77167fb7 angle:132 weighting:46
+01154059 - com.evolution.game.sensors.ObstacleSensor@1fe20588 angle:154 weighting:59
+
+00298026 - com.evolution.game.sensors.GuySensor@6ce139a4 angle:298 weighting:26
+04053061 - com.evolution.game.sensors.StuckSensor@6973bf95 angle:53 weighting:61
+06210034 - com.evolution.game.sensors.WallSensor@2ddc8ecb angle:210 weighting:34
+01156015 - com.evolution.game.sensors.ObstacleSensor@229d10bd angle:156 weighting:15
+
+00345053 - com.evolution.game.sensors.GuySensor@47542153 angle:345 weighting:53
+01184038 - com.evolution.game.sensors.ObstacleSensor@33afa13b angle:184 weighting:38
+02284036 - com.evolution.game.sensors.CloseGuySensor@7a4ccb53 angle:284 weighting:36
+00014038 - com.evolution.game.sensors.GuySensor@309e345f angle:14 weighting:38
+
+00152000 - com.evolution.game.sensors.GuySensor@56a6d5a6 angle:152 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@18ce0030 angle:102 weighting:81
+04205029 - com.evolution.game.sensors.StuckSensor@4445629 angle:205 weighting:29
+01053002 - com.evolution.game.sensors.ObstacleSensor@45b9a632 angle:53 weighting:2
+
+00305024 - com.evolution.game.sensors.GuySensor@25d250c6 angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@4df50bcc angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@6b26e945 angle:14 weighting:43
+01031028 - com.evolution.game.sensors.ObstacleSensor@63a65a25 angle:31 weighting:28
+
+03337048 - com.evolution.game.sensors.DirectionSensor@54c562f7 angle:337 weighting:48
+00143010 - com.evolution.game.sensors.GuySensor@318ba8c8 angle:143 weighting:10
+00243017 - com.evolution.game.sensors.GuySensor@6dbb137d angle:243 weighting:17
+00319028 - com.evolution.game.sensors.GuySensor@3c9d0b9d angle:319 weighting:28
+
+01280049 - com.evolution.game.sensors.ObstacleSensor@43301423 angle:280 weighting:49
+01048032 - com.evolution.game.sensors.ObstacleSensor@2f112965 angle:48 weighting:32
+00128024 - com.evolution.game.sensors.GuySensor@1a04f701 angle:128 weighting:24
+00258024 - com.evolution.game.sensors.GuySensor@4e91d63f angle:258 weighting:24
+
+00280029 - com.evolution.game.sensors.GuySensor@d4342c2 angle:280 weighting:29
+01058022 - com.evolution.game.sensors.ObstacleSensor@2bbf180e angle:58 weighting:22
+06128034 - com.evolution.game.sensors.WallSensor@163e4e87 angle:128 weighting:34
+01258024 - com.evolution.game.sensors.ObstacleSensor@56de5251 angle:258 weighting:24
+
+01115070 - com.evolution.game.sensors.ObstacleSensor@419c5f1a angle:115 weighting:70
+05303000 - com.evolution.game.sensors.AlwaysSensor@12b0404f angle:303 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@769e7ee8 angle:142 weighting:46
+01144049 - com.evolution.game.sensors.ObstacleSensor@5276e6b0 angle:144 weighting:49
+
+03337028 - com.evolution.game.sensors.DirectionSensor@71b1176b angle:337 weighting:28
+00103010 - com.evolution.game.sensors.GuySensor@6193932a angle:103 weighting:10
+00283037 - com.evolution.game.sensors.GuySensor@647fd8ce angle:283 weighting:37
+00329008 - com.evolution.game.sensors.GuySensor@159f197 angle:329 weighting:8
+
+03327018 - com.evolution.game.sensors.DirectionSensor@78aab498 angle:327 weighting:18
+00113010 - com.evolution.game.sensors.GuySensor@5dd6264 angle:113 weighting:10
+00253000 - com.evolution.game.sensors.GuySensor@1ffe63b9 angle:253 weighting:0
+00309048 - com.evolution.game.sensors.GuySensor@51e5fc98 angle:309 weighting:48
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@7c469c48 angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@12e61fe6 angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@7ee955a8 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@1677d1 angle:144 weighting:59
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@48fa0f47 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@6ac13091 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@5e316c74 angle:132 weighting:46
+01134079 - com.evolution.game.sensors.ObstacleSensor@6d2a209c angle:134 weighting:79
+
+00162000 - com.evolution.game.sensors.GuySensor@75329a49 angle:162 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@161479c6 angle:102 weighting:61
+04225019 - com.evolution.game.sensors.StuckSensor@4313f5bc angle:225 weighting:19
+00033002 - com.evolution.game.sensors.GuySensor@7f010382 angle:33 weighting:2
+
+00308036 - com.evolution.game.sensors.GuySensor@1e802ef9 angle:308 weighting:36
+04053041 - com.evolution.game.sensors.StuckSensor@2b6faea6 angle:53 weighting:41
+06220034 - com.evolution.game.sensors.WallSensor@778d1062 angle:220 weighting:34
+01146025 - com.evolution.game.sensors.ObstacleSensor@670002 angle:146 weighting:25
+
+04008048 - com.evolution.game.sensors.StuckSensor@1f0f1111 angle:8 weighting:48
+04347031 - com.evolution.game.sensors.StuckSensor@49c386c8 angle:347 weighting:31
+00061044 - com.evolution.game.sensors.GuySensor@56528192 angle:61 weighting:44
+04242036 - com.evolution.game.sensors.StuckSensor@6e0dec4a angle:242 weighting:36
+
+01173036 - com.evolution.game.sensors.ObstacleSensor@96def03 angle:173 weighting:36
+03130014 - com.evolution.game.sensors.DirectionSensor@5ccddd20 angle:130 weighting:14
+04323030 - com.evolution.game.sensors.StuckSensor@1ed1993a angle:323 weighting:30
+01343036 - com.evolution.game.sensors.ObstacleSensor@1f3f4916 angle:343 weighting:36
+
+06315014 - com.evolution.game.sensors.WallSensor@794cb805 angle:315 weighting:14
+04237005 - com.evolution.game.sensors.StuckSensor@4b5a5ed1 angle:237 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@59d016c9 angle:34 weighting:53
+00041018 - com.evolution.game.sensors.GuySensor@3cc2931c angle:41 weighting:18
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@20d28811 angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@3967e60c angle:48 weighting:22
+06138044 - com.evolution.game.sensors.WallSensor@60d8c9b7 angle:138 weighting:44
+01258024 - com.evolution.game.sensors.ObstacleSensor@48aaecc3 angle:258 weighting:24
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@7c0c77c7 angle:115 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@7adda9cc angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@5cee5251 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@433d61fb angle:144 weighting:59
+
+06305014 - com.evolution.game.sensors.WallSensor@5c909414 angle:305 weighting:14
+04227005 - com.evolution.game.sensors.StuckSensor@4b14c583 angle:227 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@65466a6a angle:34 weighting:43
+00031038 - com.evolution.game.sensors.GuySensor@4ddced80 angle:31 weighting:38
+
+03337028 - com.evolution.game.sensors.DirectionSensor@1534f01b angle:337 weighting:28
+00103020 - com.evolution.game.sensors.GuySensor@78e117e3 angle:103 weighting:20
+00283017 - com.evolution.game.sensors.GuySensor@2ea227af angle:283 weighting:17
+00319018 - com.evolution.game.sensors.GuySensor@4386f16 angle:319 weighting:18
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@363ee3a2 angle:105 weighting:30
+05303000 - com.evolution.game.sensors.AlwaysSensor@4690b489 angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@79b06cab angle:132 weighting:46
+01134049 - com.evolution.game.sensors.ObstacleSensor@3eb7fc54 angle:134 weighting:49
+
+04177012 - com.evolution.game.sensors.StuckSensor@7f552bd3 angle:177 weighting:12
+06293013 - com.evolution.game.sensors.WallSensor@3c22fc4c angle:293 weighting:13
+06228039 - com.evolution.game.sensors.WallSensor@460d0a57 angle:228 weighting:39
+03126024 - com.evolution.game.sensors.DirectionSensor@47d90b9e angle:126 weighting:24
+
+06305014 - com.evolution.game.sensors.WallSensor@1184ab05 angle:305 weighting:14
+04227015 - com.evolution.game.sensors.StuckSensor@3aefe5e5 angle:227 weighting:15
+04034053 - com.evolution.game.sensors.StuckSensor@149e0f5d angle:34 weighting:53
+00041028 - com.evolution.game.sensors.GuySensor@1b1473ab angle:41 weighting:28
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@2f7c2f4f angle:135 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@6af93788 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@ef9296d angle:132 weighting:46
+01134059 - com.evolution.game.sensors.ObstacleSensor@36c88a32 angle:134 weighting:59
+
+01115020 - com.evolution.game.sensors.ObstacleSensor@7880cdf3 angle:115 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@5be6e01c angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@1c93084c angle:132 weighting:36
+01144069 - com.evolution.game.sensors.ObstacleSensor@6ef888f6 angle:144 weighting:69
+
+01280029 - com.evolution.game.sensors.ObstacleSensor@10e92f8f angle:280 weighting:29
+01048012 - com.evolution.game.sensors.ObstacleSensor@7ce3cb8e angle:48 weighting:12
+06128034 - com.evolution.game.sensors.WallSensor@78b66d36 angle:128 weighting:34
+01258024 - com.evolution.game.sensors.ObstacleSensor@5223e5ee angle:258 weighting:24
+
+06305014 - com.evolution.game.sensors.WallSensor@bef2d72 angle:305 weighting:14
+04227005 - com.evolution.game.sensors.StuckSensor@69b2283a angle:227 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@22a637e7 angle:34 weighting:43
+00031038 - com.evolution.game.sensors.GuySensor@6fe7aac8 angle:31 weighting:38
+
+01106033 - com.evolution.game.sensors.ObstacleSensor@1d119efb angle:106 weighting:33
+04346044 - com.evolution.game.sensors.StuckSensor@659a969b angle:346 weighting:44
+01078023 - com.evolution.game.sensors.ObstacleSensor@76908cc0 angle:78 weighting:23
+03213061 - com.evolution.game.sensors.DirectionSensor@2473d930 angle:213 weighting:61
+
+03347038 - com.evolution.game.sensors.DirectionSensor@35047d03 angle:347 weighting:38
+00113020 - com.evolution.game.sensors.GuySensor@49b0b76 angle:113 weighting:20
+00283007 - com.evolution.game.sensors.GuySensor@769f71a9 angle:283 weighting:7
+00319028 - com.evolution.game.sensors.GuySensor@4c9f8c13 angle:319 weighting:28
+
+04187022 - com.evolution.game.sensors.StuckSensor@5ae50ce6 angle:187 weighting:22
+06303013 - com.evolution.game.sensors.WallSensor@6f96c77 angle:303 weighting:13
+06238039 - com.evolution.game.sensors.WallSensor@be64738 angle:238 weighting:39
+03126024 - com.evolution.game.sensors.DirectionSensor@3ba9ad43 angle:126 weighting:24
+
+00280029 - com.evolution.game.sensors.GuySensor@49d904ec angle:280 weighting:29
+01068022 - com.evolution.game.sensors.ObstacleSensor@48e4374 angle:68 weighting:22
+06128034 - com.evolution.game.sensors.WallSensor@3d680b5a angle:128 weighting:34
+01258024 - com.evolution.game.sensors.ObstacleSensor@4b5d6a01 angle:258 weighting:24
+
+02280039 - com.evolution.game.sensors.CloseGuySensor@4a22f9e2 angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@3c419631 angle:48 weighting:22
+06138044 - com.evolution.game.sensors.WallSensor@418e7838 angle:138 weighting:44
+01268024 - com.evolution.game.sensors.ObstacleSensor@61230f6a angle:268 weighting:24
+
+03327048 - com.evolution.game.sensors.DirectionSensor@3c130745 angle:327 weighting:48
+00123010 - com.evolution.game.sensors.GuySensor@cd3fee8 angle:123 weighting:10
+00263010 - com.evolution.game.sensors.GuySensor@3e2e18f2 angle:263 weighting:10
+00309038 - com.evolution.game.sensors.GuySensor@470f1802 angle:309 weighting:38
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@63021689 angle:115 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@703580bf angle:283 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@3e92efc3 angle:142 weighting:46
+01134079 - com.evolution.game.sensors.ObstacleSensor@1622f1b angle:134 weighting:79
+
+03347038 - com.evolution.game.sensors.DirectionSensor@72a7c7e0 angle:347 weighting:38
+00113020 - com.evolution.game.sensors.GuySensor@2e4b8173 angle:113 weighting:20
+00283007 - com.evolution.game.sensors.GuySensor@70e8f8e angle:283 weighting:7
+00319028 - com.evolution.game.sensors.GuySensor@17046283 angle:319 weighting:28
+
+01338026 - com.evolution.game.sensors.ObstacleSensor@5bd03f44 angle:338 weighting:26
+04043051 - com.evolution.game.sensors.StuckSensor@29626d54 angle:43 weighting:51
+00220024 - com.evolution.game.sensors.GuySensor@5a63f509 angle:220 weighting:24
+01146025 - com.evolution.game.sensors.ObstacleSensor@6e4784bc angle:146 weighting:25
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@34b7ac2f angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@e056f20 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@4b0b0854 angle:132 weighting:46
+01134079 - com.evolution.game.sensors.ObstacleSensor@19bb07ed angle:134 weighting:79
+
+01299000 - com.evolution.game.sensors.ObstacleSensor@10e41621 angle:299 weighting:0
+01189015 - com.evolution.game.sensors.ObstacleSensor@353d0772 angle:189 weighting:15
+06093011 - com.evolution.game.sensors.WallSensor@2667f029 angle:93 weighting:11
+06244018 - com.evolution.game.sensors.WallSensor@67a20f67 angle:244 weighting:18
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@57c758ac angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@a9cd3b1 angle:283 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@13e39c73 angle:142 weighting:46
+01134059 - com.evolution.game.sensors.ObstacleSensor@64cd705f angle:134 weighting:59
+
+01306004 - com.evolution.game.sensors.ObstacleSensor@9225652 angle:306 weighting:4
+01325052 - com.evolution.game.sensors.ObstacleSensor@654f0d9c angle:325 weighting:52
+00282000 - com.evolution.game.sensors.GuySensor@6a400542 angle:282 weighting:0
+03225014 - com.evolution.game.sensors.DirectionSensor@6580cfdd angle:225 weighting:14
+
+01125020 - com.evolution.game.sensors.ObstacleSensor@7e0b85f9 angle:125 weighting:20
+06293029 - com.evolution.game.sensors.WallSensor@63355449 angle:293 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@9353778 angle:122 weighting:56
+01134059 - com.evolution.game.sensors.ObstacleSensor@6a28ffa4 angle:134 weighting:59
+
+01280029 - com.evolution.game.sensors.ObstacleSensor@48ae9b55 angle:280 weighting:29
+01048012 - com.evolution.game.sensors.ObstacleSensor@1700915 angle:48 weighting:12
+06128034 - com.evolution.game.sensors.WallSensor@21de60b4 angle:128 weighting:34
+01258024 - com.evolution.game.sensors.ObstacleSensor@c267ef4 angle:258 weighting:24
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@30ee2816 angle:77 weighting:41
+01024049 - com.evolution.game.sensors.ObstacleSensor@31d7b7bf angle:24 weighting:49
+02090010 - com.evolution.game.sensors.CloseGuySensor@635eaaf1 angle:90 weighting:10
+00289005 - com.evolution.game.sensors.GuySensor@5c30a9b0 angle:289 weighting:5
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@1ddf84b8 angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@1139b2f3 angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@7a69b07 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@5e82df6a angle:144 weighting:59
+
+01125030 - com.evolution.game.sensors.ObstacleSensor@3f197a46 angle:125 weighting:30
+06283029 - com.evolution.game.sensors.WallSensor@636be97c angle:283 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@50a638b5 angle:122 weighting:56
+02134029 - com.evolution.game.sensors.CloseGuySensor@1817d444 angle:134 weighting:29
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@6ca8564a angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@50b472aa angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@31368b99 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@1725dc0f angle:144 weighting:59
+
+06315010 - com.evolution.game.sensors.WallSensor@3911c2a7 angle:315 weighting:10
+05187005 - com.evolution.game.sensors.AlwaysSensor@4ac3c60d angle:187 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@4facf68f angle:34 weighting:43
+00061010 - com.evolution.game.sensors.GuySensor@76508ed1 angle:61 weighting:10
+
+00305024 - com.evolution.game.sensors.GuySensor@41e36e46 angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@15c43bd9 angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@3d74bf60 angle:14 weighting:43
+01031028 - com.evolution.game.sensors.ObstacleSensor@4f209819 angle:31 weighting:28
+
+00152000 - com.evolution.game.sensors.GuySensor@15eb5ee5 angle:152 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@2145b572 angle:102 weighting:81
+04215029 - com.evolution.game.sensors.StuckSensor@39529185 angle:215 weighting:29
+01053002 - com.evolution.game.sensors.ObstacleSensor@72f926e6 angle:53 weighting:2
+
+06295014 - com.evolution.game.sensors.WallSensor@3daa422a angle:295 weighting:14
+04227005 - com.evolution.game.sensors.StuckSensor@31c88ec8 angle:227 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@1cbbffcd angle:34 weighting:53
+01041028 - com.evolution.game.sensors.ObstacleSensor@27ce24aa angle:41 weighting:28
+
+01125030 - com.evolution.game.sensors.ObstacleSensor@481a996b angle:125 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@3d51f06e angle:293 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@7ed7259e angle:122 weighting:56
+01144059 - com.evolution.game.sensors.ObstacleSensor@28eaa59a angle:144 weighting:59
+
+06285024 - com.evolution.game.sensors.WallSensor@3427b02d angle:285 weighting:24
+04217005 - com.evolution.game.sensors.StuckSensor@647e447 angle:217 weighting:5
+04044043 - com.evolution.game.sensors.StuckSensor@41fbdac4 angle:44 weighting:43
+00041018 - com.evolution.game.sensors.GuySensor@3c407114 angle:41 weighting:18
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@35ef1869 angle:280 weighting:39
+02048022 - com.evolution.game.sensors.CloseGuySensor@c33b74f angle:48 weighting:22
+06108034 - com.evolution.game.sensors.WallSensor@130161f7 angle:108 weighting:34
+01268024 - com.evolution.game.sensors.ObstacleSensor@2c767a52 angle:268 weighting:24
+
+00152000 - com.evolution.game.sensors.GuySensor@619713e5 angle:152 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@708f5957 angle:102 weighting:81
+04205029 - com.evolution.game.sensors.StuckSensor@68999068 angle:205 weighting:29
+01053002 - com.evolution.game.sensors.ObstacleSensor@7722c3c3 angle:53 weighting:2
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@2ef3eef9 angle:105 weighting:30
+05293000 - com.evolution.game.sensors.AlwaysSensor@243c4f91 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@291ae angle:132 weighting:46
+01134049 - com.evolution.game.sensors.ObstacleSensor@61df66b6 angle:134 weighting:49
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@50eac852 angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@16ec5519 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@2f7298b angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@188715b5 angle:144 weighting:59
+
+01106033 - com.evolution.game.sensors.ObstacleSensor@1ea9f6af angle:106 weighting:33
+04336054 - com.evolution.game.sensors.StuckSensor@6a192cfe angle:336 weighting:54
+02068023 - com.evolution.game.sensors.CloseGuySensor@5119fb47 angle:68 weighting:23
+03223051 - com.evolution.game.sensors.DirectionSensor@7193666c angle:223 weighting:51
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@20deea7f angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@3835c46 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@1dde4cb2 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@7714e963 angle:144 weighting:59
+
+06305014 - com.evolution.game.sensors.WallSensor@20ce78ec angle:305 weighting:14
+04227005 - com.evolution.game.sensors.StuckSensor@393671df angle:227 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@56620197 angle:34 weighting:43
+00031038 - com.evolution.game.sensors.GuySensor@6eda5c9 angle:31 weighting:38
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@55b7a4e0 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@5f058f00 angle:283 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@192d43ce angle:142 weighting:46
+01144069 - com.evolution.game.sensors.ObstacleSensor@72057ecf angle:144 weighting:69
+
+00298026 - com.evolution.game.sensors.GuySensor@1afd44cb angle:298 weighting:26
+04053061 - com.evolution.game.sensors.StuckSensor@6973b51b angle:53 weighting:61
+06210034 - com.evolution.game.sensors.WallSensor@1ab3a8c8 angle:210 weighting:34
+01166015 - com.evolution.game.sensors.ObstacleSensor@43195e57 angle:166 weighting:15
+
+01305024 - com.evolution.game.sensors.ObstacleSensor@333291e3 angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@479d31f3 angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@40ef3420 angle:14 weighting:43
+01031028 - com.evolution.game.sensors.ObstacleSensor@498d318c angle:31 weighting:28
+
+03347028 - com.evolution.game.sensors.DirectionSensor@6e171cd7 angle:347 weighting:28
+00103020 - com.evolution.game.sensors.GuySensor@402bba4f angle:103 weighting:20
+00283007 - com.evolution.game.sensors.GuySensor@795cd85e angle:283 weighting:7
+00319028 - com.evolution.game.sensors.GuySensor@59fd97a8 angle:319 weighting:28
+
+01181011 - com.evolution.game.sensors.ObstacleSensor@f5ac9e4 angle:181 weighting:11
+03156026 - com.evolution.game.sensors.DirectionSensor@123ef382 angle:156 weighting:26
+04252014 - com.evolution.game.sensors.StuckSensor@dbf57b3 angle:252 weighting:14
+06160036 - com.evolution.game.sensors.WallSensor@384ad17b angle:160 weighting:36
+
+06305014 - com.evolution.game.sensors.WallSensor@61862a7f angle:305 weighting:14
+04227015 - com.evolution.game.sensors.StuckSensor@441772e angle:227 weighting:15
+04024053 - com.evolution.game.sensors.StuckSensor@7334aada angle:24 weighting:53
+00021038 - com.evolution.game.sensors.GuySensor@1d9b7cce angle:21 weighting:38
+
+01125060 - com.evolution.game.sensors.ObstacleSensor@4d9e68d0 angle:125 weighting:60
+05293000 - com.evolution.game.sensors.AlwaysSensor@42e99e4a angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@14dd9eb7 angle:132 weighting:36
+01124079 - com.evolution.game.sensors.ObstacleSensor@52e6fdee angle:124 weighting:79
+
+03347018 - com.evolution.game.sensors.DirectionSensor@6c80d78a angle:347 weighting:18
+00103030 - com.evolution.game.sensors.GuySensor@62150f9e angle:103 weighting:30
+00283017 - com.evolution.game.sensors.GuySensor@1a451d4d angle:283 weighting:17
+00319028 - com.evolution.game.sensors.GuySensor@7fa98a66 angle:319 weighting:28
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@15ff3e9e angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@5fdcaa40 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@6dc17b83 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@5e0826e7 angle:144 weighting:59
+
+00295024 - com.evolution.game.sensors.GuySensor@32eff876 angle:295 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@8dbdac1 angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@6e20b53a angle:14 weighting:43
+01011028 - com.evolution.game.sensors.ObstacleSensor@71809907 angle:11 weighting:28
+
+03197022 - com.evolution.game.sensors.DirectionSensor@3ce1e309 angle:197 weighting:22
+06293000 - com.evolution.game.sensors.WallSensor@6aba2b86 angle:293 weighting:0
+06238029 - com.evolution.game.sensors.WallSensor@158da8e angle:238 weighting:29
+03116014 - com.evolution.game.sensors.DirectionSensor@74e52303 angle:116 weighting:14
+
+00162000 - com.evolution.game.sensors.GuySensor@47af7f3d angle:162 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@7c729a55 angle:102 weighting:61
+04235029 - com.evolution.game.sensors.StuckSensor@3bb9a3ff angle:235 weighting:29
+00043000 - com.evolution.game.sensors.GuySensor@661972b0 angle:43 weighting:0
+
+01295024 - com.evolution.game.sensors.ObstacleSensor@5af3afd9 angle:295 weighting:24
+03187000 - com.evolution.game.sensors.DirectionSensor@323b36e0 angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@44ebcd03 angle:14 weighting:43
+01011028 - com.evolution.game.sensors.ObstacleSensor@694abbdc angle:11 weighting:28
+
+06305004 - com.evolution.game.sensors.WallSensor@2e005c4b angle:305 weighting:4
+04217005 - com.evolution.game.sensors.StuckSensor@4567f35d angle:217 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@5ffead27 angle:34 weighting:53
+00031028 - com.evolution.game.sensors.GuySensor@6356695f angle:31 weighting:28
+
+03028048 - com.evolution.game.sensors.DirectionSensor@4f18837a angle:28 weighting:48
+04327021 - com.evolution.game.sensors.StuckSensor@359f7cdf angle:327 weighting:21
+00061034 - com.evolution.game.sensors.GuySensor@1fa268de angle:61 weighting:34
+04252016 - com.evolution.game.sensors.StuckSensor@4f6ee6e4 angle:252 weighting:16
+
+02145020 - com.evolution.game.sensors.CloseGuySensor@4466af20 angle:145 weighting:20
+05313000 - com.evolution.game.sensors.AlwaysSensor@a514af7 angle:313 weighting:0
+00122056 - com.evolution.game.sensors.GuySensor@6b927fb angle:122 weighting:56
+01144039 - com.evolution.game.sensors.ObstacleSensor@3e58a80e angle:144 weighting:39
+
+01191001 - com.evolution.game.sensors.ObstacleSensor@4fb61f4a angle:191 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@4fb0f2b9 angle:146 weighting:26
+04252014 - com.evolution.game.sensors.StuckSensor@79924b angle:252 weighting:14
+06160036 - com.evolution.game.sensors.WallSensor@7b9a4292 angle:160 weighting:36
+
+00162000 - com.evolution.game.sensors.GuySensor@4a94ee4 angle:162 weighting:0
+03072061 - com.evolution.game.sensors.DirectionSensor@4cc451f2 angle:72 weighting:61
+04225049 - com.evolution.game.sensors.StuckSensor@6379eb angle:225 weighting:49
+00033022 - com.evolution.game.sensors.GuySensor@294425a7 angle:33 weighting:22
+
+00335053 - com.evolution.game.sensors.GuySensor@67d48005 angle:335 weighting:53
+01204028 - com.evolution.game.sensors.ObstacleSensor@9f116cc angle:204 weighting:28
+02284006 - com.evolution.game.sensors.CloseGuySensor@12468a38 angle:284 weighting:6
+00004038 - com.evolution.game.sensors.GuySensor@1aa7ecca angle:4 weighting:38
+
+03347038 - com.evolution.game.sensors.DirectionSensor@59309333 angle:347 weighting:38
+00103020 - com.evolution.game.sensors.GuySensor@5876a9af angle:103 weighting:20
+00283007 - com.evolution.game.sensors.GuySensor@7ec7ffd3 angle:283 weighting:7
+00319028 - com.evolution.game.sensors.GuySensor@5b239d7d angle:319 weighting:28
+
+00298026 - com.evolution.game.sensors.GuySensor@6572421 angle:298 weighting:26
+04053061 - com.evolution.game.sensors.StuckSensor@6b81ce95 angle:53 weighting:61
+06210034 - com.evolution.game.sensors.WallSensor@2a798d51 angle:210 weighting:34
+01156015 - com.evolution.game.sensors.ObstacleSensor@6d763516 angle:156 weighting:15
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@52bf72b5 angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@37afeb11 angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@515aebb0 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@dd8ba08 angle:144 weighting:59
+
+01152000 - com.evolution.game.sensors.ObstacleSensor@245b4bdc angle:152 weighting:0
+04092071 - com.evolution.game.sensors.StuckSensor@6c64cb25 angle:92 weighting:71
+04235039 - com.evolution.game.sensors.StuckSensor@6ae5aa72 angle:235 weighting:39
+00013012 - com.evolution.game.sensors.GuySensor@222545dc angle:13 weighting:12
+
+00288026 - com.evolution.game.sensors.GuySensor@5c5eefef angle:288 weighting:26
+04053061 - com.evolution.game.sensors.StuckSensor@16293aa2 angle:53 weighting:61
+06210044 - com.evolution.game.sensors.WallSensor@5158b42f angle:210 weighting:44
+01166015 - com.evolution.game.sensors.ObstacleSensor@595b007d angle:166 weighting:15
+
+02283007 - com.evolution.game.sensors.CloseGuySensor@72d1ad2e angle:283 weighting:7
+04051015 - com.evolution.game.sensors.StuckSensor@2d7275fc angle:51 weighting:15
+04177021 - com.evolution.game.sensors.StuckSensor@399f45b1 angle:177 weighting:21
+04181000 - com.evolution.game.sensors.StuckSensor@38c6f217 angle:181 weighting:0
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@478190fc angle:77 weighting:41
+01024049 - com.evolution.game.sensors.ObstacleSensor@79e2c065 angle:24 weighting:49
+02090010 - com.evolution.game.sensors.CloseGuySensor@3a93b025 angle:90 weighting:10
+00289005 - com.evolution.game.sensors.GuySensor@35cabb2a angle:289 weighting:5
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@7e07db1f angle:105 weighting:40
+04293000 - com.evolution.game.sensors.StuckSensor@1189dd52 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@36bc55de angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@564fabc8 angle:144 weighting:59
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@16d04d3d angle:115 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@49ec71f8 angle:303 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@1d2adfbe angle:132 weighting:36
+01144049 - com.evolution.game.sensors.ObstacleSensor@36902638 angle:144 weighting:49
+
+01181021 - com.evolution.game.sensors.ObstacleSensor@223d2c72 angle:181 weighting:21
+02176036 - com.evolution.game.sensors.CloseGuySensor@8f4ea7c angle:176 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@436813f3 angle:262 weighting:14
+06180036 - com.evolution.game.sensors.WallSensor@74fe5c40 angle:180 weighting:36
+
+00308036 - com.evolution.game.sensors.GuySensor@3febb011 angle:308 weighting:36
+04053041 - com.evolution.game.sensors.StuckSensor@10e31a9a angle:53 weighting:41
+06220034 - com.evolution.game.sensors.WallSensor@131774fe angle:220 weighting:34
+01146025 - com.evolution.game.sensors.ObstacleSensor@158d2680 angle:146 weighting:25
+
+01338026 - com.evolution.game.sensors.ObstacleSensor@77847718 angle:338 weighting:26
+04043051 - com.evolution.game.sensors.StuckSensor@7f3b84b8 angle:43 weighting:51
+06210024 - com.evolution.game.sensors.WallSensor@57a3af25 angle:210 weighting:24
+01156025 - com.evolution.game.sensors.ObstacleSensor@2b662a77 angle:156 weighting:25
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@7f0eb4b4 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@5c33f1a9 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@1623b78d angle:132 weighting:46
+01134079 - com.evolution.game.sensors.ObstacleSensor@c8c12ac angle:134 weighting:79
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@6adbc9d angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@4550bb58 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@4ec4f3a0 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@223191a6 angle:144 weighting:59
+
+01125020 - com.evolution.game.sensors.ObstacleSensor@49139829 angle:125 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@9597028 angle:303 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@6069db50 angle:132 weighting:36
+01134049 - com.evolution.game.sensors.ObstacleSensor@4efbca5a angle:134 weighting:49
+
+01299000 - com.evolution.game.sensors.ObstacleSensor@1b7cc17c angle:299 weighting:0
+01189015 - com.evolution.game.sensors.ObstacleSensor@59662a0b angle:189 weighting:15
+06093011 - com.evolution.game.sensors.WallSensor@77fbd92c angle:93 weighting:11
+06244018 - com.evolution.game.sensors.WallSensor@67c27493 angle:244 weighting:18
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@1a482e36 angle:135 weighting:30
+06283019 - com.evolution.game.sensors.WallSensor@72967906 angle:283 weighting:19
+06122046 - com.evolution.game.sensors.WallSensor@5b8dfcc1 angle:122 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@2f9f7dcf angle:144 weighting:59
+
+00152010 - com.evolution.game.sensors.GuySensor@747ddf94 angle:152 weighting:10
+04102081 - com.evolution.game.sensors.StuckSensor@35e2d654 angle:102 weighting:81
+04215039 - com.evolution.game.sensors.StuckSensor@1bd4fdd angle:215 weighting:39
+01043012 - com.evolution.game.sensors.ObstacleSensor@55183b20 angle:43 weighting:12
+
+04197022 - com.evolution.game.sensors.StuckSensor@4f83df68 angle:197 weighting:22
+05293000 - com.evolution.game.sensors.AlwaysSensor@6cf0e0ba angle:293 weighting:0
+06238039 - com.evolution.game.sensors.WallSensor@7d8995e angle:238 weighting:39
+01116014 - com.evolution.game.sensors.ObstacleSensor@130d63be angle:116 weighting:14
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@42a48628 angle:115 weighting:50
+05293000 - com.evolution.game.sensors.AlwaysSensor@293a5bf6 angle:293 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@6aeb35e6 angle:132 weighting:56
+01144059 - com.evolution.game.sensors.ObstacleSensor@1283bb96 angle:144 weighting:59
+
+01191011 - com.evolution.game.sensors.ObstacleSensor@74f0ea28 angle:191 weighting:11
+03146026 - com.evolution.game.sensors.DirectionSensor@f6efaab angle:146 weighting:26
+04252014 - com.evolution.game.sensors.StuckSensor@3c19aaa5 angle:252 weighting:14
+06160026 - com.evolution.game.sensors.WallSensor@3349e9bb angle:160 weighting:26
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@409bf450 angle:115 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@38d8f54a angle:303 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@49e53c76 angle:132 weighting:36
+01144049 - com.evolution.game.sensors.ObstacleSensor@351d00c0 angle:144 weighting:49
+
+01290019 - com.evolution.game.sensors.ObstacleSensor@2a3b5b47 angle:290 weighting:19
+01018012 - com.evolution.game.sensors.ObstacleSensor@55b699ef angle:18 weighting:12
+06108024 - com.evolution.game.sensors.WallSensor@35d019a3 angle:108 weighting:24
+01238014 - com.evolution.game.sensors.ObstacleSensor@689604d9 angle:238 weighting:14
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@18078bef angle:115 weighting:50
+05293000 - com.evolution.game.sensors.AlwaysSensor@799f10e1 angle:293 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@4c371370 angle:132 weighting:56
+01144059 - com.evolution.game.sensors.ObstacleSensor@145f66e3 angle:144 weighting:59
+
+02283007 - com.evolution.game.sensors.CloseGuySensor@3023df74 angle:283 weighting:7
+04061005 - com.evolution.game.sensors.StuckSensor@313ac989 angle:61 weighting:5
+04177031 - com.evolution.game.sensors.StuckSensor@4562e04d angle:177 weighting:31
+04181000 - com.evolution.game.sensors.StuckSensor@2a65fe7c angle:181 weighting:0
+
+03327018 - com.evolution.game.sensors.DirectionSensor@4135c3b angle:327 weighting:18
+00113010 - com.evolution.game.sensors.GuySensor@6302bbb1 angle:113 weighting:10
+00253000 - com.evolution.game.sensors.GuySensor@31304f14 angle:253 weighting:0
+00319048 - com.evolution.game.sensors.GuySensor@34a3d150 angle:319 weighting:48
+
+00125030 - com.evolution.game.sensors.GuySensor@2a4fb17b angle:125 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@5c6648b0 angle:293 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@6f1de4c7 angle:122 weighting:56
+01134059 - com.evolution.game.sensors.ObstacleSensor@459e9125 angle:134 weighting:59
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@128d2484 angle:235 weighting:31
+00062000 - com.evolution.game.sensors.GuySensor@7cc0cdad angle:62 weighting:0
+03130055 - com.evolution.game.sensors.DirectionSensor@7c7b252e angle:130 weighting:55
+01017059 - com.evolution.game.sensors.ObstacleSensor@4d5d943d angle:17 weighting:59
+
+01290019 - com.evolution.game.sensors.ObstacleSensor@368f2016 angle:290 weighting:19
+01018012 - com.evolution.game.sensors.ObstacleSensor@4c583ecf angle:18 weighting:12
+06108024 - com.evolution.game.sensors.WallSensor@692f203f angle:108 weighting:24
+01238014 - com.evolution.game.sensors.ObstacleSensor@48f2bd5b angle:238 weighting:14
+
+01201001 - com.evolution.game.sensors.ObstacleSensor@7b2bbc3 angle:201 weighting:1
+03146006 - com.evolution.game.sensors.DirectionSensor@a1153bc angle:146 weighting:6
+04242034 - com.evolution.game.sensors.StuckSensor@1aafa419 angle:242 weighting:34
+01150036 - com.evolution.game.sensors.ObstacleSensor@47eaca72 angle:150 weighting:36
+
+01106013 - com.evolution.game.sensors.ObstacleSensor@55141def angle:106 weighting:13
+04346054 - com.evolution.game.sensors.StuckSensor@55182842 angle:346 weighting:54
+02078023 - com.evolution.game.sensors.CloseGuySensor@3270d194 angle:78 weighting:23
+03223051 - com.evolution.game.sensors.DirectionSensor@235834f2 angle:223 weighting:51
+
+00298026 - com.evolution.game.sensors.GuySensor@5656be13 angle:298 weighting:26
+04053061 - com.evolution.game.sensors.StuckSensor@4218d6a3 angle:53 weighting:61
+06210034 - com.evolution.game.sensors.WallSensor@76505305 angle:210 weighting:34
+01166015 - com.evolution.game.sensors.ObstacleSensor@14cd1699 angle:166 weighting:15
+
+04197032 - com.evolution.game.sensors.StuckSensor@77888435 angle:197 weighting:32
+06293010 - com.evolution.game.sensors.WallSensor@73a1e9a9 angle:293 weighting:10
+06228039 - com.evolution.game.sensors.WallSensor@71d44a3 angle:228 weighting:39
+03116014 - com.evolution.game.sensors.DirectionSensor@7b98f307 angle:116 weighting:14
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@4802796d angle:280 weighting:39
+01038022 - com.evolution.game.sensors.ObstacleSensor@34123d65 angle:38 weighting:22
+06148044 - com.evolution.game.sensors.WallSensor@59474f18 angle:148 weighting:44
+01268024 - com.evolution.game.sensors.ObstacleSensor@65fb9ffc angle:268 weighting:24
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@3e694b3f angle:135 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@1bb5a082 angle:293 weighting:29
+06122066 - com.evolution.game.sensors.WallSensor@78691363 angle:122 weighting:66
+01134059 - com.evolution.game.sensors.ObstacleSensor@41d477ed angle:134 weighting:59
+
+00152000 - com.evolution.game.sensors.GuySensor@3590fc5b angle:152 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@397fbdb angle:102 weighting:81
+04205029 - com.evolution.game.sensors.StuckSensor@33d512c1 angle:205 weighting:29
+01053002 - com.evolution.game.sensors.ObstacleSensor@515c6049 angle:53 weighting:2
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@639c2c1d angle:105 weighting:40
+04293000 - com.evolution.game.sensors.StuckSensor@5fe94a96 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@443118b0 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@765d7657 angle:144 weighting:59
+
+00305024 - com.evolution.game.sensors.GuySensor@74235045 angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@618b19ad angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@2d3379b4 angle:14 weighting:43
+01031028 - com.evolution.game.sensors.ObstacleSensor@30c15d8b angle:31 weighting:28
+
+00142000 - com.evolution.game.sensors.GuySensor@5e0e82ae angle:142 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@6771beb3 angle:102 weighting:81
+04205039 - com.evolution.game.sensors.StuckSensor@51399530 angle:205 weighting:39
+01053002 - com.evolution.game.sensors.ObstacleSensor@6b2ea799 angle:53 weighting:2
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@411f53a0 angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@2b71e916 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@36fc695d angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@28701274 angle:144 weighting:59
+
+02280039 - com.evolution.game.sensors.CloseGuySensor@13c9d689 angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@3754a4bf angle:48 weighting:22
+06138044 - com.evolution.game.sensors.WallSensor@62379589 angle:138 weighting:44
+01268024 - com.evolution.game.sensors.ObstacleSensor@4afcd809 angle:268 weighting:24
+
+02155020 - com.evolution.game.sensors.CloseGuySensor@175c2241 angle:155 weighting:20
+05313000 - com.evolution.game.sensors.AlwaysSensor@5bf0d49 angle:313 weighting:0
+00122056 - com.evolution.game.sensors.GuySensor@5b7a5baa angle:122 weighting:56
+01144049 - com.evolution.game.sensors.ObstacleSensor@776aec5c angle:144 weighting:49
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@1d296da angle:77 weighting:41
+01014059 - com.evolution.game.sensors.ObstacleSensor@7c7a06ec angle:14 weighting:59
+02090010 - com.evolution.game.sensors.CloseGuySensor@75d4a5c2 angle:90 weighting:10
+00289000 - com.evolution.game.sensors.GuySensor@557caf28 angle:289 weighting:0
+
+01280049 - com.evolution.game.sensors.ObstacleSensor@408d971b angle:280 weighting:49
+01048032 - com.evolution.game.sensors.ObstacleSensor@6c6cb480 angle:48 weighting:32
+00128024 - com.evolution.game.sensors.GuySensor@3c46e67a angle:128 weighting:24
+00268024 - com.evolution.game.sensors.GuySensor@c730b35 angle:268 weighting:24
+
+01290019 - com.evolution.game.sensors.ObstacleSensor@206a70ef angle:290 weighting:19
+01018012 - com.evolution.game.sensors.ObstacleSensor@292b08d6 angle:18 weighting:12
+06108024 - com.evolution.game.sensors.WallSensor@22555ebf angle:108 weighting:24
+01238014 - com.evolution.game.sensors.ObstacleSensor@36ebc363 angle:238 weighting:14
+
+00305024 - com.evolution.game.sensors.GuySensor@45752059 angle:305 weighting:24
+04187010 - com.evolution.game.sensors.StuckSensor@34e9fd99 angle:187 weighting:10
+03014043 - com.evolution.game.sensors.DirectionSensor@3c41ed1d angle:14 weighting:43
+01031028 - com.evolution.game.sensors.ObstacleSensor@54d9d12d angle:31 weighting:28
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@38425407 angle:135 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@43bc63a3 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@702657cc angle:132 weighting:46
+01134059 - com.evolution.game.sensors.ObstacleSensor@6a6cb05c angle:134 weighting:59
+
+00182000 - com.evolution.game.sensors.GuySensor@40a4337a angle:182 weighting:0
+04102071 - com.evolution.game.sensors.StuckSensor@6025e1b6 angle:102 weighting:71
+04225029 - com.evolution.game.sensors.StuckSensor@22ff4249 angle:225 weighting:29
+00053022 - com.evolution.game.sensors.GuySensor@2d1ef81a angle:53 weighting:22
+
+01191001 - com.evolution.game.sensors.ObstacleSensor@4c402120 angle:191 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@327514f angle:146 weighting:26
+04252004 - com.evolution.game.sensors.StuckSensor@5b12b668 angle:252 weighting:4
+06150036 - com.evolution.game.sensors.WallSensor@1165b38 angle:150 weighting:36
+
+01095050 - com.evolution.game.sensors.ObstacleSensor@4c12331b angle:95 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@7586beff angle:303 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@3b69e7d1 angle:132 weighting:36
+01154069 - com.evolution.game.sensors.ObstacleSensor@815b41f angle:154 weighting:69
+
+03337038 - com.evolution.game.sensors.DirectionSensor@5542c4ed angle:337 weighting:38
+00113020 - com.evolution.game.sensors.GuySensor@1573f9fc angle:113 weighting:20
+00283007 - com.evolution.game.sensors.GuySensor@6150c3ec angle:283 weighting:7
+00319028 - com.evolution.game.sensors.GuySensor@44c03695 angle:319 weighting:28
+
+01201001 - com.evolution.game.sensors.ObstacleSensor@7e6f74c angle:201 weighting:1
+03146006 - com.evolution.game.sensors.DirectionSensor@dd05255 angle:146 weighting:6
+04242024 - com.evolution.game.sensors.StuckSensor@6a78afa0 angle:242 weighting:24
+01150036 - com.evolution.game.sensors.ObstacleSensor@2f4948e4 angle:150 weighting:36
+
+00172000 - com.evolution.game.sensors.GuySensor@1f2586d6 angle:172 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@10683d9d angle:102 weighting:61
+04235029 - com.evolution.game.sensors.StuckSensor@3fc2959f angle:235 weighting:29
+01043000 - com.evolution.game.sensors.ObstacleSensor@5aa9e4eb angle:43 weighting:0
+
+06315010 - com.evolution.game.sensors.WallSensor@6989da5e angle:315 weighting:10
+05187005 - com.evolution.game.sensors.AlwaysSensor@385c9627 angle:187 weighting:5
+04034033 - com.evolution.game.sensors.StuckSensor@139982de angle:34 weighting:33
+00061010 - com.evolution.game.sensors.GuySensor@682b2fa angle:61 weighting:10
+
+01181011 - com.evolution.game.sensors.ObstacleSensor@217ed35e angle:181 weighting:11
+02156036 - com.evolution.game.sensors.CloseGuySensor@7dcf94f8 angle:156 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@229f66ed angle:262 weighting:14
+06170026 - com.evolution.game.sensors.WallSensor@31190526 angle:170 weighting:26
+
+01181001 - com.evolution.game.sensors.ObstacleSensor@662ac478 angle:181 weighting:1
+03146026 - com.evolution.game.sensors.DirectionSensor@6743e411 angle:146 weighting:26
+04242004 - com.evolution.game.sensors.StuckSensor@3eb25e1a angle:242 weighting:4
+06150036 - com.evolution.game.sensors.WallSensor@477b4cdf angle:150 weighting:36
+
+01225031 - com.evolution.game.sensors.ObstacleSensor@77c2494c angle:225 weighting:31
+00062010 - com.evolution.game.sensors.GuySensor@f5958c9 angle:62 weighting:10
+03110055 - com.evolution.game.sensors.DirectionSensor@233795b6 angle:110 weighting:55
+01037049 - com.evolution.game.sensors.ObstacleSensor@3eb738bb angle:37 weighting:49
+
+00305024 - com.evolution.game.sensors.GuySensor@5bda8e08 angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@1e800aaa angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@185a6e9 angle:14 weighting:43
+01021028 - com.evolution.game.sensors.ObstacleSensor@6f03482 angle:21 weighting:28
+
+01201001 - com.evolution.game.sensors.ObstacleSensor@9d5509a angle:201 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@179ece50 angle:146 weighting:26
+04242004 - com.evolution.game.sensors.StuckSensor@3b0090a4 angle:242 weighting:4
+06150036 - com.evolution.game.sensors.WallSensor@3cd3e762 angle:150 weighting:36
+
+04002048 - com.evolution.game.sensors.StuckSensor@1fa121e2 angle:2 weighting:48
+04347031 - com.evolution.game.sensors.StuckSensor@7eac9008 angle:347 weighting:31
+00051044 - com.evolution.game.sensors.GuySensor@4116aac9 angle:51 weighting:44
+04242036 - com.evolution.game.sensors.StuckSensor@62ddbd7e angle:242 weighting:36
+
+01125020 - com.evolution.game.sensors.ObstacleSensor@74e52ef6 angle:125 weighting:20
+06293029 - com.evolution.game.sensors.WallSensor@6ed3ccb2 angle:293 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@1a677343 angle:122 weighting:56
+01134059 - com.evolution.game.sensors.ObstacleSensor@15de0b3c angle:134 weighting:59
+
+04177012 - com.evolution.game.sensors.StuckSensor@489115ef angle:177 weighting:12
+06293013 - com.evolution.game.sensors.WallSensor@3857f613 angle:293 weighting:13
+06228039 - com.evolution.game.sensors.WallSensor@198b6731 angle:228 weighting:39
+03126024 - com.evolution.game.sensors.DirectionSensor@7c6908d7 angle:126 weighting:24
+
+02267009 - com.evolution.game.sensors.CloseGuySensor@3c9754d8 angle:267 weighting:9
+05335006 - com.evolution.game.sensors.AlwaysSensor@3bf7ca37 angle:335 weighting:6
+01090017 - com.evolution.game.sensors.ObstacleSensor@79079097 angle:90 weighting:17
+00202038 - com.evolution.game.sensors.GuySensor@4d1c00d0 angle:202 weighting:38
+
+01145030 - com.evolution.game.sensors.ObstacleSensor@4b2bac3f angle:145 weighting:30
+06293019 - com.evolution.game.sensors.WallSensor@4e08711f angle:293 weighting:19
+06132056 - com.evolution.game.sensors.WallSensor@bcec361 angle:132 weighting:56
+02144069 - com.evolution.game.sensors.CloseGuySensor@26794848 angle:144 weighting:69
+
+01181021 - com.evolution.game.sensors.ObstacleSensor@302552ec angle:181 weighting:21
+02176036 - com.evolution.game.sensors.CloseGuySensor@3d285d7e angle:176 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@40005471 angle:262 weighting:14
+06180036 - com.evolution.game.sensors.WallSensor@2cd76f31 angle:180 weighting:36
+
+03337028 - com.evolution.game.sensors.DirectionSensor@367ffa75 angle:337 weighting:28
+00103020 - com.evolution.game.sensors.GuySensor@49438269 angle:103 weighting:20
+00283017 - com.evolution.game.sensors.GuySensor@ba2f4ec angle:283 weighting:17
+00319018 - com.evolution.game.sensors.GuySensor@1c1bbc4e angle:319 weighting:18
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@55fe41ea angle:77 weighting:41
+01024049 - com.evolution.game.sensors.ObstacleSensor@fbd1f6 angle:24 weighting:49
+02100010 - com.evolution.game.sensors.CloseGuySensor@1ce24091 angle:100 weighting:10
+00289005 - com.evolution.game.sensors.GuySensor@5dda768f angle:289 weighting:5
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@7a8c8dcf angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@24269709 angle:48 weighting:22
+06138054 - com.evolution.game.sensors.WallSensor@2aceadd4 angle:138 weighting:54
+01258024 - com.evolution.game.sensors.ObstacleSensor@24aed80c angle:258 weighting:24
+
+01125030 - com.evolution.game.sensors.ObstacleSensor@3a52dba3 angle:125 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@2a5c8d3f angle:293 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@752325ad angle:122 weighting:56
+01134059 - com.evolution.game.sensors.ObstacleSensor@279fedbd angle:134 weighting:59
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@b3ca52e angle:105 weighting:30
+05303000 - com.evolution.game.sensors.AlwaysSensor@45c7e403 angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@2925bf5b angle:132 weighting:46
+01134049 - com.evolution.game.sensors.ObstacleSensor@710f4dc7 angle:134 weighting:49
+
+01181011 - com.evolution.game.sensors.ObstacleSensor@1ff4931d angle:181 weighting:11
+02156036 - com.evolution.game.sensors.CloseGuySensor@65e98b1c angle:156 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@61322f9d angle:262 weighting:14
+06180026 - com.evolution.game.sensors.WallSensor@6ad82709 angle:180 weighting:26
+
+01280049 - com.evolution.game.sensors.ObstacleSensor@510f3d34 angle:280 weighting:49
+01038022 - com.evolution.game.sensors.ObstacleSensor@7817fd62 angle:38 weighting:22
+06138034 - com.evolution.game.sensors.WallSensor@8297b3a angle:138 weighting:34
+01268024 - com.evolution.game.sensors.ObstacleSensor@2362f559 angle:268 weighting:24
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@b2c9a9c angle:105 weighting:40
+04303000 - com.evolution.game.sensors.StuckSensor@4c178a76 angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@fa4c865 angle:132 weighting:46
+01154059 - com.evolution.game.sensors.ObstacleSensor@3bd82cf5 angle:154 weighting:59
+
+01125040 - com.evolution.game.sensors.ObstacleSensor@544fa968 angle:125 weighting:40
+05303000 - com.evolution.game.sensors.AlwaysSensor@247bddad angle:303 weighting:0
+06102046 - com.evolution.game.sensors.WallSensor@d35dea7 angle:102 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@7770f470 angle:144 weighting:59
+
+00162000 - com.evolution.game.sensors.GuySensor@5e5d171f angle:162 weighting:0
+03072051 - com.evolution.game.sensors.DirectionSensor@24313fcc angle:72 weighting:51
+04225049 - com.evolution.game.sensors.StuckSensor@7d20d0b angle:225 weighting:49
+01033022 - com.evolution.game.sensors.ObstacleSensor@77f1baf5 angle:33 weighting:22
+
+06190012 - com.evolution.game.sensors.WallSensor@41a2befb angle:190 weighting:12
+00056000 - com.evolution.game.sensors.GuySensor@6c40365c angle:56 weighting:0
+00293000 - com.evolution.game.sensors.GuySensor@7bedc48a angle:293 weighting:0
+06127000 - com.evolution.game.sensors.WallSensor@131ef10 angle:127 weighting:0
+
+03337028 - com.evolution.game.sensors.DirectionSensor@55b0dcab angle:337 weighting:28
+00103020 - com.evolution.game.sensors.GuySensor@38afe297 angle:103 weighting:20
+00283017 - com.evolution.game.sensors.GuySensor@2df3b89c angle:283 weighting:17
+00319018 - com.evolution.game.sensors.GuySensor@23348b5d angle:319 weighting:18
+
+02267009 - com.evolution.game.sensors.CloseGuySensor@70325e14 angle:267 weighting:9
+05335006 - com.evolution.game.sensors.AlwaysSensor@37ceb1df angle:335 weighting:6
+01090017 - com.evolution.game.sensors.ObstacleSensor@7c9d8e2 angle:90 weighting:17
+00202038 - com.evolution.game.sensors.GuySensor@20d525 angle:202 weighting:38
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@6200f9cb angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@2002fc1d angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@69453e37 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@6f4a47c7 angle:144 weighting:59
+
+02283007 - com.evolution.game.sensors.CloseGuySensor@ae13544 angle:283 weighting:7
+04061015 - com.evolution.game.sensors.StuckSensor@3d34d211 angle:61 weighting:15
+04177031 - com.evolution.game.sensors.StuckSensor@7dc0f706 angle:177 weighting:31
+04181010 - com.evolution.game.sensors.StuckSensor@4009e306 angle:181 weighting:10
+
+02115030 - com.evolution.game.sensors.CloseGuySensor@43c1b556 angle:115 weighting:30
+04313000 - com.evolution.game.sensors.StuckSensor@587e5365 angle:313 weighting:0
+06122056 - com.evolution.game.sensors.WallSensor@22fcf7ab angle:122 weighting:56
+01134059 - com.evolution.game.sensors.ObstacleSensor@2de23121 angle:134 weighting:59
+
+03197022 - com.evolution.game.sensors.DirectionSensor@63475ace angle:197 weighting:22
+06293000 - com.evolution.game.sensors.WallSensor@4988d8b8 angle:293 weighting:0
+06238029 - com.evolution.game.sensors.WallSensor@c0c2f8d angle:238 weighting:29
+03116014 - com.evolution.game.sensors.DirectionSensor@305b7c14 angle:116 weighting:14
+
+06200012 - com.evolution.game.sensors.WallSensor@6913c1fb angle:200 weighting:12
+00046000 - com.evolution.game.sensors.GuySensor@66d18979 angle:46 weighting:0
+00303000 - com.evolution.game.sensors.GuySensor@bccb269 angle:303 weighting:0
+06137000 - com.evolution.game.sensors.WallSensor@609cd4d8 angle:137 weighting:0
+
+01299000 - com.evolution.game.sensors.ObstacleSensor@17f7cd29 angle:299 weighting:0
+01189015 - com.evolution.game.sensors.ObstacleSensor@7d8704ef angle:189 weighting:15
+06093011 - com.evolution.game.sensors.WallSensor@13b6aecc angle:93 weighting:11
+06244018 - com.evolution.game.sensors.WallSensor@158a8276 angle:244 weighting:18
+
+00182000 - com.evolution.game.sensors.GuySensor@3c3d9b6b angle:182 weighting:0
+04102071 - com.evolution.game.sensors.StuckSensor@79d8407f angle:102 weighting:71
+04225029 - com.evolution.game.sensors.StuckSensor@5fbe4146 angle:225 weighting:29
+00053032 - com.evolution.game.sensors.GuySensor@1e66f1f5 angle:53 weighting:32
+
+06315010 - com.evolution.game.sensors.WallSensor@4e50c791 angle:315 weighting:10
+05187005 - com.evolution.game.sensors.AlwaysSensor@7530ad9c angle:187 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@58a9760d angle:34 weighting:43
+00061010 - com.evolution.game.sensors.GuySensor@71e9ddb4 angle:61 weighting:10
+
+01295014 - com.evolution.game.sensors.ObstacleSensor@394df057 angle:295 weighting:14
+03187000 - com.evolution.game.sensors.DirectionSensor@4961f6af angle:187 weighting:0
+03014053 - com.evolution.game.sensors.DirectionSensor@5aebe890 angle:14 weighting:53
+01011028 - com.evolution.game.sensors.ObstacleSensor@65d09a04 angle:11 weighting:28
+
+01225031 - com.evolution.game.sensors.ObstacleSensor@33c911a1 angle:225 weighting:31
+00062000 - com.evolution.game.sensors.GuySensor@75db5df9 angle:62 weighting:0
+03130045 - com.evolution.game.sensors.DirectionSensor@707194ba angle:130 weighting:45
+01027059 - com.evolution.game.sensors.ObstacleSensor@1190200a angle:27 weighting:59
+
+02125030 - com.evolution.game.sensors.CloseGuySensor@6a2f6f80 angle:125 weighting:30
+05283000 - com.evolution.game.sensors.AlwaysSensor@45b4c3a9 angle:283 weighting:0
+06142066 - com.evolution.game.sensors.WallSensor@399c4be1 angle:142 weighting:66
+01144059 - com.evolution.game.sensors.ObstacleSensor@291caca8 angle:144 weighting:59
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@385e9564 angle:135 weighting:30
+06293039 - com.evolution.game.sensors.WallSensor@5b94b04d angle:293 weighting:39
+06122066 - com.evolution.game.sensors.WallSensor@8c3b9d angle:122 weighting:66
+01134059 - com.evolution.game.sensors.ObstacleSensor@4c39bec8 angle:134 weighting:59
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@f79e angle:125 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@7ee8290b angle:303 weighting:0
+06102046 - com.evolution.game.sensors.WallSensor@1f59a598 angle:102 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@1e178745 angle:144 weighting:59
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@192c3f1e angle:235 weighting:31
+00052010 - com.evolution.game.sensors.GuySensor@26b3fd41 angle:52 weighting:10
+03120065 - com.evolution.game.sensors.DirectionSensor@7494f96a angle:120 weighting:65
+01037059 - com.evolution.game.sensors.ObstacleSensor@561b6512 angle:37 weighting:59
+
+02267009 - com.evolution.game.sensors.CloseGuySensor@2e377400 angle:267 weighting:9
+05335006 - com.evolution.game.sensors.AlwaysSensor@1757cd72 angle:335 weighting:6
+01090017 - com.evolution.game.sensors.ObstacleSensor@445b295b angle:90 weighting:17
+00202038 - com.evolution.game.sensors.GuySensor@49e5f737 angle:202 weighting:38
+
+02135020 - com.evolution.game.sensors.CloseGuySensor@5c671d7f angle:135 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@757277dc angle:303 weighting:0
+06122056 - com.evolution.game.sensors.WallSensor@687e99d8 angle:122 weighting:56
+01144059 - com.evolution.game.sensors.ObstacleSensor@e4487af angle:144 weighting:59
+
+01338026 - com.evolution.game.sensors.ObstacleSensor@6aaceffd angle:338 weighting:26
+04043051 - com.evolution.game.sensors.StuckSensor@c86b9e3 angle:43 weighting:51
+06210024 - com.evolution.game.sensors.WallSensor@10aa41f2 angle:210 weighting:24
+00156025 - com.evolution.game.sensors.GuySensor@3af9c5b7 angle:156 weighting:25
+
+01145030 - com.evolution.game.sensors.ObstacleSensor@37271612 angle:145 weighting:30
+06293019 - com.evolution.game.sensors.WallSensor@ed7f8b4 angle:293 weighting:19
+06132056 - com.evolution.game.sensors.WallSensor@4c309d4d angle:132 weighting:56
+02144069 - com.evolution.game.sensors.CloseGuySensor@38102d01 angle:144 weighting:69
+
+01135050 - com.evolution.game.sensors.ObstacleSensor@37883b97 angle:135 weighting:50
+05293000 - com.evolution.game.sensors.AlwaysSensor@6ab778a angle:293 weighting:0
+00142036 - com.evolution.game.sensors.GuySensor@4e3958e7 angle:142 weighting:36
+01144059 - com.evolution.game.sensors.ObstacleSensor@77f80c04 angle:144 weighting:59
+
+01152000 - com.evolution.game.sensors.ObstacleSensor@1dac5ef angle:152 weighting:0
+04092071 - com.evolution.game.sensors.StuckSensor@5c90e579 angle:92 weighting:71
+04235039 - com.evolution.game.sensors.StuckSensor@58ea606c angle:235 weighting:39
+00013012 - com.evolution.game.sensors.GuySensor@6f45df59 angle:13 weighting:12
+
+03197022 - com.evolution.game.sensors.DirectionSensor@38e79ae3 angle:197 weighting:22
+06293000 - com.evolution.game.sensors.WallSensor@63070bab angle:293 weighting:0
+06238019 - com.evolution.game.sensors.WallSensor@68e5eea7 angle:238 weighting:19
+03116014 - com.evolution.game.sensors.DirectionSensor@291b4bf5 angle:116 weighting:14
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@2d2ffcb7 angle:105 weighting:40
+04293000 - com.evolution.game.sensors.StuckSensor@762ef0ea angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@31f9b85e angle:132 weighting:36
+01144059 - com.evolution.game.sensors.ObstacleSensor@424e1977 angle:144 weighting:59
+
+00295014 - com.evolution.game.sensors.GuySensor@10d68fcd angle:295 weighting:14
+04187010 - com.evolution.game.sensors.StuckSensor@117e949d angle:187 weighting:10
+03014033 - com.evolution.game.sensors.DirectionSensor@6db9f5a4 angle:14 weighting:33
+01021028 - com.evolution.game.sensors.ObstacleSensor@5f8edcc5 angle:21 weighting:28
+
+01125030 - com.evolution.game.sensors.ObstacleSensor@7b02881e angle:125 weighting:30
+06283029 - com.evolution.game.sensors.WallSensor@1ebd319f angle:283 weighting:29
+06122056 - com.evolution.game.sensors.WallSensor@3c0be339 angle:122 weighting:56
+02134029 - com.evolution.game.sensors.CloseGuySensor@15ca7889 angle:134 weighting:29
+
+06305014 - com.evolution.game.sensors.WallSensor@7a675056 angle:305 weighting:14
+04237005 - com.evolution.game.sensors.StuckSensor@d21a74c angle:237 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@6e509ffa angle:34 weighting:43
+00041028 - com.evolution.game.sensors.GuySensor@2898ac89 angle:41 weighting:28
+
+02155020 - com.evolution.game.sensors.CloseGuySensor@683dbc2c angle:155 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@68267da0 angle:303 weighting:0
+00122056 - com.evolution.game.sensors.GuySensor@2638011 angle:122 weighting:56
+01144049 - com.evolution.game.sensors.ObstacleSensor@6ff29830 angle:144 weighting:49
+
+01280049 - com.evolution.game.sensors.ObstacleSensor@6a2b953e angle:280 weighting:49
+01038022 - com.evolution.game.sensors.ObstacleSensor@313b2ea6 angle:38 weighting:22
+06138034 - com.evolution.game.sensors.WallSensor@2f465398 angle:138 weighting:34
+01258024 - com.evolution.game.sensors.ObstacleSensor@548e6d58 angle:258 weighting:24
+
+00315000 - com.evolution.game.sensors.GuySensor@623a8092 angle:315 weighting:0
+05197005 - com.evolution.game.sensors.AlwaysSensor@a1cdc6d angle:197 weighting:5
+04024043 - com.evolution.game.sensors.StuckSensor@175b9425 angle:24 weighting:43
+01051000 - com.evolution.game.sensors.ObstacleSensor@3098cf3b angle:51 weighting:0
+
+01191011 - com.evolution.game.sensors.ObstacleSensor@610f7aa angle:191 weighting:11
+03146026 - com.evolution.game.sensors.DirectionSensor@6a03bcb1 angle:146 weighting:26
+04252004 - com.evolution.game.sensors.StuckSensor@21b2e768 angle:252 weighting:4
+06160026 - com.evolution.game.sensors.WallSensor@57250572 angle:160 weighting:26
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@5609159b angle:77 weighting:41
+01014069 - com.evolution.game.sensors.ObstacleSensor@2118cddf angle:14 weighting:69
+02080000 - com.evolution.game.sensors.CloseGuySensor@17a7f733 angle:80 weighting:0
+00289005 - com.evolution.game.sensors.GuySensor@68567e20 angle:289 weighting:5
+
+01181001 - com.evolution.game.sensors.ObstacleSensor@76ed1b7c angle:181 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@11fc564b angle:146 weighting:26
+04242004 - com.evolution.game.sensors.StuckSensor@394a2528 angle:242 weighting:4
+06150036 - com.evolution.game.sensors.WallSensor@6236eb5f angle:150 weighting:36
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@7c1e2a9e angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@fa36558 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@672872e1 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@32910148 angle:144 weighting:59
+
+00305024 - com.evolution.game.sensors.GuySensor@3f56875e angle:305 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@2b4bac49 angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@fd07cbb angle:14 weighting:43
+01031028 - com.evolution.game.sensors.ObstacleSensor@3571b748 angle:31 weighting:28
+
+02280039 - com.evolution.game.sensors.CloseGuySensor@3e96bacf angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@484970b0 angle:48 weighting:22
+06138044 - com.evolution.game.sensors.WallSensor@4470f8a6 angle:138 weighting:44
+01268024 - com.evolution.game.sensors.ObstacleSensor@7c83dc97 angle:268 weighting:24
+
+01115020 - com.evolution.game.sensors.ObstacleSensor@7748410a angle:115 weighting:20
+05293010 - com.evolution.game.sensors.AlwaysSensor@740773a3 angle:293 weighting:10
+06122036 - com.evolution.game.sensors.WallSensor@37f1104d angle:122 weighting:36
+02154059 - com.evolution.game.sensors.CloseGuySensor@55740540 angle:154 weighting:59
+
+00162000 - com.evolution.game.sensors.GuySensor@60015ef5 angle:162 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@2f54a33d angle:102 weighting:61
+04235029 - com.evolution.game.sensors.StuckSensor@1018bde2 angle:235 weighting:29
+00043000 - com.evolution.game.sensors.GuySensor@65b3f4a4 angle:43 weighting:0
+
+04197032 - com.evolution.game.sensors.StuckSensor@f2ff811 angle:197 weighting:32
+06293010 - com.evolution.game.sensors.WallSensor@568ff82 angle:293 weighting:10
+06228029 - com.evolution.game.sensors.WallSensor@50caa560 angle:228 weighting:29
+03116014 - com.evolution.game.sensors.DirectionSensor@2a266d09 angle:116 weighting:14
+
+00142000 - com.evolution.game.sensors.GuySensor@5ab9e72c angle:142 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@186f8716 angle:102 weighting:81
+04205039 - com.evolution.game.sensors.StuckSensor@1d8bd0de angle:205 weighting:39
+01053002 - com.evolution.game.sensors.ObstacleSensor@45ca843 angle:53 weighting:2
+
+00305004 - com.evolution.game.sensors.GuySensor@11c9af63 angle:305 weighting:4
+04187000 - com.evolution.game.sensors.StuckSensor@757acd7b angle:187 weighting:0
+03024053 - com.evolution.game.sensors.DirectionSensor@36b4fe2a angle:24 weighting:53
+01021028 - com.evolution.game.sensors.ObstacleSensor@574b560f angle:21 weighting:28
+
+01290019 - com.evolution.game.sensors.ObstacleSensor@ba54932 angle:290 weighting:19
+01018012 - com.evolution.game.sensors.ObstacleSensor@28975c28 angle:18 weighting:12
+06098034 - com.evolution.game.sensors.WallSensor@3943a2be angle:98 weighting:34
+01248014 - com.evolution.game.sensors.ObstacleSensor@343570b7 angle:248 weighting:14
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@157853da angle:105 weighting:30
+05293000 - com.evolution.game.sensors.AlwaysSensor@71c3b41 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@236e3f4e angle:132 weighting:46
+01134049 - com.evolution.game.sensors.ObstacleSensor@3cc1435c angle:134 weighting:49
+
+01280019 - com.evolution.game.sensors.ObstacleSensor@6bf0219d angle:280 weighting:19
+02048022 - com.evolution.game.sensors.CloseGuySensor@dd0c991 angle:48 weighting:22
+06118034 - com.evolution.game.sensors.WallSensor@5f16132a angle:118 weighting:34
+01278024 - com.evolution.game.sensors.ObstacleSensor@69fb6037 angle:278 weighting:24
+
+01280049 - com.evolution.game.sensors.ObstacleSensor@36d585c angle:280 weighting:49
+01048032 - com.evolution.game.sensors.ObstacleSensor@87a85e1 angle:48 weighting:32
+00128024 - com.evolution.game.sensors.GuySensor@671a5887 angle:128 weighting:24
+00258024 - com.evolution.game.sensors.GuySensor@5552768b angle:258 weighting:24
+
+00315000 - com.evolution.game.sensors.GuySensor@3c947bc5 angle:315 weighting:0
+05197005 - com.evolution.game.sensors.AlwaysSensor@609db43b angle:197 weighting:5
+04024043 - com.evolution.game.sensors.StuckSensor@55f616cf angle:24 weighting:43
+01051000 - com.evolution.game.sensors.ObstacleSensor@1356d4d4 angle:51 weighting:0
+
+01215031 - com.evolution.game.sensors.ObstacleSensor@c03cf28 angle:215 weighting:31
+00062010 - com.evolution.game.sensors.GuySensor@1329eff angle:62 weighting:10
+03110055 - com.evolution.game.sensors.DirectionSensor@6497b078 angle:110 weighting:55
+01037049 - com.evolution.game.sensors.ObstacleSensor@41c2284a angle:37 weighting:49
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@53aad5d5 angle:115 weighting:30
+04303010 - com.evolution.game.sensors.StuckSensor@46fa7c39 angle:303 weighting:10
+06122056 - com.evolution.game.sensors.WallSensor@1fb700ee angle:122 weighting:56
+01134059 - com.evolution.game.sensors.ObstacleSensor@4f67eb2a angle:134 weighting:59
+
+01125040 - com.evolution.game.sensors.ObstacleSensor@4a668b6e angle:125 weighting:40
+06303000 - com.evolution.game.sensors.WallSensor@5f683daf angle:303 weighting:0
+06112056 - com.evolution.game.sensors.WallSensor@78ffe6dc angle:112 weighting:56
+01154059 - com.evolution.game.sensors.ObstacleSensor@8317c52 angle:154 weighting:59
+
+06305014 - com.evolution.game.sensors.WallSensor@76f2bbc1 angle:305 weighting:14
+04227005 - com.evolution.game.sensors.StuckSensor@68e965f5 angle:227 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@6f27a732 angle:34 weighting:43
+00031038 - com.evolution.game.sensors.GuySensor@6c779568 angle:31 weighting:38
+
+01105020 - com.evolution.game.sensors.ObstacleSensor@f381794 angle:105 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@2cdd0d4b angle:303 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@7e9131d5 angle:132 weighting:56
+01134049 - com.evolution.game.sensors.ObstacleSensor@2e1d27ba angle:134 weighting:49
+
+00152000 - com.evolution.game.sensors.GuySensor@61d6015a angle:152 weighting:0
+04092071 - com.evolution.game.sensors.StuckSensor@2525ff7e angle:92 weighting:71
+04225019 - com.evolution.game.sensors.StuckSensor@524d6d96 angle:225 weighting:19
+00033002 - com.evolution.game.sensors.GuySensor@152aa092 angle:33 weighting:2
+
+00162000 - com.evolution.game.sensors.GuySensor@44a7bfbc angle:162 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@4ef37659 angle:102 weighting:61
+04225019 - com.evolution.game.sensors.StuckSensor@776b83cc angle:225 weighting:19
+00033002 - com.evolution.game.sensors.GuySensor@37858383 angle:33 weighting:2
+
+01328026 - com.evolution.game.sensors.ObstacleSensor@4e268090 angle:328 weighting:26
+04043051 - com.evolution.game.sensors.StuckSensor@1bb266b3 angle:43 weighting:51
+06210024 - com.evolution.game.sensors.WallSensor@306cf3ea angle:210 weighting:24
+01156025 - com.evolution.game.sensors.ObstacleSensor@2beee7ff angle:156 weighting:25
+
+02345043 - com.evolution.game.sensors.CloseGuySensor@5136d012 angle:345 weighting:43
+00234048 - com.evolution.game.sensors.GuySensor@5939a379 angle:234 weighting:48
+00294006 - com.evolution.game.sensors.GuySensor@e1de817 angle:294 weighting:6
+00044058 - com.evolution.game.sensors.GuySensor@52102734 angle:44 weighting:58
+
+01191011 - com.evolution.game.sensors.ObstacleSensor@3541cb24 angle:191 weighting:11
+03146026 - com.evolution.game.sensors.DirectionSensor@2177849e angle:146 weighting:26
+04252004 - com.evolution.game.sensors.StuckSensor@40cb8df7 angle:252 weighting:4
+06160026 - com.evolution.game.sensors.WallSensor@13b13b5d angle:160 weighting:26
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@2892dae4 angle:280 weighting:39
+01038032 - com.evolution.game.sensors.ObstacleSensor@355ce81c angle:38 weighting:32
+06148034 - com.evolution.game.sensors.WallSensor@29647f75 angle:148 weighting:34
+01258024 - com.evolution.game.sensors.ObstacleSensor@3315d2d7 angle:258 weighting:24
+
+03327048 - com.evolution.game.sensors.DirectionSensor@d6e7bab angle:327 weighting:48
+00123010 - com.evolution.game.sensors.GuySensor@5fa07e12 angle:123 weighting:10
+00263010 - com.evolution.game.sensors.GuySensor@55b53d44 angle:263 weighting:10
+00299038 - com.evolution.game.sensors.GuySensor@482bce4f angle:299 weighting:38
+
+00305000 - com.evolution.game.sensors.GuySensor@366647c2 angle:305 weighting:0
+05197005 - com.evolution.game.sensors.AlwaysSensor@6a6afff2 angle:197 weighting:5
+04024043 - com.evolution.game.sensors.StuckSensor@1649b0e6 angle:24 weighting:43
+01051000 - com.evolution.game.sensors.ObstacleSensor@865dd6 angle:51 weighting:0
+
+03337048 - com.evolution.game.sensors.DirectionSensor@4da4253 angle:337 weighting:48
+00143010 - com.evolution.game.sensors.GuySensor@3972a855 angle:143 weighting:10
+00243017 - com.evolution.game.sensors.GuySensor@62e7f11d angle:243 weighting:17
+00319028 - com.evolution.game.sensors.GuySensor@503d687a angle:319 weighting:28
+
+01280029 - com.evolution.game.sensors.ObstacleSensor@6a370f4 angle:280 weighting:29
+01048022 - com.evolution.game.sensors.ObstacleSensor@2abf4075 angle:48 weighting:22
+06128034 - com.evolution.game.sensors.WallSensor@770d3326 angle:128 weighting:34
+01258014 - com.evolution.game.sensors.ObstacleSensor@4cc8eb05 angle:258 weighting:14
+
+02283007 - com.evolution.game.sensors.CloseGuySensor@51f116b8 angle:283 weighting:7
+04061015 - com.evolution.game.sensors.StuckSensor@19d481b angle:61 weighting:15
+04177031 - com.evolution.game.sensors.StuckSensor@1f97cf0d angle:177 weighting:31
+04181010 - com.evolution.game.sensors.StuckSensor@140c9f39 angle:181 weighting:10
+
+00172010 - com.evolution.game.sensors.GuySensor@4d910fd6 angle:172 weighting:10
+04112071 - com.evolution.game.sensors.StuckSensor@26275bef angle:112 weighting:71
+04235019 - com.evolution.game.sensors.StuckSensor@7690781 angle:235 weighting:19
+00023012 - com.evolution.game.sensors.GuySensor@77eca502 angle:23 weighting:12
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@3246fb96 angle:235 weighting:31
+00062000 - com.evolution.game.sensors.GuySensor@2e222612 angle:62 weighting:0
+03130055 - com.evolution.game.sensors.DirectionSensor@61386958 angle:130 weighting:55
+01027069 - com.evolution.game.sensors.ObstacleSensor@73ee04c8 angle:27 weighting:69
+
+01306004 - com.evolution.game.sensors.ObstacleSensor@7671cb68 angle:306 weighting:4
+01325052 - com.evolution.game.sensors.ObstacleSensor@49dc7102 angle:325 weighting:52
+00282000 - com.evolution.game.sensors.GuySensor@6b8ca3c8 angle:282 weighting:0
+03215014 - com.evolution.game.sensors.DirectionSensor@68c72235 angle:215 weighting:14
+
+01299000 - com.evolution.game.sensors.ObstacleSensor@10959ece angle:299 weighting:0
+01189015 - com.evolution.game.sensors.ObstacleSensor@3a6bb9bf angle:189 weighting:15
+06093011 - com.evolution.game.sensors.WallSensor@34f7cfd9 angle:93 weighting:11
+06244018 - com.evolution.game.sensors.WallSensor@65f095f8 angle:244 weighting:18
+
+01191001 - com.evolution.game.sensors.ObstacleSensor@59af0466 angle:191 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@3e6ef8ad angle:146 weighting:26
+04252014 - com.evolution.game.sensors.StuckSensor@346d61be angle:252 weighting:14
+06160036 - com.evolution.game.sensors.WallSensor@55536d9e angle:160 weighting:36
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@747edf66 angle:125 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@3d1cfad4 angle:303 weighting:0
+06102046 - com.evolution.game.sensors.WallSensor@62230c58 angle:102 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@2cd2a21f angle:144 weighting:59
+
+03028058 - com.evolution.game.sensors.DirectionSensor@2e55dd0c angle:28 weighting:58
+04347021 - com.evolution.game.sensors.StuckSensor@74455848 angle:347 weighting:21
+00061044 - com.evolution.game.sensors.GuySensor@e7edb54 angle:61 weighting:44
+04252000 - com.evolution.game.sensors.StuckSensor@378542de angle:252 weighting:0
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@3738449f angle:115 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@69e1dd28 angle:283 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@11bd0f3b angle:132 weighting:36
+01144079 - com.evolution.game.sensors.ObstacleSensor@c333c60 angle:144 weighting:79
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@79da8dc5 angle:115 weighting:30
+05303000 - com.evolution.game.sensors.AlwaysSensor@1eb5174b angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@67080771 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@72cde7cc angle:144 weighting:59
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@5fd4f8f5 angle:115 weighting:30
+05293000 - com.evolution.game.sensors.AlwaysSensor@696da30b angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@4e7912d8 angle:132 weighting:36
+01144059 - com.evolution.game.sensors.ObstacleSensor@53976f5c angle:144 weighting:59
+
+06339045 - com.evolution.game.sensors.WallSensor@2bfc268b angle:339 weighting:45
+04104043 - com.evolution.game.sensors.StuckSensor@2f8dad04 angle:104 weighting:43
+04266049 - com.evolution.game.sensors.StuckSensor@29e495ff angle:266 weighting:49
+00182001 - com.evolution.game.sensors.GuySensor@41e1e210 angle:182 weighting:1
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@be35cd9 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@4944252c angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@44821a96 angle:132 weighting:46
+01134069 - com.evolution.game.sensors.ObstacleSensor@a3d8174 angle:134 weighting:69
+
+00308036 - com.evolution.game.sensors.GuySensor@1ba9117e angle:308 weighting:36
+04053051 - com.evolution.game.sensors.StuckSensor@732c2a62 angle:53 weighting:51
+06220034 - com.evolution.game.sensors.WallSensor@272ed83b angle:220 weighting:34
+01146025 - com.evolution.game.sensors.ObstacleSensor@41fecb8b angle:146 weighting:25
+
+01125040 - com.evolution.game.sensors.ObstacleSensor@120f102b angle:125 weighting:40
+05303000 - com.evolution.game.sensors.AlwaysSensor@625732 angle:303 weighting:0
+06102046 - com.evolution.game.sensors.WallSensor@51dcb805 angle:102 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@66498326 angle:144 weighting:59
+
+01193036 - com.evolution.game.sensors.ObstacleSensor@cad498c angle:193 weighting:36
+03140024 - com.evolution.game.sensors.DirectionSensor@1e6454ec angle:140 weighting:24
+04313030 - com.evolution.game.sensors.StuckSensor@2accdbb5 angle:313 weighting:30
+00343046 - com.evolution.game.sensors.GuySensor@b62d79 angle:343 weighting:46
+
+01201001 - com.evolution.game.sensors.ObstacleSensor@6631f5ca angle:201 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@5ace1ed4 angle:146 weighting:26
+04242004 - com.evolution.game.sensors.StuckSensor@1613674b angle:242 weighting:4
+06150036 - com.evolution.game.sensors.WallSensor@27ff5d15 angle:150 weighting:36
+
+06305014 - com.evolution.game.sensors.WallSensor@4e096385 angle:305 weighting:14
+04217015 - com.evolution.game.sensors.StuckSensor@649bec2e angle:217 weighting:15
+04024053 - com.evolution.game.sensors.StuckSensor@693fe6c9 angle:24 weighting:53
+00041028 - com.evolution.game.sensors.GuySensor@34f5090e angle:41 weighting:28
+
+01193036 - com.evolution.game.sensors.ObstacleSensor@31e5415e angle:193 weighting:36
+03140024 - com.evolution.game.sensors.DirectionSensor@a2431d0 angle:140 weighting:24
+04303030 - com.evolution.game.sensors.StuckSensor@1cbb87f3 angle:303 weighting:30
+00343046 - com.evolution.game.sensors.GuySensor@1a4013 angle:343 weighting:46
+
+01173026 - com.evolution.game.sensors.ObstacleSensor@1b6e1eff angle:173 weighting:26
+03130014 - com.evolution.game.sensors.DirectionSensor@306f16f3 angle:130 weighting:14
+04323030 - com.evolution.game.sensors.StuckSensor@702b8b12 angle:323 weighting:30
+01343036 - com.evolution.game.sensors.ObstacleSensor@22e357dc angle:343 weighting:36
+
+02087041 - com.evolution.game.sensors.CloseGuySensor@49912c99 angle:87 weighting:41
+01014059 - com.evolution.game.sensors.ObstacleSensor@10163d6 angle:14 weighting:59
+02080010 - com.evolution.game.sensors.CloseGuySensor@2dde1bff angle:80 weighting:10
+00289005 - com.evolution.game.sensors.GuySensor@15bbf42f angle:289 weighting:5
+
+00305004 - com.evolution.game.sensors.GuySensor@550ee7e5 angle:305 weighting:4
+04217005 - com.evolution.game.sensors.StuckSensor@5f9b2141 angle:217 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@247d8ae angle:34 weighting:53
+01031028 - com.evolution.game.sensors.ObstacleSensor@48974e45 angle:31 weighting:28
+
+03337028 - com.evolution.game.sensors.DirectionSensor@6a84a97d angle:337 weighting:28
+00103020 - com.evolution.game.sensors.GuySensor@6c130c45 angle:103 weighting:20
+00283017 - com.evolution.game.sensors.GuySensor@50ad3bc1 angle:283 weighting:17
+00319018 - com.evolution.game.sensors.GuySensor@223aa2f7 angle:319 weighting:18
+
+06200012 - com.evolution.game.sensors.WallSensor@6d3a388c angle:200 weighting:12
+00056000 - com.evolution.game.sensors.GuySensor@193f604a angle:56 weighting:0
+00293000 - com.evolution.game.sensors.GuySensor@20f5239f angle:293 weighting:0
+06137000 - com.evolution.game.sensors.WallSensor@57af006c angle:137 weighting:0
+
+01105050 - com.evolution.game.sensors.ObstacleSensor@6bedbc4d angle:105 weighting:50
+04293000 - com.evolution.game.sensors.StuckSensor@932bc4a angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@d29f28 angle:132 weighting:36
+01144059 - com.evolution.game.sensors.ObstacleSensor@2fd1433e angle:144 weighting:59
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@29d89d5d angle:115 weighting:30
+05293000 - com.evolution.game.sensors.AlwaysSensor@3514a4c0 angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@212b5695 angle:132 weighting:36
+01144059 - com.evolution.game.sensors.ObstacleSensor@446293d angle:144 weighting:59
+
+00305014 - com.evolution.game.sensors.GuySensor@69997e9d angle:305 weighting:14
+04187000 - com.evolution.game.sensors.StuckSensor@793be5ca angle:187 weighting:0
+03024053 - com.evolution.game.sensors.DirectionSensor@2df9b86 angle:24 weighting:53
+01021028 - com.evolution.game.sensors.ObstacleSensor@37654521 angle:21 weighting:28
+
+00345053 - com.evolution.game.sensors.GuySensor@15aab8c6 angle:345 weighting:53
+01184028 - com.evolution.game.sensors.ObstacleSensor@33990a0c angle:184 weighting:28
+02284026 - com.evolution.game.sensors.CloseGuySensor@4de4b452 angle:284 weighting:26
+00014038 - com.evolution.game.sensors.GuySensor@50b5ac82 angle:14 weighting:38
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@101952da angle:235 weighting:31
+00062010 - com.evolution.game.sensors.GuySensor@6babf3bf angle:62 weighting:10
+03110055 - com.evolution.game.sensors.DirectionSensor@3059cbc angle:110 weighting:55
+01037059 - com.evolution.game.sensors.ObstacleSensor@7ea9e1e2 angle:37 weighting:59
+
+01135050 - com.evolution.game.sensors.ObstacleSensor@24fcf36f angle:135 weighting:50
+05293000 - com.evolution.game.sensors.AlwaysSensor@10feca44 angle:293 weighting:0
+00142036 - com.evolution.game.sensors.GuySensor@3fb1549b angle:142 weighting:36
+01124059 - com.evolution.game.sensors.ObstacleSensor@ea6147e angle:124 weighting:59
+
+00325000 - com.evolution.game.sensors.GuySensor@4d02f94e angle:325 weighting:0
+04197005 - com.evolution.game.sensors.StuckSensor@2b48a640 angle:197 weighting:5
+04024053 - com.evolution.game.sensors.StuckSensor@1e683a3e angle:24 weighting:53
+01071008 - com.evolution.game.sensors.ObstacleSensor@2053d869 angle:71 weighting:8
+
+00305000 - com.evolution.game.sensors.GuySensor@7a419da4 angle:305 weighting:0
+05197005 - com.evolution.game.sensors.AlwaysSensor@14555e0a angle:197 weighting:5
+04024043 - com.evolution.game.sensors.StuckSensor@4bb33f74 angle:24 weighting:43
+01051000 - com.evolution.game.sensors.ObstacleSensor@759d26fb angle:51 weighting:0
+
+00152000 - com.evolution.game.sensors.GuySensor@3c73951 angle:152 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@3d5c822d angle:102 weighting:81
+04205029 - com.evolution.game.sensors.StuckSensor@6f46426d angle:205 weighting:29
+01053002 - com.evolution.game.sensors.ObstacleSensor@73700b80 angle:53 weighting:2
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@49c7b90e angle:105 weighting:30
+04293000 - com.evolution.game.sensors.StuckSensor@10d307f1 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@4d5b6aac angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@3e84448c angle:144 weighting:59
+
+02135020 - com.evolution.game.sensors.CloseGuySensor@4a7f959b angle:135 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@429bffaa angle:303 weighting:0
+06122056 - com.evolution.game.sensors.WallSensor@5403f35f angle:122 weighting:56
+01144059 - com.evolution.game.sensors.ObstacleSensor@483f6d77 angle:144 weighting:59
+
+06200012 - com.evolution.game.sensors.WallSensor@7e5afaa6 angle:200 weighting:12
+00056000 - com.evolution.game.sensors.GuySensor@63a12c68 angle:56 weighting:0
+00293000 - com.evolution.game.sensors.GuySensor@28f3b248 angle:293 weighting:0
+06137010 - com.evolution.game.sensors.WallSensor@1b1426f4 angle:137 weighting:10
+
+01280029 - com.evolution.game.sensors.ObstacleSensor@32b260fa angle:280 weighting:29
+01048032 - com.evolution.game.sensors.ObstacleSensor@581ac8a8 angle:48 weighting:32
+06128034 - com.evolution.game.sensors.WallSensor@6d4e5011 angle:128 weighting:34
+01248014 - com.evolution.game.sensors.ObstacleSensor@57d7f8ca angle:248 weighting:14
+
+02273000 - com.evolution.game.sensors.CloseGuySensor@76c3e77a angle:273 weighting:0
+04071025 - com.evolution.game.sensors.StuckSensor@78123e82 angle:71 weighting:25
+03177031 - com.evolution.game.sensors.DirectionSensor@67c33749 angle:177 weighting:31
+04181000 - com.evolution.game.sensors.StuckSensor@fba92d3 angle:181 weighting:0
+
+01191001 - com.evolution.game.sensors.ObstacleSensor@662b4c69 angle:191 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@fa49800 angle:146 weighting:26
+04252004 - com.evolution.game.sensors.StuckSensor@71238fc2 angle:252 weighting:4
+06150036 - com.evolution.game.sensors.WallSensor@2a54a73f angle:150 weighting:36
+
+01115050 - com.evolution.game.sensors.ObstacleSensor@16a0ee18 angle:115 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@3d6f0054 angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@505fc5a4 angle:132 weighting:46
+01154059 - com.evolution.game.sensors.ObstacleSensor@5fbdfdcf angle:154 weighting:59
+
+01306004 - com.evolution.game.sensors.ObstacleSensor@4efc180e angle:306 weighting:4
+01325052 - com.evolution.game.sensors.ObstacleSensor@bd4dc25 angle:325 weighting:52
+00282000 - com.evolution.game.sensors.GuySensor@25084a1e angle:282 weighting:0
+03215004 - com.evolution.game.sensors.DirectionSensor@156b88f5 angle:215 weighting:4
+
+01306004 - com.evolution.game.sensors.ObstacleSensor@3bf9ce3e angle:306 weighting:4
+01325052 - com.evolution.game.sensors.ObstacleSensor@16610890 angle:325 weighting:52
+00282000 - com.evolution.game.sensors.GuySensor@71def8f8 angle:282 weighting:0
+03215004 - com.evolution.game.sensors.DirectionSensor@383bfa16 angle:215 weighting:4
+
+02345033 - com.evolution.game.sensors.CloseGuySensor@4d465b11 angle:345 weighting:33
+01234048 - com.evolution.game.sensors.ObstacleSensor@53fdffa1 angle:234 weighting:48
+00304016 - com.evolution.game.sensors.GuySensor@5562c41e angle:304 weighting:16
+01024058 - com.evolution.game.sensors.ObstacleSensor@32ee6fee angle:24 weighting:58
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@4d0f2471 angle:235 weighting:31
+00062000 - com.evolution.game.sensors.GuySensor@7133da86 angle:62 weighting:0
+03130055 - com.evolution.game.sensors.DirectionSensor@3232a28a angle:130 weighting:55
+01007059 - com.evolution.game.sensors.ObstacleSensor@73e22a3d angle:7 weighting:59
+
+01115080 - com.evolution.game.sensors.ObstacleSensor@47faa49c angle:115 weighting:80
+05303000 - com.evolution.game.sensors.AlwaysSensor@28f2a10f angle:303 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@f736069 angle:142 weighting:46
+01144079 - com.evolution.game.sensors.ObstacleSensor@6da21078 angle:144 weighting:79
+
+04207022 - com.evolution.game.sensors.StuckSensor@7fee8714 angle:207 weighting:22
+05293010 - com.evolution.game.sensors.AlwaysSensor@4229bb3f angle:293 weighting:10
+06248039 - com.evolution.game.sensors.WallSensor@56cdfb3b angle:248 weighting:39
+01126014 - com.evolution.game.sensors.ObstacleSensor@2b91004a angle:126 weighting:14
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@20ccf40b angle:135 weighting:20
+05273000 - com.evolution.game.sensors.AlwaysSensor@2fb3536e angle:273 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@169e6180 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@35aea049 angle:144 weighting:59
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@7205765b angle:77 weighting:41
+01014059 - com.evolution.game.sensors.ObstacleSensor@47987356 angle:14 weighting:59
+02090010 - com.evolution.game.sensors.CloseGuySensor@22ef9844 angle:90 weighting:10
+00289000 - com.evolution.game.sensors.GuySensor@6283d8b8 angle:289 weighting:0
+
+06305014 - com.evolution.game.sensors.WallSensor@3b6ddd1d angle:305 weighting:14
+04227015 - com.evolution.game.sensors.StuckSensor@3f6b0be5 angle:227 weighting:15
+04024053 - com.evolution.game.sensors.StuckSensor@611889f4 angle:24 weighting:53
+01021038 - com.evolution.game.sensors.ObstacleSensor@1da2cb77 angle:21 weighting:38
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@48f278eb angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@2f217633 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@a530d0a angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@1a18644 angle:144 weighting:59
+
+01115020 - com.evolution.game.sensors.ObstacleSensor@5acf93bb angle:115 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@7e7be63f angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@6cd28fa7 angle:132 weighting:36
+01144069 - com.evolution.game.sensors.ObstacleSensor@614ca7df angle:144 weighting:69
+
+02087041 - com.evolution.game.sensors.CloseGuySensor@4738a206 angle:87 weighting:41
+01004049 - com.evolution.game.sensors.ObstacleSensor@66d3eec0 angle:4 weighting:49
+02070000 - com.evolution.game.sensors.CloseGuySensor@1e04fa0a angle:70 weighting:0
+00279005 - com.evolution.game.sensors.GuySensor@1af2d44a angle:279 weighting:5
+
+06305014 - com.evolution.game.sensors.WallSensor@18d87d80 angle:305 weighting:14
+04227015 - com.evolution.game.sensors.StuckSensor@618425b5 angle:227 weighting:15
+04034053 - com.evolution.game.sensors.StuckSensor@58695725 angle:34 weighting:53
+00041028 - com.evolution.game.sensors.GuySensor@543588e6 angle:41 weighting:28
+
+01191011 - com.evolution.game.sensors.ObstacleSensor@f5acb9d angle:191 weighting:11
+03146026 - com.evolution.game.sensors.DirectionSensor@4fb3ee4e angle:146 weighting:26
+04252004 - com.evolution.game.sensors.StuckSensor@5d7148e2 angle:252 weighting:4
+06160026 - com.evolution.game.sensors.WallSensor@25fb8912 angle:160 weighting:26
+
+01191001 - com.evolution.game.sensors.ObstacleSensor@7c24b813 angle:191 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@2c35e847 angle:146 weighting:26
+04252014 - com.evolution.game.sensors.StuckSensor@7bd4937b angle:252 weighting:14
+06140036 - com.evolution.game.sensors.WallSensor@21e360a angle:140 weighting:36
+
+01270019 - com.evolution.game.sensors.ObstacleSensor@5ba3f27a angle:270 weighting:19
+02048032 - com.evolution.game.sensors.CloseGuySensor@58d75e99 angle:48 weighting:32
+06108034 - com.evolution.game.sensors.WallSensor@74751b3 angle:108 weighting:34
+01268034 - com.evolution.game.sensors.ObstacleSensor@741a8937 angle:268 weighting:34
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@306e95ec angle:115 weighting:30
+04293000 - com.evolution.game.sensors.StuckSensor@52af26ee angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@6fd83fc1 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@4f2b503c angle:144 weighting:59
+
+01145030 - com.evolution.game.sensors.ObstacleSensor@bae7dc0 angle:145 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@209da20d angle:293 weighting:29
+06122046 - com.evolution.game.sensors.WallSensor@e15b7e8 angle:122 weighting:46
+01124059 - com.evolution.game.sensors.ObstacleSensor@1b2abca6 angle:124 weighting:59
+
+00308036 - com.evolution.game.sensors.GuySensor@6392827e angle:308 weighting:36
+04053041 - com.evolution.game.sensors.StuckSensor@2ed2d9cb angle:53 weighting:41
+06220034 - com.evolution.game.sensors.WallSensor@d5b810e angle:220 weighting:34
+01146025 - com.evolution.game.sensors.ObstacleSensor@43dac38f angle:146 weighting:25
+
+01115020 - com.evolution.game.sensors.ObstacleSensor@342c38f8 angle:115 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@c88a337 angle:293 weighting:0
+06122046 - com.evolution.game.sensors.WallSensor@5d0a1059 angle:122 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@485966cc angle:144 weighting:59
+
+06190022 - com.evolution.game.sensors.WallSensor@1de76cc7 angle:190 weighting:22
+00056000 - com.evolution.game.sensors.GuySensor@54bff557 angle:56 weighting:0
+00303000 - com.evolution.game.sensors.GuySensor@593aaf41 angle:303 weighting:0
+06127000 - com.evolution.game.sensors.WallSensor@5a56cdac angle:127 weighting:0
+
+00152010 - com.evolution.game.sensors.GuySensor@7c711375 angle:152 weighting:10
+03102081 - com.evolution.game.sensors.DirectionSensor@57cf54e1 angle:102 weighting:81
+04205019 - com.evolution.game.sensors.StuckSensor@5b03b9fe angle:205 weighting:19
+01053002 - com.evolution.game.sensors.ObstacleSensor@37d4349f angle:53 weighting:2
+
+01145030 - com.evolution.game.sensors.ObstacleSensor@434a63ab angle:145 weighting:30
+06293019 - com.evolution.game.sensors.WallSensor@6e0f5f7f angle:293 weighting:19
+06132056 - com.evolution.game.sensors.WallSensor@2805d709 angle:132 weighting:56
+02144069 - com.evolution.game.sensors.CloseGuySensor@3ee37e5a angle:144 weighting:69
+
+00308036 - com.evolution.game.sensors.GuySensor@2ea41516 angle:308 weighting:36
+05053051 - com.evolution.game.sensors.AlwaysSensor@3a44431a angle:53 weighting:51
+06220034 - com.evolution.game.sensors.WallSensor@3c7f66c4 angle:220 weighting:34
+01146025 - com.evolution.game.sensors.ObstacleSensor@194bcebf angle:146 weighting:25
+
+04327048 - com.evolution.game.sensors.StuckSensor@17497425 angle:327 weighting:48
+00123010 - com.evolution.game.sensors.GuySensor@f0da945 angle:123 weighting:10
+00263010 - com.evolution.game.sensors.GuySensor@4803b726 angle:263 weighting:10
+00309038 - com.evolution.game.sensors.GuySensor@ffaa6af angle:309 weighting:38
+
+00345063 - com.evolution.game.sensors.GuySensor@53ce1329 angle:345 weighting:63
+01184028 - com.evolution.game.sensors.ObstacleSensor@316bcf94 angle:184 weighting:28
+02284026 - com.evolution.game.sensors.CloseGuySensor@6404f418 angle:284 weighting:26
+00014038 - com.evolution.game.sensors.GuySensor@3e11f9e9 angle:14 weighting:38
+
+01106033 - com.evolution.game.sensors.ObstacleSensor@1de5f259 angle:106 weighting:33
+04346044 - com.evolution.game.sensors.StuckSensor@729d991e angle:346 weighting:44
+01078023 - com.evolution.game.sensors.ObstacleSensor@31fa1761 angle:78 weighting:23
+03213061 - com.evolution.game.sensors.DirectionSensor@957e06 angle:213 weighting:61
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@32502377 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@2c1b194a angle:283 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@4dbb42b7 angle:132 weighting:36
+01134079 - com.evolution.game.sensors.ObstacleSensor@66f57048 angle:134 weighting:79
+
+00308036 - com.evolution.game.sensors.GuySensor@550dbc7a angle:308 weighting:36
+04053041 - com.evolution.game.sensors.StuckSensor@21282ed8 angle:53 weighting:41
+06220034 - com.evolution.game.sensors.WallSensor@36916eb0 angle:220 weighting:34
+01146015 - com.evolution.game.sensors.ObstacleSensor@7bab3f1a angle:146 weighting:15
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@437da279 angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@23c30a20 angle:48 weighting:22
+06138044 - com.evolution.game.sensors.WallSensor@1e1a0406 angle:138 weighting:44
+01258024 - com.evolution.game.sensors.ObstacleSensor@3cebbb30 angle:258 weighting:24
+
+06190012 - com.evolution.game.sensors.WallSensor@12aba8be angle:190 weighting:12
+00056000 - com.evolution.game.sensors.GuySensor@290222c1 angle:56 weighting:0
+00303000 - com.evolution.game.sensors.GuySensor@67f639d3 angle:303 weighting:0
+06137000 - com.evolution.game.sensors.WallSensor@6253c26 angle:137 weighting:0
+
+02077041 - com.evolution.game.sensors.CloseGuySensor@49049a04 angle:77 weighting:41
+01014049 - com.evolution.game.sensors.ObstacleSensor@71a8adcf angle:14 weighting:49
+02080000 - com.evolution.game.sensors.CloseGuySensor@27462a88 angle:80 weighting:0
+00289005 - com.evolution.game.sensors.GuySensor@82de64a angle:289 weighting:5
+
+01280029 - com.evolution.game.sensors.ObstacleSensor@659499f1 angle:280 weighting:29
+01048032 - com.evolution.game.sensors.ObstacleSensor@51e69659 angle:48 weighting:32
+06128034 - com.evolution.game.sensors.WallSensor@47e2e487 angle:128 weighting:34
+01248014 - com.evolution.game.sensors.ObstacleSensor@201a4587 angle:248 weighting:14
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@61001b64 angle:135 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@4310d43 angle:293 weighting:0
+05132046 - com.evolution.game.sensors.AlwaysSensor@54a7079e angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@26e356f0 angle:144 weighting:59
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@47d9a273 angle:115 weighting:30
+04293000 - com.evolution.game.sensors.StuckSensor@4b8ee4de angle:293 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@27f981c6 angle:142 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@1b11171f angle:144 weighting:59
+
+02115030 - com.evolution.game.sensors.CloseGuySensor@1151e434 angle:115 weighting:30
+04313000 - com.evolution.game.sensors.StuckSensor@2dc54ad4 angle:313 weighting:0
+06122046 - com.evolution.game.sensors.WallSensor@4659191b angle:122 weighting:46
+01134069 - com.evolution.game.sensors.ObstacleSensor@55634720 angle:134 weighting:69
+
+00152000 - com.evolution.game.sensors.GuySensor@4b0d79fc angle:152 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@4c1909a3 angle:102 weighting:81
+04205029 - com.evolution.game.sensors.StuckSensor@428640fa angle:205 weighting:29
+01053002 - com.evolution.game.sensors.ObstacleSensor@d9345cd angle:53 weighting:2
+
+01295014 - com.evolution.game.sensors.ObstacleSensor@2d710f1a angle:295 weighting:14
+03187000 - com.evolution.game.sensors.DirectionSensor@29215f06 angle:187 weighting:0
+03014053 - com.evolution.game.sensors.DirectionSensor@59505b48 angle:14 weighting:53
+01011028 - com.evolution.game.sensors.ObstacleSensor@4efac082 angle:11 weighting:28
+
+02145020 - com.evolution.game.sensors.CloseGuySensor@6bd61f98 angle:145 weighting:20
+05313000 - com.evolution.game.sensors.AlwaysSensor@48aca48b angle:313 weighting:0
+00122056 - com.evolution.game.sensors.GuySensor@13fd2ccd angle:122 weighting:56
+01144039 - com.evolution.game.sensors.ObstacleSensor@b9b00e0 angle:144 weighting:39
+
+06305004 - com.evolution.game.sensors.WallSensor@506ae4d4 angle:305 weighting:4
+04217005 - com.evolution.game.sensors.StuckSensor@7d4f9aae angle:217 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@72e5a8e angle:34 weighting:53
+00031028 - com.evolution.game.sensors.GuySensor@54e1c68b angle:31 weighting:28
+
+01181001 - com.evolution.game.sensors.ObstacleSensor@53aac487 angle:181 weighting:1
+04146026 - com.evolution.game.sensors.StuckSensor@52b1beb6 angle:146 weighting:26
+04242004 - com.evolution.game.sensors.StuckSensor@273e7444 angle:242 weighting:4
+06150036 - com.evolution.game.sensors.WallSensor@7db12bb6 angle:150 weighting:36
+
+03347018 - com.evolution.game.sensors.DirectionSensor@783a467b angle:347 weighting:18
+00103030 - com.evolution.game.sensors.GuySensor@272113c4 angle:103 weighting:30
+00283027 - com.evolution.game.sensors.GuySensor@73e9cf30 angle:283 weighting:27
+00319028 - com.evolution.game.sensors.GuySensor@771a660 angle:319 weighting:28
+
+00335053 - com.evolution.game.sensors.GuySensor@2d52216b angle:335 weighting:53
+01194028 - com.evolution.game.sensors.ObstacleSensor@242b836 angle:194 weighting:28
+02284006 - com.evolution.game.sensors.CloseGuySensor@3f6f6701 angle:284 weighting:6
+00004038 - com.evolution.game.sensors.GuySensor@3527942a angle:4 weighting:38
+
+03028058 - com.evolution.game.sensors.DirectionSensor@942a29c angle:28 weighting:58
+04347021 - com.evolution.game.sensors.StuckSensor@1ed6388a angle:347 weighting:21
+00061044 - com.evolution.game.sensors.GuySensor@5a45133e angle:61 weighting:44
+04252000 - com.evolution.game.sensors.StuckSensor@534a5a98 angle:252 weighting:0
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@4f80542f angle:235 weighting:31
+00062000 - com.evolution.game.sensors.GuySensor@60bd273d angle:62 weighting:0
+03130055 - com.evolution.game.sensors.DirectionSensor@121314f7 angle:130 weighting:55
+01027069 - com.evolution.game.sensors.ObstacleSensor@130c12b7 angle:27 weighting:69
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@5e600dd5 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@576d5deb angle:283 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@5d534f5d angle:132 weighting:36
+01134079 - com.evolution.game.sensors.ObstacleSensor@2e3967ea angle:134 weighting:79
+
+00298036 - com.evolution.game.sensors.GuySensor@70e9c95d angle:298 weighting:36
+04053031 - com.evolution.game.sensors.StuckSensor@4d5650ae angle:53 weighting:31
+06220034 - com.evolution.game.sensors.WallSensor@a38c7fe angle:220 weighting:34
+01146025 - com.evolution.game.sensors.ObstacleSensor@6fdbe764 angle:146 weighting:25
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@51c668e3 angle:105 weighting:30
+05293000 - com.evolution.game.sensors.AlwaysSensor@2e6a8155 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@6221a451 angle:132 weighting:46
+01134049 - com.evolution.game.sensors.ObstacleSensor@52719fb6 angle:134 weighting:49
+
+01181021 - com.evolution.game.sensors.ObstacleSensor@3012646b angle:181 weighting:21
+03156026 - com.evolution.game.sensors.DirectionSensor@4a883b15 angle:156 weighting:26
+04252014 - com.evolution.game.sensors.StuckSensor@25641d39 angle:252 weighting:14
+06160036 - com.evolution.game.sensors.WallSensor@7b36aa0c angle:160 weighting:36
+
+01201001 - com.evolution.game.sensors.ObstacleSensor@5824a83d angle:201 weighting:1
+03146006 - com.evolution.game.sensors.DirectionSensor@537f60bf angle:146 weighting:6
+04242034 - com.evolution.game.sensors.StuckSensor@5677323c angle:242 weighting:34
+01150036 - com.evolution.game.sensors.ObstacleSensor@18df8434 angle:150 weighting:36
+
+00125030 - com.evolution.game.sensors.GuySensor@65c7a252 angle:125 weighting:30
+06283029 - com.evolution.game.sensors.WallSensor@4d154ccd angle:283 weighting:29
+06122066 - com.evolution.game.sensors.WallSensor@229c6181 angle:122 weighting:66
+01124059 - com.evolution.game.sensors.ObstacleSensor@4686afc2 angle:124 weighting:59
+
+01338026 - com.evolution.game.sensors.ObstacleSensor@1e0b4072 angle:338 weighting:26
+04043041 - com.evolution.game.sensors.StuckSensor@791f145a angle:43 weighting:41
+06210024 - com.evolution.game.sensors.WallSensor@38cee291 angle:210 weighting:24
+00156025 - com.evolution.game.sensors.GuySensor@4b45a2f5 angle:156 weighting:25
+
+04167012 - com.evolution.game.sensors.StuckSensor@f09733f angle:167 weighting:12
+06293013 - com.evolution.game.sensors.WallSensor@e350b40 angle:293 weighting:13
+06218039 - com.evolution.game.sensors.WallSensor@41a0aa7d angle:218 weighting:39
+03126024 - com.evolution.game.sensors.DirectionSensor@2794eab6 angle:126 weighting:24
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@6340e5f0 angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@45099dd3 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@13e344d angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@1ffaf86 angle:144 weighting:59
+
+06305014 - com.evolution.game.sensors.WallSensor@6574a52c angle:305 weighting:14
+04227015 - com.evolution.game.sensors.StuckSensor@6c1a5b54 angle:227 weighting:15
+04034053 - com.evolution.game.sensors.StuckSensor@1c7696c6 angle:34 weighting:53
+00041028 - com.evolution.game.sensors.GuySensor@60099951 angle:41 weighting:28
+
+00298026 - com.evolution.game.sensors.GuySensor@20140db9 angle:298 weighting:26
+04053061 - com.evolution.game.sensors.StuckSensor@1e6a3214 angle:53 weighting:61
+06210034 - com.evolution.game.sensors.WallSensor@368247b9 angle:210 weighting:34
+01166015 - com.evolution.game.sensors.ObstacleSensor@1a6d8329 angle:166 weighting:15
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@1a942c18 angle:135 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@55a147cc angle:293 weighting:29
+06112046 - com.evolution.game.sensors.WallSensor@71ba6d4e angle:112 weighting:46
+01134059 - com.evolution.game.sensors.ObstacleSensor@738dc9b angle:134 weighting:59
+
+06200012 - com.evolution.game.sensors.WallSensor@3c77d488 angle:200 weighting:12
+00036000 - com.evolution.game.sensors.GuySensor@63376bed angle:36 weighting:0
+00303000 - com.evolution.game.sensors.GuySensor@4145bad8 angle:303 weighting:0
+06137000 - com.evolution.game.sensors.WallSensor@d86a6f angle:137 weighting:0
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@2892d68 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@5ab956d7 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@3646a422 angle:132 weighting:46
+01144069 - com.evolution.game.sensors.ObstacleSensor@750e2b97 angle:144 weighting:69
+
+00298036 - com.evolution.game.sensors.GuySensor@3e27aa33 angle:298 weighting:36
+04053031 - com.evolution.game.sensors.StuckSensor@2e385cce angle:53 weighting:31
+06220034 - com.evolution.game.sensors.WallSensor@2ddc9a9f angle:220 weighting:34
+01146025 - com.evolution.game.sensors.ObstacleSensor@298a5e20 angle:146 weighting:25
+
+00152010 - com.evolution.game.sensors.GuySensor@2a7f1f10 angle:152 weighting:10
+04102071 - com.evolution.game.sensors.StuckSensor@46cdf8bd angle:102 weighting:71
+04215039 - com.evolution.game.sensors.StuckSensor@f0c8a99 angle:215 weighting:39
+01043012 - com.evolution.game.sensors.ObstacleSensor@740cae06 angle:43 weighting:12
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@26d9b808 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@f78a47e angle:283 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@644baf4a angle:132 weighting:36
+01134079 - com.evolution.game.sensors.ObstacleSensor@7526515b angle:134 weighting:79
+
+01355053 - com.evolution.game.sensors.ObstacleSensor@1ed4ae0f angle:355 weighting:53
+01214028 - com.evolution.game.sensors.ObstacleSensor@54c5a2ff angle:214 weighting:28
+00294016 - com.evolution.game.sensors.GuySensor@6d4d66d2 angle:294 weighting:16
+00014038 - com.evolution.game.sensors.GuySensor@2a265ea9 angle:14 weighting:38
+
+01201001 - com.evolution.game.sensors.ObstacleSensor@11392934 angle:201 weighting:1
+03146006 - com.evolution.game.sensors.DirectionSensor@6892b3b6 angle:146 weighting:6
+04242034 - com.evolution.game.sensors.StuckSensor@6e6f2380 angle:242 weighting:34
+01150036 - com.evolution.game.sensors.ObstacleSensor@76a4ebf2 angle:150 weighting:36
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@2e8c1c9b angle:235 weighting:31
+00062020 - com.evolution.game.sensors.GuySensor@53fe15ff angle:62 weighting:20
+03130055 - com.evolution.game.sensors.DirectionSensor@449a4f23 angle:130 weighting:55
+01037059 - com.evolution.game.sensors.ObstacleSensor@1530c739 angle:37 weighting:59
+
+06315010 - com.evolution.game.sensors.WallSensor@5b1669c0 angle:315 weighting:10
+05187005 - com.evolution.game.sensors.AlwaysSensor@78e4deb0 angle:187 weighting:5
+04034033 - com.evolution.game.sensors.StuckSensor@6e9175d8 angle:34 weighting:33
+00061010 - com.evolution.game.sensors.GuySensor@7d0b7e3c angle:61 weighting:10
+
+01106033 - com.evolution.game.sensors.ObstacleSensor@15bb5034 angle:106 weighting:33
+04346044 - com.evolution.game.sensors.StuckSensor@4b741d6d angle:346 weighting:44
+01078023 - com.evolution.game.sensors.ObstacleSensor@2eae8e6e angle:78 weighting:23
+03213061 - com.evolution.game.sensors.DirectionSensor@8f2ef19 angle:213 weighting:61
+
+06305000 - com.evolution.game.sensors.WallSensor@470734c3 angle:305 weighting:0
+04197000 - com.evolution.game.sensors.StuckSensor@2cf3d63b angle:197 weighting:0
+03024043 - com.evolution.game.sensors.DirectionSensor@7674f035 angle:24 weighting:43
+01071008 - com.evolution.game.sensors.ObstacleSensor@69e153c5 angle:71 weighting:8
+
+02267009 - com.evolution.game.sensors.CloseGuySensor@173ed316 angle:267 weighting:9
+05335006 - com.evolution.game.sensors.AlwaysSensor@25ce9dc4 angle:335 weighting:6
+01090017 - com.evolution.game.sensors.ObstacleSensor@74ea2410 angle:90 weighting:17
+00202038 - com.evolution.game.sensors.GuySensor@17f62e33 angle:202 weighting:38
+
+01270019 - com.evolution.game.sensors.ObstacleSensor@76b1e9b8 angle:270 weighting:19
+02048032 - com.evolution.game.sensors.CloseGuySensor@27406a17 angle:48 weighting:32
+06108034 - com.evolution.game.sensors.WallSensor@2af004b angle:108 weighting:34
+01268034 - com.evolution.game.sensors.ObstacleSensor@248e319b angle:268 weighting:34
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@5d0bf09b angle:135 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@793f29ff angle:293 weighting:29
+06122076 - com.evolution.game.sensors.WallSensor@3e8c3cb angle:122 weighting:76
+01134059 - com.evolution.game.sensors.ObstacleSensor@563f38c4 angle:134 weighting:59
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@543295b0 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@54422e18 angle:283 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@117159c0 angle:132 weighting:36
+01134079 - com.evolution.game.sensors.ObstacleSensor@3e27ba32 angle:134 weighting:79
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@7ef82753 angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@3b0fe47a angle:48 weighting:22
+06138054 - com.evolution.game.sensors.WallSensor@202b0582 angle:138 weighting:54
+01258024 - com.evolution.game.sensors.ObstacleSensor@235ecd9f angle:258 weighting:24
+
+00162000 - com.evolution.game.sensors.GuySensor@1ca3b418 angle:162 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@58cbafc2 angle:102 weighting:61
+04235039 - com.evolution.game.sensors.StuckSensor@2034b64c angle:235 weighting:39
+00053000 - com.evolution.game.sensors.GuySensor@75d3a5e0 angle:53 weighting:0
+
+01125020 - com.evolution.game.sensors.ObstacleSensor@74d1dc36 angle:125 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@7161d8d1 angle:303 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@74e28667 angle:132 weighting:36
+01134049 - com.evolution.game.sensors.ObstacleSensor@1cf6d1be angle:134 weighting:49
+
+02087041 - com.evolution.game.sensors.CloseGuySensor@663c9e7a angle:87 weighting:41
+01014059 - com.evolution.game.sensors.ObstacleSensor@19e4653c angle:14 weighting:59
+02080010 - com.evolution.game.sensors.CloseGuySensor@795509d9 angle:80 weighting:10
+00289000 - com.evolution.game.sensors.GuySensor@53045c6c angle:289 weighting:0
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@5149d738 angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@6bbe85a8 angle:283 weighting:0
+00132046 - com.evolution.game.sensors.GuySensor@3a7442c7 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@4be29ed9 angle:144 weighting:59
+
+00162000 - com.evolution.game.sensors.GuySensor@548d708a angle:162 weighting:0
+04102081 - com.evolution.game.sensors.StuckSensor@4b013c76 angle:102 weighting:81
+04225029 - com.evolution.game.sensors.StuckSensor@53fb3dab angle:225 weighting:29
+01043022 - com.evolution.game.sensors.ObstacleSensor@cb0755b angle:43 weighting:22
+
+03327048 - com.evolution.game.sensors.DirectionSensor@33065d67 angle:327 weighting:48
+00123010 - com.evolution.game.sensors.GuySensor@712625fd angle:123 weighting:10
+00263010 - com.evolution.game.sensors.GuySensor@7bba5817 angle:263 weighting:10
+00309038 - com.evolution.game.sensors.GuySensor@742ff096 angle:309 weighting:38
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@75437611 angle:280 weighting:39
+02048022 - com.evolution.game.sensors.CloseGuySensor@350aac89 angle:48 weighting:22
+06108034 - com.evolution.game.sensors.WallSensor@1c5920df angle:108 weighting:34
+01268034 - com.evolution.game.sensors.ObstacleSensor@17f9d882 angle:268 weighting:34
+
+06305004 - com.evolution.game.sensors.WallSensor@79e4c792 angle:305 weighting:4
+04227000 - com.evolution.game.sensors.StuckSensor@196a42c3 angle:227 weighting:0
+04034053 - com.evolution.game.sensors.StuckSensor@4c60d6e9 angle:34 weighting:53
+00041028 - com.evolution.game.sensors.GuySensor@15043a2f angle:41 weighting:28
+
+01181021 - com.evolution.game.sensors.ObstacleSensor@4a83a74a angle:181 weighting:21
+02176036 - com.evolution.game.sensors.CloseGuySensor@1349883 angle:176 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@4b29d1d2 angle:262 weighting:14
+06180036 - com.evolution.game.sensors.WallSensor@7f485fda angle:180 weighting:36
+
+01106033 - com.evolution.game.sensors.ObstacleSensor@28261e8e angle:106 weighting:33
+04346054 - com.evolution.game.sensors.StuckSensor@d737b89 angle:346 weighting:54
+02068023 - com.evolution.game.sensors.CloseGuySensor@8519cb4 angle:68 weighting:23
+03233051 - com.evolution.game.sensors.DirectionSensor@35dab4eb angle:233 weighting:51
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@2d901eb0 angle:280 weighting:39
+01038022 - com.evolution.game.sensors.ObstacleSensor@3ba987b8 angle:38 weighting:22
+06138024 - com.evolution.game.sensors.WallSensor@3f191845 angle:138 weighting:24
+01258024 - com.evolution.game.sensors.ObstacleSensor@5f049ea1 angle:258 weighting:24
+
+00295024 - com.evolution.game.sensors.GuySensor@72cc7e6f angle:295 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@5afa3c9 angle:187 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@72035809 angle:14 weighting:43
+01021028 - com.evolution.game.sensors.ObstacleSensor@909217e angle:21 weighting:28
+
+01338026 - com.evolution.game.sensors.ObstacleSensor@18271936 angle:338 weighting:26
+04043051 - com.evolution.game.sensors.StuckSensor@606e4010 angle:43 weighting:51
+06210024 - com.evolution.game.sensors.WallSensor@8458f04 angle:210 weighting:24
+01156025 - com.evolution.game.sensors.ObstacleSensor@48075da3 angle:156 weighting:25
+
+00298026 - com.evolution.game.sensors.GuySensor@68c9133c angle:298 weighting:26
+05053061 - com.evolution.game.sensors.AlwaysSensor@7a35b0f5 angle:53 weighting:61
+06200034 - com.evolution.game.sensors.WallSensor@5e2c3d18 angle:200 weighting:34
+01156015 - com.evolution.game.sensors.ObstacleSensor@2cb4893b angle:156 weighting:15
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@cc43f62 angle:125 weighting:50
+05283000 - com.evolution.game.sensors.AlwaysSensor@5b218417 angle:283 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@645aa696 angle:132 weighting:36
+01134079 - com.evolution.game.sensors.ObstacleSensor@6caf0677 angle:134 weighting:79
+
+01181001 - com.evolution.game.sensors.ObstacleSensor@413d1baf angle:181 weighting:1
+02156036 - com.evolution.game.sensors.CloseGuySensor@16eb3ea3 angle:156 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@273444fe angle:262 weighting:14
+06170026 - com.evolution.game.sensors.WallSensor@33bc72d1 angle:170 weighting:26
+
+03347038 - com.evolution.game.sensors.DirectionSensor@1a75e76a angle:347 weighting:38
+00103020 - com.evolution.game.sensors.GuySensor@5524cca1 angle:103 weighting:20
+00283007 - com.evolution.game.sensors.GuySensor@5032714f angle:283 weighting:7
+00319028 - com.evolution.game.sensors.GuySensor@48bb62 angle:319 weighting:28
+
+01295014 - com.evolution.game.sensors.ObstacleSensor@353352b6 angle:295 weighting:14
+03187000 - com.evolution.game.sensors.DirectionSensor@4681c175 angle:187 weighting:0
+03014053 - com.evolution.game.sensors.DirectionSensor@57a78e3 angle:14 weighting:53
+01011028 - com.evolution.game.sensors.ObstacleSensor@402c4085 angle:11 weighting:28
+
+01095050 - com.evolution.game.sensors.ObstacleSensor@6fa51cd4 angle:95 weighting:50
+04303000 - com.evolution.game.sensors.StuckSensor@2767e23c angle:303 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@710c2b53 angle:132 weighting:36
+01144069 - com.evolution.game.sensors.ObstacleSensor@5386659f angle:144 weighting:69
+
+01355053 - com.evolution.game.sensors.ObstacleSensor@14028087 angle:355 weighting:53
+02214028 - com.evolution.game.sensors.CloseGuySensor@cecf639 angle:214 weighting:28
+00284016 - com.evolution.game.sensors.GuySensor@1caa0244 angle:284 weighting:16
+01014038 - com.evolution.game.sensors.ObstacleSensor@7ce026d3 angle:14 weighting:38
+
+06190012 - com.evolution.game.sensors.WallSensor@7ce69770 angle:190 weighting:12
+00056000 - com.evolution.game.sensors.GuySensor@1750fbeb angle:56 weighting:0
+00293000 - com.evolution.game.sensors.GuySensor@5b247367 angle:293 weighting:0
+06127000 - com.evolution.game.sensors.WallSensor@268f106e angle:127 weighting:0
+
+01335053 - com.evolution.game.sensors.ObstacleSensor@6e9a5ed8 angle:335 weighting:53
+01184028 - com.evolution.game.sensors.ObstacleSensor@7e057f43 angle:184 weighting:28
+02274016 - com.evolution.game.sensors.CloseGuySensor@6c284af angle:274 weighting:16
+01014038 - com.evolution.game.sensors.ObstacleSensor@5890e879 angle:14 weighting:38
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@6440112d angle:280 weighting:39
+01048032 - com.evolution.game.sensors.ObstacleSensor@31ea9581 angle:48 weighting:32
+06128034 - com.evolution.game.sensors.WallSensor@231f98ef angle:128 weighting:34
+01248014 - com.evolution.game.sensors.ObstacleSensor@7c137fd5 angle:248 weighting:14
+
+00315024 - com.evolution.game.sensors.GuySensor@183ec003 angle:315 weighting:24
+04187000 - com.evolution.game.sensors.StuckSensor@7d9d0818 angle:187 weighting:0
+03014033 - com.evolution.game.sensors.DirectionSensor@221a3fa4 angle:14 weighting:33
+01021028 - com.evolution.game.sensors.ObstacleSensor@451001e5 angle:21 weighting:28
+
+01125050 - com.evolution.game.sensors.ObstacleSensor@2b40ff9c angle:125 weighting:50
+05313000 - com.evolution.game.sensors.AlwaysSensor@3e08ff24 angle:313 weighting:0
+05132046 - com.evolution.game.sensors.AlwaysSensor@4d1c005e angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@8462f31 angle:144 weighting:59
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@24569dba angle:105 weighting:30
+05303000 - com.evolution.game.sensors.AlwaysSensor@5ddeb7cb angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@70ed52de angle:132 weighting:46
+01134049 - com.evolution.game.sensors.ObstacleSensor@496bc455 angle:134 weighting:49
+
+04197032 - com.evolution.game.sensors.StuckSensor@59402b8f angle:197 weighting:32
+06293010 - com.evolution.game.sensors.WallSensor@7188af83 angle:293 weighting:10
+06228039 - com.evolution.game.sensors.WallSensor@6be968ce angle:228 weighting:39
+03116014 - com.evolution.game.sensors.DirectionSensor@7c37508a angle:116 weighting:14
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@247310d0 angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@1033576a angle:283 weighting:0
+00132046 - com.evolution.game.sensors.GuySensor@303cf2ba angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@76494737 angle:144 weighting:59
+
+01280039 - com.evolution.game.sensors.ObstacleSensor@4a003cbe angle:280 weighting:39
+01048022 - com.evolution.game.sensors.ObstacleSensor@4082ba93 angle:48 weighting:22
+06128044 - com.evolution.game.sensors.WallSensor@17fc391b angle:128 weighting:44
+01258024 - com.evolution.game.sensors.ObstacleSensor@2b30a42c angle:258 weighting:24
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@609e8838 angle:115 weighting:30
+05293000 - com.evolution.game.sensors.AlwaysSensor@359df09a angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@43df23d3 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@6d60fe40 angle:144 weighting:59
+
+06305014 - com.evolution.game.sensors.WallSensor@792b749c angle:305 weighting:14
+04217015 - com.evolution.game.sensors.StuckSensor@23e84203 angle:217 weighting:15
+04024053 - com.evolution.game.sensors.StuckSensor@19932c16 angle:24 weighting:53
+00031028 - com.evolution.game.sensors.GuySensor@73eb439a angle:31 weighting:28
+
+00295024 - com.evolution.game.sensors.GuySensor@514646ef angle:295 weighting:24
+04177000 - com.evolution.game.sensors.StuckSensor@305ffe9e angle:177 weighting:0
+03014043 - com.evolution.game.sensors.DirectionSensor@302c971f angle:14 weighting:43
+01021028 - com.evolution.game.sensors.ObstacleSensor@1972e513 angle:21 weighting:28
+
+01290019 - com.evolution.game.sensors.ObstacleSensor@7ae0a9ec angle:290 weighting:19
+01018012 - com.evolution.game.sensors.ObstacleSensor@35841320 angle:18 weighting:12
+06108024 - com.evolution.game.sensors.WallSensor@61c4eee0 angle:108 weighting:24
+01238014 - com.evolution.game.sensors.ObstacleSensor@6f10d5b6 angle:238 weighting:14
+
+00162000 - com.evolution.game.sensors.GuySensor@1040be71 angle:162 weighting:0
+04102061 - com.evolution.game.sensors.StuckSensor@548a24a angle:102 weighting:61
+04235029 - com.evolution.game.sensors.StuckSensor@433defed angle:235 weighting:29
+00043000 - com.evolution.game.sensors.GuySensor@2a693f59 angle:43 weighting:0
+
+01105050 - com.evolution.game.sensors.ObstacleSensor@3f4faf53 angle:105 weighting:50
+05303000 - com.evolution.game.sensors.AlwaysSensor@7fd50002 angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@533bda92 angle:132 weighting:46
+01154059 - com.evolution.game.sensors.ObstacleSensor@304bb45b angle:154 weighting:59
+
+02155020 - com.evolution.game.sensors.CloseGuySensor@723ca036 angle:155 weighting:20
+05313000 - com.evolution.game.sensors.AlwaysSensor@25be7b63 angle:313 weighting:0
+00122056 - com.evolution.game.sensors.GuySensor@28dcca0c angle:122 weighting:56
+01144049 - com.evolution.game.sensors.ObstacleSensor@45d84a20 angle:144 weighting:49
+
+01105030 - com.evolution.game.sensors.ObstacleSensor@52f27fbd angle:105 weighting:30
+05303000 - com.evolution.game.sensors.AlwaysSensor@4c163e3 angle:303 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@4a8355dd angle:132 weighting:56
+01134049 - com.evolution.game.sensors.ObstacleSensor@4d0d9fe7 angle:134 weighting:49
+
+02283007 - com.evolution.game.sensors.CloseGuySensor@c430e6c angle:283 weighting:7
+04051015 - com.evolution.game.sensors.StuckSensor@312aa7c angle:51 weighting:15
+04177031 - com.evolution.game.sensors.StuckSensor@536f2a7e angle:177 weighting:31
+04181000 - com.evolution.game.sensors.StuckSensor@72bc6553 angle:181 weighting:0
+
+01135030 - com.evolution.game.sensors.ObstacleSensor@66982506 angle:135 weighting:30
+06273019 - com.evolution.game.sensors.WallSensor@70cf32e3 angle:273 weighting:19
+06122046 - com.evolution.game.sensors.WallSensor@5a59ca5e angle:122 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@4bdeaabb angle:144 weighting:59
+
+02135020 - com.evolution.game.sensors.CloseGuySensor@6c4906d3 angle:135 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@65987993 angle:303 weighting:0
+06112056 - com.evolution.game.sensors.WallSensor@71075444 angle:112 weighting:56
+01144059 - com.evolution.game.sensors.ObstacleSensor@4f32a3ad angle:144 weighting:59
+
+01191001 - com.evolution.game.sensors.ObstacleSensor@6b695b06 angle:191 weighting:1
+04146036 - com.evolution.game.sensors.StuckSensor@4d1bf319 angle:146 weighting:36
+04252014 - com.evolution.game.sensors.StuckSensor@6f53b8a angle:252 weighting:14
+06160036 - com.evolution.game.sensors.WallSensor@5c80cf32 angle:160 weighting:36
+
+00152010 - com.evolution.game.sensors.GuySensor@7d900ecf angle:152 weighting:10
+04102071 - com.evolution.game.sensors.StuckSensor@6f01b95f angle:102 weighting:71
+04215039 - com.evolution.game.sensors.StuckSensor@4007f65e angle:215 weighting:39
+01043012 - com.evolution.game.sensors.ObstacleSensor@1a245833 angle:43 weighting:12
+
+02135020 - com.evolution.game.sensors.CloseGuySensor@673fdbce angle:135 weighting:20
+05273000 - com.evolution.game.sensors.AlwaysSensor@5965d37 angle:273 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@7a5ceedd angle:132 weighting:56
+01154039 - com.evolution.game.sensors.ObstacleSensor@4201c465 angle:154 weighting:39
+
+01181011 - com.evolution.game.sensors.ObstacleSensor@5b799640 angle:181 weighting:11
+02156036 - com.evolution.game.sensors.CloseGuySensor@6cb107fd angle:156 weighting:36
+04262014 - com.evolution.game.sensors.StuckSensor@710636b0 angle:262 weighting:14
+06170026 - com.evolution.game.sensors.WallSensor@3de8f619 angle:170 weighting:26
+
+01152000 - com.evolution.game.sensors.ObstacleSensor@2ab4bc72 angle:152 weighting:0
+04092071 - com.evolution.game.sensors.StuckSensor@4e5ed836 angle:92 weighting:71
+04245039 - com.evolution.game.sensors.StuckSensor@eadd4fb angle:245 weighting:39
+00013012 - com.evolution.game.sensors.GuySensor@740fb309 angle:13 weighting:12
+
+04187022 - com.evolution.game.sensors.StuckSensor@7bd7d6d6 angle:187 weighting:22
+06303000 - com.evolution.game.sensors.WallSensor@43f02ef2 angle:303 weighting:0
+06238029 - com.evolution.game.sensors.WallSensor@239a307b angle:238 weighting:29
+03116004 - com.evolution.game.sensors.DirectionSensor@2a8448fa angle:116 weighting:4
+
+01125030 - com.evolution.game.sensors.ObstacleSensor@6f204a1a angle:125 weighting:30
+06303029 - com.evolution.game.sensors.WallSensor@2de56eb2 angle:303 weighting:29
+06122046 - com.evolution.game.sensors.WallSensor@5f8e8a9d angle:122 weighting:46
+01134059 - com.evolution.game.sensors.ObstacleSensor@5745ca0e angle:134 weighting:59
+
+00152000 - com.evolution.game.sensors.GuySensor@3ad83a66 angle:152 weighting:0
+03102081 - com.evolution.game.sensors.DirectionSensor@3cce5371 angle:102 weighting:81
+04215029 - com.evolution.game.sensors.StuckSensor@17bffc17 angle:215 weighting:29
+01053002 - com.evolution.game.sensors.ObstacleSensor@6e535154 angle:53 weighting:2
+
+00162000 - com.evolution.game.sensors.GuySensor@15a34df2 angle:162 weighting:0
+03072061 - com.evolution.game.sensors.DirectionSensor@5b38c1ec angle:72 weighting:61
+04225049 - com.evolution.game.sensors.StuckSensor@338fc1d8 angle:225 weighting:49
+01033022 - com.evolution.game.sensors.ObstacleSensor@4722ef0c angle:33 weighting:22
+
+00182000 - com.evolution.game.sensors.GuySensor@48e1f6c7 angle:182 weighting:0
+04102071 - com.evolution.game.sensors.StuckSensor@55cb6996 angle:102 weighting:71
+04225029 - com.evolution.game.sensors.StuckSensor@1807e3f6 angle:225 weighting:29
+00053022 - com.evolution.game.sensors.GuySensor@480d3575 angle:53 weighting:22
+
+01306004 - com.evolution.game.sensors.ObstacleSensor@f1da57d angle:306 weighting:4
+01335052 - com.evolution.game.sensors.ObstacleSensor@194fad1 angle:335 weighting:52
+00282000 - com.evolution.game.sensors.GuySensor@26abb146 angle:282 weighting:0
+03225014 - com.evolution.game.sensors.DirectionSensor@72c8e7b angle:225 weighting:14
+
+06305024 - com.evolution.game.sensors.WallSensor@65f8f5ae angle:305 weighting:24
+04227005 - com.evolution.game.sensors.StuckSensor@431cd9b2 angle:227 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@38467116 angle:34 weighting:53
+00021028 - com.evolution.game.sensors.GuySensor@5b7a7f33 angle:21 weighting:28
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@790da477 angle:235 weighting:31
+00062000 - com.evolution.game.sensors.GuySensor@5c7933ad angle:62 weighting:0
+03130055 - com.evolution.game.sensors.DirectionSensor@57bc27f5 angle:130 weighting:55
+01027069 - com.evolution.game.sensors.ObstacleSensor@5fb759d6 angle:27 weighting:69
+
+01135010 - com.evolution.game.sensors.ObstacleSensor@4b8d604b angle:135 weighting:10
+05283000 - com.evolution.game.sensors.AlwaysSensor@5e7cd6cc angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@68c9d179 angle:132 weighting:46
+01154059 - com.evolution.game.sensors.ObstacleSensor@d554c5f angle:154 weighting:59
+
+06315000 - com.evolution.game.sensors.WallSensor@2dfaea86 angle:315 weighting:0
+05187005 - com.evolution.game.sensors.AlwaysSensor@15888343 angle:187 weighting:5
+04034043 - com.evolution.game.sensors.StuckSensor@33ecda92 angle:34 weighting:43
+00061000 - com.evolution.game.sensors.GuySensor@14fc5f04 angle:61 weighting:0
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@6e2829c7 angle:135 weighting:20
+05273000 - com.evolution.game.sensors.AlwaysSensor@3feb2dda angle:273 weighting:0
+06132056 - com.evolution.game.sensors.WallSensor@6a8658ff angle:132 weighting:56
+01144059 - com.evolution.game.sensors.ObstacleSensor@1c742ed4 angle:144 weighting:59
+
+00308036 - com.evolution.game.sensors.GuySensor@333d4a8c angle:308 weighting:36
+04053051 - com.evolution.game.sensors.StuckSensor@55de24cc angle:53 weighting:51
+06210034 - com.evolution.game.sensors.WallSensor@dc7df28 angle:210 weighting:34
+01146015 - com.evolution.game.sensors.ObstacleSensor@30f842ca angle:146 weighting:15
+
+00182000 - com.evolution.game.sensors.GuySensor@69c81773 angle:182 weighting:0
+04102081 - com.evolution.game.sensors.StuckSensor@4d14b6c2 angle:102 weighting:81
+04215029 - com.evolution.game.sensors.StuckSensor@7e990ed7 angle:215 weighting:29
+00053032 - com.evolution.game.sensors.GuySensor@c05fddc angle:53 weighting:32
+
+00182000 - com.evolution.game.sensors.GuySensor@25df00a0 angle:182 weighting:0
+04102081 - com.evolution.game.sensors.StuckSensor@4d15107f angle:102 weighting:81
+04215029 - com.evolution.game.sensors.StuckSensor@7b4c50bc angle:215 weighting:29
+00053032 - com.evolution.game.sensors.GuySensor@5884a914 angle:53 weighting:32
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@50378a4 angle:105 weighting:40
+04293000 - com.evolution.game.sensors.StuckSensor@60f00693 angle:293 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@79207381 angle:142 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@491b9b8 angle:144 weighting:59
+
+01235031 - com.evolution.game.sensors.ObstacleSensor@1a4927d6 angle:235 weighting:31
+00052010 - com.evolution.game.sensors.GuySensor@7a6d7e92 angle:52 weighting:10
+03120055 - com.evolution.game.sensors.DirectionSensor@aba625 angle:120 weighting:55
+01037059 - com.evolution.game.sensors.ObstacleSensor@97e93f1 angle:37 weighting:59
+
+01135010 - com.evolution.game.sensors.ObstacleSensor@5a5a729f angle:135 weighting:10
+05283000 - com.evolution.game.sensors.AlwaysSensor@4b520ea8 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@16150369 angle:132 weighting:46
+01154059 - com.evolution.game.sensors.ObstacleSensor@6b09fb41 angle:154 weighting:59
+
+00345053 - com.evolution.game.sensors.GuySensor@624ea235 angle:345 weighting:53
+01184018 - com.evolution.game.sensors.ObstacleSensor@3932c79a angle:184 weighting:18
+02284026 - com.evolution.game.sensors.CloseGuySensor@782859e angle:284 weighting:26
+00014038 - com.evolution.game.sensors.GuySensor@23f5b5dc angle:14 weighting:38
+
+03028058 - com.evolution.game.sensors.DirectionSensor@34bde49d angle:28 weighting:58
+04337021 - com.evolution.game.sensors.StuckSensor@1b1cfb87 angle:337 weighting:21
+00061034 - com.evolution.game.sensors.GuySensor@821330f angle:61 weighting:34
+04252006 - com.evolution.game.sensors.StuckSensor@6f43c82 angle:252 weighting:6
+
+01125020 - com.evolution.game.sensors.ObstacleSensor@5db6b9cd angle:125 weighting:20
+05303000 - com.evolution.game.sensors.AlwaysSensor@210ab13f angle:303 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@20b2475a angle:132 weighting:36
+01134049 - com.evolution.game.sensors.ObstacleSensor@7857fe2 angle:134 weighting:49
+
+00345053 - com.evolution.game.sensors.GuySensor@6f15d60e angle:345 weighting:53
+01184028 - com.evolution.game.sensors.ObstacleSensor@1be2019a angle:184 weighting:28
+02284026 - com.evolution.game.sensors.CloseGuySensor@29d80d2b angle:284 weighting:26
+00014038 - com.evolution.game.sensors.GuySensor@58e1d9d angle:14 weighting:38
+
+00135030 - com.evolution.game.sensors.GuySensor@446a1e84 angle:135 weighting:30
+06293019 - com.evolution.game.sensors.WallSensor@4f0f2942 angle:293 weighting:19
+06122046 - com.evolution.game.sensors.WallSensor@2657d4dd angle:122 weighting:46
+01144049 - com.evolution.game.sensors.ObstacleSensor@5340477f angle:144 weighting:49
+
+06305014 - com.evolution.game.sensors.WallSensor@47caedad angle:305 weighting:14
+04227005 - com.evolution.game.sensors.StuckSensor@7139992f angle:227 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@69504ae9 angle:34 weighting:53
+01041028 - com.evolution.game.sensors.ObstacleSensor@387a8303 angle:41 weighting:28
+
+00345043 - com.evolution.game.sensors.GuySensor@28cda624 angle:345 weighting:43
+01184028 - com.evolution.game.sensors.ObstacleSensor@1500b2f3 angle:184 weighting:28
+02284016 - com.evolution.game.sensors.CloseGuySensor@7eecb5b8 angle:284 weighting:16
+01014038 - com.evolution.game.sensors.ObstacleSensor@126253fd angle:14 weighting:38
+
+04197042 - com.evolution.game.sensors.StuckSensor@57db2b13 angle:197 weighting:42
+06293010 - com.evolution.game.sensors.WallSensor@475c9c31 angle:293 weighting:10
+06228039 - com.evolution.game.sensors.WallSensor@5c86a017 angle:228 weighting:39
+03116014 - com.evolution.game.sensors.DirectionSensor@5c7bfdc1 angle:116 weighting:14
+
+01105040 - com.evolution.game.sensors.ObstacleSensor@5276d6ee angle:105 weighting:40
+04293000 - com.evolution.game.sensors.StuckSensor@71687585 angle:293 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@1807f5a7 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@1b919693 angle:144 weighting:59
+
+01135020 - com.evolution.game.sensors.ObstacleSensor@7fb4f2a9 angle:135 weighting:20
+05283000 - com.evolution.game.sensors.AlwaysSensor@4dc27487 angle:283 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@6a4f1a55 angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@7dfd3c81 angle:144 weighting:59
+
+01280049 - com.evolution.game.sensors.ObstacleSensor@2584b82d angle:280 weighting:49
+01038032 - com.evolution.game.sensors.ObstacleSensor@7bbc8656 angle:38 weighting:32
+00128024 - com.evolution.game.sensors.GuySensor@6933b6c6 angle:128 weighting:24
+00258024 - com.evolution.game.sensors.GuySensor@7d3e8655 angle:258 weighting:24
+
+01115030 - com.evolution.game.sensors.ObstacleSensor@7dfb0c0f angle:115 weighting:30
+05303000 - com.evolution.game.sensors.AlwaysSensor@626abbd0 angle:303 weighting:0
+06132046 - com.evolution.game.sensors.WallSensor@169bb4dd angle:132 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@1f9e9475 angle:144 weighting:59
+
+01355053 - com.evolution.game.sensors.ObstacleSensor@3aa078fd angle:355 weighting:53
+02214028 - com.evolution.game.sensors.CloseGuySensor@d23e042 angle:214 weighting:28
+00284016 - com.evolution.game.sensors.GuySensor@46d59067 angle:284 weighting:16
+01014038 - com.evolution.game.sensors.ObstacleSensor@2d0399f4 angle:14 weighting:38
+
+01125020 - com.evolution.game.sensors.ObstacleSensor@14dd7b39 angle:125 weighting:20
+05293000 - com.evolution.game.sensors.AlwaysSensor@66ea810 angle:293 weighting:0
+06142046 - com.evolution.game.sensors.WallSensor@6cd24612 angle:142 weighting:46
+01144059 - com.evolution.game.sensors.ObstacleSensor@5dafbe45 angle:144 weighting:59
+
+06305014 - com.evolution.game.sensors.WallSensor@2254127a angle:305 weighting:14
+04227005 - com.evolution.game.sensors.StuckSensor@51891008 angle:227 weighting:5
+04034053 - com.evolution.game.sensors.StuckSensor@2f953efd angle:34 weighting:53
+01041028 - com.evolution.game.sensors.ObstacleSensor@f68f0dc angle:41 weighting:28
+
+01125060 - com.evolution.game.sensors.ObstacleSensor@d2de489 angle:125 weighting:60
+05293000 - com.evolution.game.sensors.AlwaysSensor@14bdbc74 angle:293 weighting:0
+06132036 - com.evolution.game.sensors.WallSensor@12591ac8 angle:132 weighting:36
+01124079 - com.evolution.game.sensors.ObstacleSensor@5a7fe64f angle:124 weighting:79
+
+02345033 - com.evolution.game.sensors.CloseGuySensor@38145825 angle:345 weighting:33
+00234048 - com.evolution.game.sensors.GuySensor@41330d4f angle:234 weighting:48
+00294006 - com.evolution.game.sensors.GuySensor@1b66c0fb angle:294 weighting:6
+00034058 - com.evolution.game.sensors.GuySensor@3e0e1046 angle:34 weighting:58
+
+00162000 - com.evolution.game.sensors.GuySensor@24c1b2d2 angle:162 weighting:0
+04102071 - com.evolution.game.sensors.StuckSensor@7dc19a70 angle:102 weighting:71
+04225019 - com.evolution.game.sensors.StuckSensor@508dec2b angle:225 weighting:19
+00033002 - com.evolution.game.sensors.GuySensor@1e4f4a5c angle:33 weighting:2
+
+01125030 - com.evolution.game.sensors.ObstacleSensor@37313c65 angle:125 weighting:30
+06293029 - com.evolution.game.sensors.WallSensor@465232e9 angle:293 weighting:29
+06122046 - com.evolution.game.sensors.WallSensor@798162bc angle:122 weighting:46
+01134059 - com.evolution.game.sensors.ObstacleSensor@1df8da7a angle:134 weighting:59
+
+01193036 - com.evolution.game.sensors.ObstacleSensor@23941fb4 angle:193 weighting:36
+03140024 - com.evolution.game.sensors.DirectionSensor@7486b455 angle:140 weighting:24
+04303030 - com.evolution.game.sensors.StuckSensor@660acfb angle:303 weighting:30
+00343046 - com.evolution.game.sensors.GuySensor@5d908d47 angle:343 weighting:46
+
+01173036 - com.evolution.game.sensors.ObstacleSensor@5efa40fe angle:173 weighting:36
+03130014 - com.evolution.game.sensors.DirectionSensor@1f9f6368 angle:130 weighting:14
+03323030 - com.evolution.game.sensors.DirectionSensor@1c9b0314 angle:323 weighting:30
+01343036 - com.evolution.game.sensors.ObstacleSensor@45385f75 angle:343 weighting:36
+
