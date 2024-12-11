@@ -18,6 +18,7 @@ import com.evolution.game.objectPlacers.RandomAlmostSquareObjectPlacer;
 import com.evolution.game.obstacles.RectObstacle;
 import com.evolution.game.sensors.successStrats.*;
 import space.earlygrey.shapedrawer.ShapeDrawer;
+import com.evolution.game.constants;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -42,7 +43,7 @@ public class WorldGame extends Game {
     public boolean running = true;
     public int evolutionsteps = 0;
     public ArrayList<ArrayList<Thread>> successfulThreads = new ArrayList<>();
-    public SuccessCriteria successCriteria = new Corners();
+    public SuccessCriteria successCriteria = constants.SUCCESS_STRAT;
     public int generations = 0;
 
 
@@ -121,7 +122,7 @@ public class WorldGame extends Game {
             if (Gdx.input.isKeyPressed(Input.Keys.SPACE)){
                 System.out.println(successfulThreads.size()*100/constants.NUMBER_GUYS);
                 this.create();
-                this.running = true;
+                this.running = true; 
             }
             if (Gdx.input.isKeyPressed(Input.Keys.ESCAPE)){
                 SaveWriter.save(successfulThreads);

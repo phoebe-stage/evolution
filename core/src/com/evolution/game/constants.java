@@ -1,5 +1,8 @@
 package com.evolution.game;
 
+import com.evolution.game.sensors.successStrats.Corners;
+import com.evolution.game.sensors.successStrats.SuccessCriteria;
+
 public interface constants {
     int SCREENWIDTH = 800;
     int SCREENHEIGHT = 480;
@@ -12,11 +15,12 @@ public interface constants {
     int OBSTACLE_PARTICLE_RADIUS = 1;
     int SENSING_RADIUS = 40;
 
-    int SENSOR_CONFIG_NUM = 1;
+    int SENSOR_CONFIG_NUM = 1;  
     int READJUSTING_COOLDOWN = 500;
     ThreadRegistry THREAD_REGISTRY = new ThreadRegistry();
+    SuccessCriteria SUCCESS_STRAT = new Corners();
     int NUM_THREADS = 4;
-    int STEPS_PER_GENERATION = 1000;
+    int STEPS_PER_GENERATION = 500;
     int STEPS_SKIPS = 10;
     double Mutation_Chance = 0.1;
 }
